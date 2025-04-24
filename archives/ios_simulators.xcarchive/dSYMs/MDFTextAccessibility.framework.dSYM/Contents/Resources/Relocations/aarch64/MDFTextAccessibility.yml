@@ -1,0 +1,37 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/11283991/Library/Developer/Xcode/DerivedData/material-components-ios-spm-dcevoncwtznjjqfeliedpsyjawrv/Build/Intermediates.noindex/ArchiveIntermediates/material-components-ios-spm/InstallationBuildProductsLocation/Library/Frameworks/MDFTextAccessibility.framework/MDFTextAccessibility'
+relocations:
+  - { offset: 0x59368, size: 0x8, addend: 0x0, symName: _MDFTextAccessibilityVersionString, symObjAddr: 0x0, symBinAddr: 0x3978, symSize: 0x0 }
+  - { offset: 0x5939D, size: 0x8, addend: 0x0, symName: _MDFTextAccessibilityVersionNumber, symObjAddr: 0x38, symBinAddr: 0x39B0, symSize: 0x0 }
+  - { offset: 0x593DA, size: 0x8, addend: 0x0, symName: _MDFContrastRatioOfRGBAComponents, symObjAddr: 0x0, symBinAddr: 0x2020, symSize: 0xC8 }
+  - { offset: 0x594BD, size: 0x8, addend: 0x0, symName: _MDFContrastRatioOfRGBAComponents, symObjAddr: 0x0, symBinAddr: 0x2020, symSize: 0xC8 }
+  - { offset: 0x595B0, size: 0x8, addend: 0x0, symName: _MDFRelativeLuminanceOfRGBComponents, symObjAddr: 0x16C, symBinAddr: 0x218C, symSize: 0x100 }
+  - { offset: 0x59658, size: 0x8, addend: 0x0, symName: _MDFCopyRGBAComponents, symObjAddr: 0xC8, symBinAddr: 0x20E8, symSize: 0xA4 }
+  - { offset: 0x597F2, size: 0x8, addend: 0x0, symName: _MDFMinAlphaOfColorOnBackgroundColor, symObjAddr: 0x26C, symBinAddr: 0x228C, symSize: 0x134 }
+  - { offset: 0x59982, size: 0x8, addend: 0x0, symName: _MDFAverageColorOfOpaqueImage, symObjAddr: 0x0, symBinAddr: 0x23C0, symSize: 0x160 }
+  - { offset: 0x59997, size: 0x8, addend: 0x0, symName: _MDFAverageColorOfOpaqueImage, symObjAddr: 0x0, symBinAddr: 0x23C0, symSize: 0x160 }
+  - { offset: 0x59C91, size: 0x8, addend: 0x0, symName: '+[MDFTextAccessibility textColorOnBackgroundColor:targetTextAlpha:font:]', symObjAddr: 0x0, symBinAddr: 0x2520, symSize: 0x78 }
+  - { offset: 0x59D37, size: 0x8, addend: 0x0, symName: '+[MDFTextAccessibility textColorOnBackgroundColor:targetTextAlpha:font:]', symObjAddr: 0x0, symBinAddr: 0x2520, symSize: 0x78 }
+  - { offset: 0x59DAE, size: 0x8, addend: 0x0, symName: '+[MDFTextAccessibility textColorOnBackgroundImage:inRegion:targetTextAlpha:font:]', symObjAddr: 0x78, symBinAddr: 0x2598, symSize: 0xC4 }
+  - { offset: 0x59E68, size: 0x8, addend: 0x0, symName: '+[MDFTextAccessibility textColorOnBackgroundColor:targetTextAlpha:options:]', symObjAddr: 0x13C, symBinAddr: 0x265C, symSize: 0x128 }
+  - { offset: 0x59EEF, size: 0x8, addend: 0x0, symName: '+[MDFTextAccessibility textColorFromChoices:onBackgroundColor:options:]', symObjAddr: 0x264, symBinAddr: 0x2784, symSize: 0x264 }
+  - { offset: 0x59FFF, size: 0x8, addend: 0x0, symName: '___71+[MDFTextAccessibility textColorFromChoices:onBackgroundColor:options:]_block_invoke', symObjAddr: 0x4C8, symBinAddr: 0x29E8, symSize: 0x4 }
+  - { offset: 0x5A04A, size: 0x8, addend: 0x0, symName: '___71+[MDFTextAccessibility textColorFromChoices:onBackgroundColor:options:]_block_invoke_2', symObjAddr: 0x4CC, symBinAddr: 0x29EC, symSize: 0x30 }
+  - { offset: 0x5A09D, size: 0x8, addend: 0x0, symName: '___71+[MDFTextAccessibility textColorFromChoices:onBackgroundColor:options:]_block_invoke_3', symObjAddr: 0x4FC, symBinAddr: 0x2A1C, symSize: 0x8C }
+  - { offset: 0x5A12B, size: 0x8, addend: 0x0, symName: '+[MDFTextAccessibility minAlphaOfTextColor:onBackgroundColor:options:]', symObjAddr: 0x588, symBinAddr: 0x2AA8, symSize: 0x7C }
+  - { offset: 0x5A1DB, size: 0x8, addend: 0x0, symName: '+[MDFTextAccessibility contrastRatioForTextColor:onBackgroundColor:]', symObjAddr: 0x604, symBinAddr: 0x2B24, symSize: 0xB4 }
+  - { offset: 0x5A2D0, size: 0x8, addend: 0x0, symName: '+[MDFTextAccessibility textColor:passesOnBackgroundColor:options:]', symObjAddr: 0x6B8, symBinAddr: 0x2BD8, symSize: 0x88 }
+  - { offset: 0x5A357, size: 0x8, addend: 0x0, symName: '+[MDFTextAccessibility isLargeForContrastRatios:]', symObjAddr: 0x740, symBinAddr: 0x2C60, symSize: 0x94 }
+  - { offset: 0x5A3BA, size: 0x8, addend: 0x0, symName: '+[MDFTextAccessibility luminanceOfColor:]', symObjAddr: 0x7D4, symBinAddr: 0x2CF4, symSize: 0x60 }
+  - { offset: 0x5A44A, size: 0x8, addend: 0x0, symName: '+[MDFTextAccessibility minContrastRatioForOptions:]', symObjAddr: 0x834, symBinAddr: 0x2D54, symSize: 0x24 }
+  - { offset: 0x5A6DA, size: 0x8, addend: 0x0, symName: '-[NSArray(MDFUtils) mdf_arrayByMappingObjects:]', symObjAddr: 0x0, symBinAddr: 0x2D78, symSize: 0xE4 }
+  - { offset: 0x5A6E8, size: 0x8, addend: 0x0, symName: '-[NSArray(MDFUtils) mdf_arrayByMappingObjects:]', symObjAddr: 0x0, symBinAddr: 0x2D78, symSize: 0xE4 }
+  - { offset: 0x5A73F, size: 0x8, addend: 0x0, symName: '___47-[NSArray(MDFUtils) mdf_arrayByMappingObjects:]_block_invoke', symObjAddr: 0xE4, symBinAddr: 0x2E5C, symSize: 0x40 }
+  - { offset: 0x5A7C7, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x124, symBinAddr: 0x2E9C, symSize: 0x34 }
+  - { offset: 0x5A7F0, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x158, symBinAddr: 0x2ED0, symSize: 0x28 }
+  - { offset: 0x5A80F, size: 0x8, addend: 0x0, symName: '-[NSArray(MDFUtils) mdf_anyObjectPassesTest:]', symObjAddr: 0x180, symBinAddr: 0x2EF8, symSize: 0x40 }
+  - { offset: 0x5A866, size: 0x8, addend: 0x0, symName: '-[NSArray(MDFUtils) mdf_allObjectsPassTest:]', symObjAddr: 0x1C0, symBinAddr: 0x2F38, symSize: 0x58 }
+  - { offset: 0x5A8BD, size: 0x8, addend: 0x0, symName: '-[NSArray(MDFUtils) mdf_sortArray:usingComparator:]', symObjAddr: 0x218, symBinAddr: 0x2F90, symSize: 0x1D8 }
+  - { offset: 0x5A9B1, size: 0x8, addend: 0x0, symName: '___51-[NSArray(MDFUtils) mdf_sortArray:usingComparator:]_block_invoke', symObjAddr: 0x3F0, symBinAddr: 0x3168, symSize: 0xB0 }
+...

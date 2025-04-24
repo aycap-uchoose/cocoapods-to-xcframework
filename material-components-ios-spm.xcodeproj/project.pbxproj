@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9C398FBF411561A14D435429 /* Pods_material_components_ios_spm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6110086C2D00138F1A4940BD /* Pods_material_components_ios_spm.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		34B1624C2DBA2942008A4791 /* material-components-ios-spm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "material-components-ios-spm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6110086C2D00138F1A4940BD /* Pods_material_components_ios_spm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_material_components_ios_spm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B5E0B19A729F45F8361767 /* Pods-material-components-ios-spm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-material-components-ios-spm.debug.xcconfig"; path = "Target Support Files/Pods-material-components-ios-spm/Pods-material-components-ios-spm.debug.xcconfig"; sourceTree = "<group>"; };
+		A4C417BF8E9F31C02B2F93F8 /* Pods-material-components-ios-spm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-material-components-ios-spm.release.xcconfig"; path = "Target Support Files/Pods-material-components-ios-spm/Pods-material-components-ios-spm.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,17 +30,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C398FBF411561A14D435429 /* Pods_material_components_ios_spm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00FD9D7A14A078F4A0ABA42D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6110086C2D00138F1A4940BD /* Pods_material_components_ios_spm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		34B162432DBA2942008A4791 = {
 			isa = PBXGroup;
 			children = (
 				34B1624E2DBA2942008A4791 /* material-components-ios-spm */,
 				34B1624D2DBA2942008A4791 /* Products */,
+				C7D63D309F1D942085FBD88E /* Pods */,
+				00FD9D7A14A078F4A0ABA42D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +63,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C7D63D309F1D942085FBD88E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79B5E0B19A729F45F8361767 /* Pods-material-components-ios-spm.debug.xcconfig */,
+				A4C417BF8E9F31C02B2F93F8 /* Pods-material-components-ios-spm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -52,9 +79,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34B1625A2DBA2946008A4791 /* Build configuration list for PBXNativeTarget "material-components-ios-spm" */;
 			buildPhases = (
+				D3F0D7ADCFE011A327EB14CF /* [CP] Check Pods Manifest.lock */,
 				34B162482DBA2942008A4791 /* Sources */,
 				34B162492DBA2942008A4791 /* Frameworks */,
 				34B1624A2DBA2942008A4791 /* Resources */,
+				D29CC2ACC4F2DB78732A2A88 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -64,8 +93,6 @@
 				34B1624E2DBA2942008A4791 /* material-components-ios-spm */,
 			);
 			name = "material-components-ios-spm";
-			packageProductDependencies = (
-			);
 			productName = "material-components-ios-spm";
 			productReference = 34B1624C2DBA2942008A4791 /* material-components-ios-spm.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +140,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D29CC2ACC4F2DB78732A2A88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-material-components-ios-spm/Pods-material-components-ios-spm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-material-components-ios-spm/Pods-material-components-ios-spm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-material-components-ios-spm/Pods-material-components-ios-spm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3F0D7ADCFE011A327EB14CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-material-components-ios-spm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		34B162482DBA2942008A4791 /* Sources */ = {
@@ -246,6 +315,7 @@
 		};
 		34B1625B2DBA2946008A4791 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B5E0B19A729F45F8361767 /* Pods-material-components-ios-spm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -254,12 +324,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"material-components-ios-spm/Preview Content\"";
 				DEVELOPMENT_TEAM = 3ATXW43MG6;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -275,6 +347,7 @@
 		};
 		34B1625C2DBA2946008A4791 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C417BF8E9F31C02B2F93F8 /* Pods-material-components-ios-spm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -283,12 +356,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"material-components-ios-spm/Preview Content\"";
 				DEVELOPMENT_TEAM = 3ATXW43MG6;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

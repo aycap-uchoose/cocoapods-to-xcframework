@@ -1,0 +1,32 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/11283991/Library/Developer/Xcode/DerivedData/material-components-ios-spm-dcevoncwtznjjqfeliedpsyjawrv/Build/Intermediates.noindex/ArchiveIntermediates/material-components-ios-spm/InstallationBuildProductsLocation/Applications/material-components-ios-spm.app/material-components-ios-spm'
+relocations:
+  - { offset: 0x5977C, size: 0x8, addend: 0x0, symName: '_$s27material_components_ios_spm11ContentViewVMa', symObjAddr: 0x0, symBinAddr: 0x100001AC0, symSize: 0x10 }
+  - { offset: 0x59794, size: 0x8, addend: 0x0, symName: '_$s27material_components_ios_spm11ContentViewVMa', symObjAddr: 0x0, symBinAddr: 0x100001AC0, symSize: 0x10 }
+  - { offset: 0x597A8, size: 0x8, addend: 0x0, symName: '_$s27material_components_ios_spm11ContentViewV7SwiftUI0F0AA4BodyAdEP_AGWT', symObjAddr: 0x10, symBinAddr: 0x100001AD0, symSize: 0x10 }
+  - { offset: 0x5981B, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI4TextV7StorageOWOy', symObjAddr: 0x1C0, symBinAddr: 0x100001C80, symSize: 0x10 }
+  - { offset: 0x5982F, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI4TextV7StorageOWOe', symObjAddr: 0x1D0, symBinAddr: 0x100001C90, symSize: 0x10 }
+  - { offset: 0x59843, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyAA5ImageV_AA4TextVtGGAA14_PaddingLayoutVGACyxq_GAA0G0A2aRRzAA0G8ModifierR_rlWl', symObjAddr: 0x1E4, symBinAddr: 0x100001CA4, symSize: 0x6C }
+  - { offset: 0x59857, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstract, symObjAddr: 0x250, symBinAddr: 0x100001D10, symSize: 0x44 }
+  - { offset: 0x5986B, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI6VStackVyAA9TupleViewVyAA5ImageV_AA4TextVtGGACyxGAA0E0AAWl', symObjAddr: 0x294, symBinAddr: 0x100001D54, symSize: 0x4C }
+  - { offset: 0x59893, size: 0x8, addend: 0x0, symName: '_$s27material_components_ios_spm11ContentViewV7SwiftUI0F0AadEP05_makeF04view6inputsAD01_F7OutputsVAD11_GraphValueVyxG_AD01_F6InputsVtFZTW', symObjAddr: 0x110, symBinAddr: 0x100001BD0, symSize: 0x4 }
+  - { offset: 0x598AF, size: 0x8, addend: 0x0, symName: '_$s27material_components_ios_spm11ContentViewV7SwiftUI0F0AadEP05_makeF4List4view6inputsAD01_fJ7OutputsVAD11_GraphValueVyxG_AD01_fJ6InputsVtFZTW', symObjAddr: 0x114, symBinAddr: 0x100001BD4, symSize: 0x4 }
+  - { offset: 0x598CB, size: 0x8, addend: 0x0, symName: '_$s27material_components_ios_spm11ContentViewV7SwiftUI0F0AadEP14_viewListCount6inputsSiSgAD01_fjK6InputsV_tFZTW', symObjAddr: 0x118, symBinAddr: 0x100001BD8, symSize: 0x18 }
+  - { offset: 0x599B9, size: 0x8, addend: 0x0, symName: '_$s27material_components_ios_spm11ContentViewV4bodyQrvg7SwiftUI05TupleF0VyAE5ImageV_AE4TextVtGyXEfU_', symObjAddr: 0x20, symBinAddr: 0x100001AE0, symSize: 0xF0 }
+  - { offset: 0x59A3D, size: 0x8, addend: 0x0, symName: '_$s27material_components_ios_spm11ContentViewV7SwiftUI0F0AadEP4body4BodyQzvgTW', symObjAddr: 0x130, symBinAddr: 0x100001BF0, symSize: 0x90 }
+  - { offset: 0x59C08, size: 0x8, addend: 0x0, symName: '_$s27material_components_ios_spm0a1_b1_c1_D3AppV4bodyQrvg', symObjAddr: 0x0, symBinAddr: 0x100001DA0, symSize: 0x148 }
+  - { offset: 0x59CC8, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x154, symBinAddr: 0x100001EF0, symSize: 0x34 }
+  - { offset: 0x59CFC, size: 0x8, addend: 0x0, symName: '_$s27material_components_ios_spm0a1_b1_c1_D3AppVAC7SwiftUI0E0AAWl', symObjAddr: 0x188, symBinAddr: 0x100001F24, symSize: 0x44 }
+  - { offset: 0x59D10, size: 0x8, addend: 0x0, symName: '_$s27material_components_ios_spm0a1_b1_c1_D3AppVMa', symObjAddr: 0x1CC, symBinAddr: 0x100001F68, symSize: 0x10 }
+  - { offset: 0x59D24, size: 0x8, addend: 0x0, symName: '_$s27material_components_ios_spm0a1_b1_c1_D3AppV7SwiftUI0E0AA4BodyAdEP_AD5ScenePWT', symObjAddr: 0x1DC, symBinAddr: 0x100001F78, symSize: 0x10 }
+  - { offset: 0x59D38, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x1EC, symBinAddr: 0x100001F88, symSize: 0x40 }
+  - { offset: 0x59D4C, size: 0x8, addend: 0x0, symName: '_$s27material_components_ios_spm11ContentViewVAC7SwiftUI0F0AAWl', symObjAddr: 0x22C, symBinAddr: 0x100001FC8, symSize: 0x44 }
+  - { offset: 0x59D60, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI11WindowGroupVy27material_components_ios_spm11ContentViewVGACyxGAA5SceneAAWl', symObjAddr: 0x270, symBinAddr: 0x10000200C, symSize: 0x4C }
+  - { offset: 0x59D9E, size: 0x8, addend: 0x0, symName: '_$s27material_components_ios_spm0a1_b1_c1_D3AppV4bodyQrvg', symObjAddr: 0x0, symBinAddr: 0x100001DA0, symSize: 0x148 }
+  - { offset: 0x59DFE, size: 0x8, addend: 0x0, symName: '_$s27material_components_ios_spm0a1_b1_c1_D3AppV4bodyQrvgAA11ContentViewVycfU_', symObjAddr: 0x148, symBinAddr: 0x100001EE8, symSize: 0x4 }
+  - { offset: 0x59E26, size: 0x8, addend: 0x0, symName: '_$s27material_components_ios_spm0a1_b1_c1_D3AppV7SwiftUI0E0AadEP4body4BodyQzvgTW', symObjAddr: 0x14C, symBinAddr: 0x100001EEC, symSize: 0x4 }
+  - { offset: 0x59F49, size: 0x8, addend: 0x0, symName: '_$s27material_components_ios_spm19ResourceBundleClass33_E8A468F38E77D07AAC02ECE63310C914LLCfD', symObjAddr: 0x0, symBinAddr: 0x10000205C, symSize: 0x10 }
+  - { offset: 0x59F8B, size: 0x8, addend: 0x0, symName: '_$s27material_components_ios_spm19ResourceBundleClass33_E8A468F38E77D07AAC02ECE63310C914LLCMa', symObjAddr: 0x10, symBinAddr: 0x10000206C, symSize: 0x20 }
+  - { offset: 0x59FA6, size: 0x8, addend: 0x0, symName: '_$s27material_components_ios_spm19ResourceBundleClass33_E8A468F38E77D07AAC02ECE63310C914LLCfD', symObjAddr: 0x0, symBinAddr: 0x10000205C, symSize: 0x10 }
+...

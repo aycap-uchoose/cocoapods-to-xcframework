@@ -1,0 +1,32 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/11283991/Library/Developer/Xcode/DerivedData/material-components-ios-spm-dcevoncwtznjjqfeliedpsyjawrv/Build/Intermediates.noindex/ArchiveIntermediates/material-components-ios-spm/InstallationBuildProductsLocation/Library/Frameworks/MDFInternationalization.framework/MDFInternationalization'
+relocations:
+  - { offset: 0x33, size: 0x8, addend: 0x0, symName: _MDFInternationalizationVersionString, symObjAddr: 0x0, symBinAddr: 0x27D0, symSize: 0x0 }
+  - { offset: 0x67, size: 0x8, addend: 0x0, symName: _MDFInternationalizationVersionNumber, symObjAddr: 0x38, symBinAddr: 0x2808, symSize: 0x0 }
+  - { offset: 0xA3, size: 0x8, addend: 0x0, symName: _MDFLeadingMarginAutoresizingMaskForLayoutDirection, symObjAddr: 0x0, symBinAddr: 0x1738, symSize: 0x16 }
+  - { offset: 0xB0, size: 0x8, addend: 0x0, symName: _MDFLeadingMarginAutoresizingMaskForLayoutDirection, symObjAddr: 0x0, symBinAddr: 0x1738, symSize: 0x16 }
+  - { offset: 0xD7, size: 0x8, addend: 0x0, symName: _MDFTrailingMarginAutoresizingMaskForLayoutDirection, symObjAddr: 0x16, symBinAddr: 0x174E, symSize: 0x16 }
+  - { offset: 0xFE, size: 0x8, addend: 0x0, symName: _MDFRectFlippedHorizontally, symObjAddr: 0x2C, symBinAddr: 0x1764, symSize: 0x74 }
+  - { offset: 0x1FA, size: 0x8, addend: 0x0, symName: _MDFInsetsFlippedHorizontally, symObjAddr: 0xA0, symBinAddr: 0x17D8, symSize: 0x2C }
+  - { offset: 0x2D3, size: 0x8, addend: 0x0, symName: _MDFInsetsMakeWithLayoutDirection, symObjAddr: 0xCC, symBinAddr: 0x1804, symSize: 0x2D }
+  - { offset: 0x371, size: 0x8, addend: 0x0, symName: '+[NSLocale(MaterialRTL) mdf_isDefaultLanguageLTR]', symObjAddr: 0x0, symBinAddr: 0x1831, symSize: 0x89 }
+  - { offset: 0x37E, size: 0x8, addend: 0x0, symName: '+[NSLocale(MaterialRTL) mdf_isDefaultLanguageLTR]', symObjAddr: 0x0, symBinAddr: 0x1831, symSize: 0x89 }
+  - { offset: 0x427, size: 0x8, addend: 0x0, symName: '+[NSLocale(MaterialRTL) mdf_isDefaultLanguageRTL]', symObjAddr: 0x89, symBinAddr: 0x18BA, symSize: 0x89 }
+  - { offset: 0x593, size: 0x8, addend: 0x0, symName: '-[NSString(MaterialBidi) mdf_calculatedLanguageDirection]', symObjAddr: 0x0, symBinAddr: 0x1943, symSize: 0x75 }
+  - { offset: 0x633, size: 0x8, addend: 0x0, symName: '-[NSString(MaterialBidi) mdf_calculatedLanguageDirection]', symObjAddr: 0x0, symBinAddr: 0x1943, symSize: 0x75 }
+  - { offset: 0x709, size: 0x8, addend: 0x0, symName: '-[NSString(MaterialBidi) mdf_stringWithBidiEmbedding]', symObjAddr: 0x75, symBinAddr: 0x19B8, symSize: 0x31 }
+  - { offset: 0x76A, size: 0x8, addend: 0x0, symName: '-[NSString(MaterialBidi) mdf_stringWithBidiEmbedding:]', symObjAddr: 0xA6, symBinAddr: 0x19E9, symSize: 0x7F }
+  - { offset: 0x7C3, size: 0x8, addend: 0x0, symName: '-[NSString(MaterialBidi) mdf_stringWithStereoReset:context:]', symObjAddr: 0x125, symBinAddr: 0x1A68, symSize: 0xE4 }
+  - { offset: 0x8A4, size: 0x8, addend: 0x0, symName: '-[NSString(MaterialBidi) mdf_stringWithBidiMarkersStripped]', symObjAddr: 0x209, symBinAddr: 0x1B4C, symSize: 0x21A }
+  - { offset: 0x9F8, size: 0x8, addend: 0x0, symName: '-[UIImage(MaterialRTL) mdf_imageWithHorizontallyFlippedOrientation]', symObjAddr: 0x0, symBinAddr: 0x1D68, symSize: 0x5A4 }
+  - { offset: 0xBF0, size: 0x8, addend: 0x0, symName: '-[UIImage(MaterialRTL) mdf_imageWithHorizontallyFlippedOrientation]', symObjAddr: 0x0, symBinAddr: 0x1D68, symSize: 0x5A4 }
+  - { offset: 0x120D, size: 0x8, addend: 0x0, symName: '-[UIView(MaterialRTL) mdf_semanticContentAttribute]', symObjAddr: 0x0, symBinAddr: 0x230C, symSize: 0x34 }
+  - { offset: 0x121A, size: 0x8, addend: 0x0, symName: '-[UIView(MaterialRTL) mdf_semanticContentAttribute]', symObjAddr: 0x0, symBinAddr: 0x230C, symSize: 0x34 }
+  - { offset: 0x1259, size: 0x8, addend: 0x0, symName: '-[UIView(MaterialRTL) mdf_setSemanticContentAttribute:]', symObjAddr: 0x34, symBinAddr: 0x2340, symSize: 0x5C }
+  - { offset: 0x12BB, size: 0x8, addend: 0x0, symName: '-[UIView(MaterialRTL) mdf_effectiveUserInterfaceLayoutDirection]', symObjAddr: 0x90, symBinAddr: 0x239C, symSize: 0x6D }
+  - { offset: 0x1317, size: 0x8, addend: 0x0, symName: '+[UIView(MaterialRTL) mdf_userInterfaceLayoutDirectionForSemanticContentAttribute:]', symObjAddr: 0xFD, symBinAddr: 0x2409, symSize: 0x11F }
+  - { offset: 0x14BB, size: 0x8, addend: 0x0, symName: '+[UIView(MaterialRTL) mdf_userInterfaceLayoutDirectionForSemanticContentAttribute:relativeToLayoutDirection:]', symObjAddr: 0x21C, symBinAddr: 0x2528, symSize: 0x63 }
+  - { offset: 0x153B, size: 0x8, addend: 0x0, symName: '-[UIView(MaterialRTLPrivate) mdf_associatedSemanticContentAttribute]', symObjAddr: 0x27F, symBinAddr: 0x258B, symSize: 0x4C }
+  - { offset: 0x15F5, size: 0x8, addend: 0x0, symName: '-[UIView(MaterialRTLPrivate) mdf_setAssociatedSemanticContentAttribute:]', symObjAddr: 0x2CB, symBinAddr: 0x25D7, symSize: 0x59 }
+...

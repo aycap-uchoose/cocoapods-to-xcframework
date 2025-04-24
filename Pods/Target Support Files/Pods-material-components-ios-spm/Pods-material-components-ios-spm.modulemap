@@ -1,0 +1,6 @@
+framework module Pods_material_components_ios_spm {
+  umbrella header "Pods-material-components-ios-spm-umbrella.h"
+
+  export *
+  module * { export * }
+}
