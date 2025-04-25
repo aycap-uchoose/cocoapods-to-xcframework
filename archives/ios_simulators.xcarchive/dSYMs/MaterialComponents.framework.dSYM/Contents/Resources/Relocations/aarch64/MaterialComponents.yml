@@ -975,11 +975,11 @@ relocations:
   - { offset: 0x74265, size: 0x8, addend: 0x0, symName: '-[MDCProgressGradientView .cxx_destruct]', symObjAddr: 0x50C, symBinAddr: 0x22AAC, symSize: 0x14 }
   - { offset: 0x74334, size: 0x8, addend: 0x0, symName: '-[MDCProgressView initWithFrame:]', symObjAddr: 0x0, symBinAddr: 0x22AC0, symSize: 0x50 }
   - { offset: 0x7434E, size: 0x8, addend: 0x0, symName: '-[MDCProgressView accessibilityProgressView]', symObjAddr: 0x1160, symBinAddr: 0x23BB4, symSize: 0x40 }
-  - { offset: 0x7437A, size: 0x8, addend: 0x0, symName: _accessibilityProgressView.accessibilityProgressView, symObjAddr: 0xD320, symBinAddr: 0x83248, symSize: 0x0 }
-  - { offset: 0x74391, size: 0x8, addend: 0x0, symName: _accessibilityProgressView.onceToken, symObjAddr: 0xD328, symBinAddr: 0x83250, symSize: 0x0 }
+  - { offset: 0x7437A, size: 0x8, addend: 0x0, symName: _accessibilityProgressView.accessibilityProgressView, symObjAddr: 0xD318, symBinAddr: 0x83248, symSize: 0x0 }
+  - { offset: 0x74391, size: 0x8, addend: 0x0, symName: _accessibilityProgressView.onceToken, symObjAddr: 0xD320, symBinAddr: 0x83250, symSize: 0x0 }
   - { offset: 0x743D8, size: 0x8, addend: 0x0, symName: '+[MDCProgressView bundle]', symObjAddr: 0x14C0, symBinAddr: 0x23F14, symSize: 0x74 }
-  - { offset: 0x74404, size: 0x8, addend: 0x0, symName: _bundle.bundle, symObjAddr: 0xD330, symBinAddr: 0x83258, symSize: 0x0 }
-  - { offset: 0x7441B, size: 0x8, addend: 0x0, symName: _bundle.onceToken, symObjAddr: 0xD338, symBinAddr: 0x83260, symSize: 0x0 }
+  - { offset: 0x74404, size: 0x8, addend: 0x0, symName: _bundle.bundle, symObjAddr: 0xD328, symBinAddr: 0x83258, symSize: 0x0 }
+  - { offset: 0x7441B, size: 0x8, addend: 0x0, symName: _bundle.onceToken, symObjAddr: 0xD330, symBinAddr: 0x83260, symSize: 0x0 }
   - { offset: 0x74770, size: 0x8, addend: 0x0, symName: '-[MDCProgressView initWithFrame:]', symObjAddr: 0x0, symBinAddr: 0x22AC0, symSize: 0x50 }
   - { offset: 0x747B3, size: 0x8, addend: 0x0, symName: '-[MDCProgressView initWithCoder:]', symObjAddr: 0x50, symBinAddr: 0x22B10, symSize: 0x50 }
   - { offset: 0x74807, size: 0x8, addend: 0x0, symName: '-[MDCProgressView commonMDCProgressViewInit]', symObjAddr: 0xA0, symBinAddr: 0x22B60, symSize: 0x3D4 }

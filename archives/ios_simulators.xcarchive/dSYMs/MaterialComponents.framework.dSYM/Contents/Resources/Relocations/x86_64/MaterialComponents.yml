@@ -976,11 +976,11 @@ relocations:
   - { offset: 0x8AA86, size: 0x8, addend: 0x0, symName: '-[MDCProgressGradientView .cxx_destruct]', symObjAddr: 0x755, symBinAddr: 0x2B1A9, symSize: 0x13 }
   - { offset: 0x8AB55, size: 0x8, addend: 0x0, symName: '-[MDCProgressView initWithFrame:]', symObjAddr: 0x0, symBinAddr: 0x2B1BC, symSize: 0x5D }
   - { offset: 0x8AB6F, size: 0x8, addend: 0x0, symName: '-[MDCProgressView accessibilityProgressView]', symObjAddr: 0x164E, symBinAddr: 0x2C797, symSize: 0x30 }
-  - { offset: 0x8AB9B, size: 0x8, addend: 0x0, symName: _accessibilityProgressView.accessibilityProgressView, symObjAddr: 0xF718, symBinAddr: 0x8EE30, symSize: 0x0 }
-  - { offset: 0x8ABB2, size: 0x8, addend: 0x0, symName: _accessibilityProgressView.onceToken, symObjAddr: 0xF720, symBinAddr: 0x8EE38, symSize: 0x0 }
+  - { offset: 0x8AB9B, size: 0x8, addend: 0x0, symName: _accessibilityProgressView.accessibilityProgressView, symObjAddr: 0xF710, symBinAddr: 0x8EE30, symSize: 0x0 }
+  - { offset: 0x8ABB2, size: 0x8, addend: 0x0, symName: _accessibilityProgressView.onceToken, symObjAddr: 0xF718, symBinAddr: 0x8EE38, symSize: 0x0 }
   - { offset: 0x8ABF9, size: 0x8, addend: 0x0, symName: '+[MDCProgressView bundle]', symObjAddr: 0x1A2E, symBinAddr: 0x2CB77, symSize: 0x63 }
-  - { offset: 0x8AC25, size: 0x8, addend: 0x0, symName: _bundle.bundle, symObjAddr: 0xF728, symBinAddr: 0x8EE40, symSize: 0x0 }
-  - { offset: 0x8AC3C, size: 0x8, addend: 0x0, symName: _bundle.onceToken, symObjAddr: 0xF730, symBinAddr: 0x8EE48, symSize: 0x0 }
+  - { offset: 0x8AC25, size: 0x8, addend: 0x0, symName: _bundle.bundle, symObjAddr: 0xF720, symBinAddr: 0x8EE40, symSize: 0x0 }
+  - { offset: 0x8AC3C, size: 0x8, addend: 0x0, symName: _bundle.onceToken, symObjAddr: 0xF728, symBinAddr: 0x8EE48, symSize: 0x0 }
   - { offset: 0x8AF91, size: 0x8, addend: 0x0, symName: '-[MDCProgressView initWithFrame:]', symObjAddr: 0x0, symBinAddr: 0x2B1BC, symSize: 0x5D }
   - { offset: 0x8AFEB, size: 0x8, addend: 0x0, symName: '-[MDCProgressView initWithCoder:]', symObjAddr: 0x5D, symBinAddr: 0x2B219, symSize: 0x4C }
   - { offset: 0x8B053, size: 0x8, addend: 0x0, symName: '-[MDCProgressView commonMDCProgressViewInit]', symObjAddr: 0xA9, symBinAddr: 0x2B265, symSize: 0x4D4 }
@@ -1868,7 +1868,7 @@ relocations:
   - { offset: 0xB33FD, size: 0x8, addend: 0x0, symName: '-[MDCTextInputControllerBase previousLeadingText]', symObjAddr: 0x6AA7, symBinAddr: 0x4B956, symSize: 0xD }
   - { offset: 0xB3432, size: 0x8, addend: 0x0, symName: '-[MDCTextInputControllerBase .cxx_destruct]', symObjAddr: 0x6AB4, symBinAddr: 0x4B963, symSize: 0x17E }
   - { offset: 0xB3849, size: 0x8, addend: 0x0, symName: '+[MDCTextInputControllerFilled borderFillColorDefault]', symObjAddr: 0x0, symBinAddr: 0x4BAE1, symSize: 0x58 }
-  - { offset: 0xB3903, size: 0x8, addend: 0x0, symName: __borderFillColorDefault, symObjAddr: 0x9280, symBinAddr: 0x8EF28, symSize: 0x0 }
+  - { offset: 0xB3903, size: 0x8, addend: 0x0, symName: __borderFillColorDefault, symObjAddr: 0x9278, symBinAddr: 0x8EF28, symSize: 0x0 }
   - { offset: 0xB391E, size: 0x8, addend: 0x0, symName: __roundedCornersDefault, symObjAddr: 0x1428, symBinAddr: 0x8EB48, symSize: 0x0 }
   - { offset: 0xB3934, size: 0x8, addend: 0x0, symName: __underlineHeightActiveDefault, symObjAddr: 0x1430, symBinAddr: 0x8EB50, symSize: 0x0 }
   - { offset: 0xB394A, size: 0x8, addend: 0x0, symName: __underlineHeightNormalDefault, symObjAddr: 0x1438, symBinAddr: 0x8EB58, symSize: 0x0 }
@@ -1902,15 +1902,15 @@ relocations:
   - { offset: 0xB4EBE, size: 0x8, addend: 0x0, symName: '-[MDCTextInputControllerFilled(MaterialTheming) applyColorThemeWithScheme:]', symObjAddr: 0xA0, symBinAddr: 0x4CEB2, symSize: 0x1C }
   - { offset: 0xB4F1C, size: 0x8, addend: 0x0, symName: '-[MDCTextInputControllerFilled(MaterialTheming) applyTypographyThemeWithScheme:]', symObjAddr: 0xBC, symBinAddr: 0x4CECE, symSize: 0x1FE }
   - { offset: 0xB5434, size: 0x8, addend: 0x0, symName: '-[MDCTextInputControllerFullWidth init]', symObjAddr: 0x0, symBinAddr: 0x4D0CC, symSize: 0x4C }
-  - { offset: 0xB54CE, size: 0x8, addend: 0x0, symName: __backgroundColorDefault, symObjAddr: 0x1D458, symBinAddr: 0x8EF30, symSize: 0x0 }
-  - { offset: 0xB54E9, size: 0x8, addend: 0x0, symName: __errorColorDefault, symObjAddr: 0x1D460, symBinAddr: 0x8EF38, symSize: 0x0 }
-  - { offset: 0xB54FF, size: 0x8, addend: 0x0, symName: __inlinePlaceholderColorDefault, symObjAddr: 0x1D468, symBinAddr: 0x8EF40, symSize: 0x0 }
-  - { offset: 0xB5515, size: 0x8, addend: 0x0, symName: __trailingUnderlineLabelTextColorDefault, symObjAddr: 0x1D490, symBinAddr: 0x8EF68, symSize: 0x0 }
-  - { offset: 0xB552B, size: 0x8, addend: 0x0, symName: __inlinePlaceholderFontDefault, symObjAddr: 0x1D470, symBinAddr: 0x8EF48, symSize: 0x0 }
-  - { offset: 0xB5546, size: 0x8, addend: 0x0, symName: __textInputFontDefault, symObjAddr: 0x1D478, symBinAddr: 0x8EF50, symSize: 0x0 }
-  - { offset: 0xB555C, size: 0x8, addend: 0x0, symName: __textInputClearButtonTintColorDefault, symObjAddr: 0x1D480, symBinAddr: 0x8EF58, symSize: 0x0 }
-  - { offset: 0xB5572, size: 0x8, addend: 0x0, symName: __trailingUnderlineLabelFontDefault, symObjAddr: 0x1D488, symBinAddr: 0x8EF60, symSize: 0x0 }
-  - { offset: 0xB559D, size: 0x8, addend: 0x0, symName: __mdc_adjustsFontForContentSizeCategoryDefault, symObjAddr: 0x1D498, symBinAddr: 0x8EF70, symSize: 0x0 }
+  - { offset: 0xB54CE, size: 0x8, addend: 0x0, symName: __backgroundColorDefault, symObjAddr: 0x1D450, symBinAddr: 0x8EF30, symSize: 0x0 }
+  - { offset: 0xB54E9, size: 0x8, addend: 0x0, symName: __errorColorDefault, symObjAddr: 0x1D458, symBinAddr: 0x8EF38, symSize: 0x0 }
+  - { offset: 0xB54FF, size: 0x8, addend: 0x0, symName: __inlinePlaceholderColorDefault, symObjAddr: 0x1D460, symBinAddr: 0x8EF40, symSize: 0x0 }
+  - { offset: 0xB5515, size: 0x8, addend: 0x0, symName: __trailingUnderlineLabelTextColorDefault, symObjAddr: 0x1D488, symBinAddr: 0x8EF68, symSize: 0x0 }
+  - { offset: 0xB552B, size: 0x8, addend: 0x0, symName: __inlinePlaceholderFontDefault, symObjAddr: 0x1D468, symBinAddr: 0x8EF48, symSize: 0x0 }
+  - { offset: 0xB5546, size: 0x8, addend: 0x0, symName: __textInputFontDefault, symObjAddr: 0x1D470, symBinAddr: 0x8EF50, symSize: 0x0 }
+  - { offset: 0xB555C, size: 0x8, addend: 0x0, symName: __textInputClearButtonTintColorDefault, symObjAddr: 0x1D478, symBinAddr: 0x8EF58, symSize: 0x0 }
+  - { offset: 0xB5572, size: 0x8, addend: 0x0, symName: __trailingUnderlineLabelFontDefault, symObjAddr: 0x1D480, symBinAddr: 0x8EF60, symSize: 0x0 }
+  - { offset: 0xB559D, size: 0x8, addend: 0x0, symName: __mdc_adjustsFontForContentSizeCategoryDefault, symObjAddr: 0x1D490, symBinAddr: 0x8EF70, symSize: 0x0 }
   - { offset: 0xB59B8, size: 0x8, addend: 0x0, symName: '-[MDCTextInputControllerFullWidth init]', symObjAddr: 0x0, symBinAddr: 0x4D0CC, symSize: 0x4C }
   - { offset: 0xB5A03, size: 0x8, addend: 0x0, symName: '-[MDCTextInputControllerFullWidth initWithCoder:]', symObjAddr: 0x4C, symBinAddr: 0x4D118, symSize: 0x4C }
   - { offset: 0xB5A5A, size: 0x8, addend: 0x0, symName: '-[MDCTextInputControllerFullWidth initWithTextInput:]', symObjAddr: 0x98, symBinAddr: 0x4D164, symSize: 0x6A }
@@ -2253,11 +2253,11 @@ relocations:
   - { offset: 0xC452B, size: 0x8, addend: 0x0, symName: _GetCurrentSizeCategory, symObjAddr: 0x0, symBinAddr: 0x5922B, symSize: 0x81 }
   - { offset: 0xC45F0, size: 0x8, addend: 0x0, symName: '+[UIApplication(MDCAppExtensions) mdc_safeSharedApplication]', symObjAddr: 0x0, symBinAddr: 0x592AC, symSize: 0x63 }
   - { offset: 0xC45FE, size: 0x8, addend: 0x0, symName: '+[UIApplication(MDCAppExtensions) mdc_safeSharedApplication]', symObjAddr: 0x0, symBinAddr: 0x592AC, symSize: 0x63 }
-  - { offset: 0xC4628, size: 0x8, addend: 0x0, symName: _mdc_safeSharedApplication.application, symObjAddr: 0x2230, symBinAddr: 0x8EF88, symSize: 0x0 }
-  - { offset: 0xC463E, size: 0x8, addend: 0x0, symName: _mdc_safeSharedApplication.onceToken, symObjAddr: 0x2238, symBinAddr: 0x8EF90, symSize: 0x0 }
+  - { offset: 0xC4628, size: 0x8, addend: 0x0, symName: _mdc_safeSharedApplication.application, symObjAddr: 0x2228, symBinAddr: 0x8EF88, symSize: 0x0 }
+  - { offset: 0xC463E, size: 0x8, addend: 0x0, symName: _mdc_safeSharedApplication.onceToken, symObjAddr: 0x2230, symBinAddr: 0x8EF90, symSize: 0x0 }
   - { offset: 0xC469B, size: 0x8, addend: 0x0, symName: '+[UIApplication(MDCAppExtensions) mdc_isAppExtension]', symObjAddr: 0xBE, symBinAddr: 0x5936A, symSize: 0x2B }
-  - { offset: 0xC46C5, size: 0x8, addend: 0x0, symName: _mdc_isAppExtension.isAppExtension, symObjAddr: 0x2240, symBinAddr: 0x8EF98, symSize: 0x0 }
-  - { offset: 0xC46DB, size: 0x8, addend: 0x0, symName: _mdc_isAppExtension.onceToken, symObjAddr: 0x2248, symBinAddr: 0x8EFA0, symSize: 0x0 }
+  - { offset: 0xC46C5, size: 0x8, addend: 0x0, symName: _mdc_isAppExtension.isAppExtension, symObjAddr: 0x2238, symBinAddr: 0x8EF98, symSize: 0x0 }
+  - { offset: 0xC46DB, size: 0x8, addend: 0x0, symName: _mdc_isAppExtension.onceToken, symObjAddr: 0x2240, symBinAddr: 0x8EFA0, symSize: 0x0 }
   - { offset: 0xC479A, size: 0x8, addend: 0x0, symName: '___60+[UIApplication(MDCAppExtensions) mdc_safeSharedApplication]_block_invoke', symObjAddr: 0x63, symBinAddr: 0x5930F, symSize: 0x5B }
   - { offset: 0xC47FD, size: 0x8, addend: 0x0, symName: '___53+[UIApplication(MDCAppExtensions) mdc_isAppExtension]_block_invoke', symObjAddr: 0xE9, symBinAddr: 0x59395, symSize: 0x8C }
   - { offset: 0xC4995, size: 0x8, addend: 0x0, symName: '+[UIColor(MaterialBlending) mdc_blendColor:withBackgroundColor:]', symObjAddr: 0x0, symBinAddr: 0x59421, symSize: 0x15A }

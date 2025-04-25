@@ -1,0 +1,670 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/11283991/Library/Developer/Xcode/DerivedData/material-components-ios-spm-dcevoncwtznjjqfeliedpsyjawrv/Build/Intermediates.noindex/ArchiveIntermediates/material-components-ios-spm/InstallationBuildProductsLocation/Library/Frameworks/XLPagerTabStrip.framework/XLPagerTabStrip'
+relocations:
+  - { offset: 0xB3418, size: 0x8, addend: 0x0, symName: _XLPagerTabStripVersionString, symObjAddr: 0x0, symBinAddr: 0x20270, symSize: 0x0 }
+  - { offset: 0xB344D, size: 0x8, addend: 0x0, symName: _XLPagerTabStripVersionNumber, symObjAddr: 0x30, symBinAddr: 0x202A0, symSize: 0x0 }
+  - { offset: 0xB348A, size: 0x8, addend: 0x0, symName: '-[NSObject(FXPageControl) pageControl:imageForDotAtIndex:]', symObjAddr: 0x0, symBinAddr: 0x1EB8, symSize: 0x8 }
+  - { offset: 0xB34A4, size: 0x8, addend: 0x0, symName: _FXPageControlDotShapeCircle, symObjAddr: 0x1348, symBinAddr: 0x202C8, symSize: 0x0 }
+  - { offset: 0xB34BF, size: 0x8, addend: 0x0, symName: _FXPageControlDotShapeSquare, symObjAddr: 0x1350, symBinAddr: 0x202D0, symSize: 0x0 }
+  - { offset: 0xB34D5, size: 0x8, addend: 0x0, symName: _FXPageControlDotShapeTriangle, symObjAddr: 0x1358, symBinAddr: 0x202D8, symSize: 0x0 }
+  - { offset: 0xB377C, size: 0x8, addend: 0x0, symName: '-[NSObject(FXPageControl) pageControl:imageForDotAtIndex:]', symObjAddr: 0x0, symBinAddr: 0x1EB8, symSize: 0x8 }
+  - { offset: 0xB37C7, size: 0x8, addend: 0x0, symName: '-[NSObject(FXPageControl) pageControl:shapeForDotAtIndex:]', symObjAddr: 0x8, symBinAddr: 0x1EC0, symSize: 0x8 }
+  - { offset: 0xB3812, size: 0x8, addend: 0x0, symName: '-[NSObject(FXPageControl) pageControl:colorForDotAtIndex:]', symObjAddr: 0x10, symBinAddr: 0x1EC8, symSize: 0x8 }
+  - { offset: 0xB385D, size: 0x8, addend: 0x0, symName: '-[NSObject(FXPageControl) pageControl:selectedImageForDotAtIndex:]', symObjAddr: 0x18, symBinAddr: 0x1ED0, symSize: 0x8 }
+  - { offset: 0xB38A8, size: 0x8, addend: 0x0, symName: '-[NSObject(FXPageControl) pageControl:selectedShapeForDotAtIndex:]', symObjAddr: 0x20, symBinAddr: 0x1ED8, symSize: 0x8 }
+  - { offset: 0xB38F3, size: 0x8, addend: 0x0, symName: '-[NSObject(FXPageControl) pageControl:selectedColorForDotAtIndex:]', symObjAddr: 0x28, symBinAddr: 0x1EE0, symSize: 0x8 }
+  - { offset: 0xB393E, size: 0x8, addend: 0x0, symName: '-[FXPageControl setUp]', symObjAddr: 0x30, symBinAddr: 0x1EE8, symSize: 0x64 }
+  - { offset: 0xB3971, size: 0x8, addend: 0x0, symName: '-[FXPageControl initWithFrame:]', symObjAddr: 0x94, symBinAddr: 0x1F4C, symSize: 0x50 }
+  - { offset: 0xB39B4, size: 0x8, addend: 0x0, symName: '-[FXPageControl initWithCoder:]', symObjAddr: 0xE4, symBinAddr: 0x1F9C, symSize: 0x50 }
+  - { offset: 0xB39FB, size: 0x8, addend: 0x0, symName: '-[FXPageControl dealloc]', symObjAddr: 0x134, symBinAddr: 0x1FEC, symSize: 0x70 }
+  - { offset: 0xB3A58, size: 0x8, addend: 0x0, symName: '-[FXPageControl sizeForNumberOfPages:]', symObjAddr: 0x1A4, symBinAddr: 0x205C, symSize: 0x50 }
+  - { offset: 0xB3AA9, size: 0x8, addend: 0x0, symName: '-[FXPageControl updateCurrentPageDisplay]', symObjAddr: 0x1F4, symBinAddr: 0x20AC, symSize: 0x4 }
+  - { offset: 0xB3ADA, size: 0x8, addend: 0x0, symName: '-[FXPageControl drawRect:]', symObjAddr: 0x1F8, symBinAddr: 0x20B0, symSize: 0x618 }
+  - { offset: 0xB3E24, size: 0x8, addend: 0x0, symName: '-[FXPageControl clampedPageValue:]', symObjAddr: 0x810, symBinAddr: 0x26C8, symSize: 0x58 }
+  - { offset: 0xB3EC2, size: 0x8, addend: 0x0, symName: '-[FXPageControl setDotImage:]', symObjAddr: 0x868, symBinAddr: 0x2720, symSize: 0x60 }
+  - { offset: 0xB3F05, size: 0x8, addend: 0x0, symName: '-[FXPageControl setDotShape:]', symObjAddr: 0x8C8, symBinAddr: 0x2780, symSize: 0x70 }
+  - { offset: 0xB3F7E, size: 0x8, addend: 0x0, symName: '-[FXPageControl setDotSize:]', symObjAddr: 0x938, symBinAddr: 0x27F0, symSize: 0x38 }
+  - { offset: 0xB3FBD, size: 0x8, addend: 0x0, symName: '-[FXPageControl setDotSize:]', symObjAddr: 0x938, symBinAddr: 0x27F0, symSize: 0x38 }
+  - { offset: 0xB3FDD, size: 0x8, addend: 0x0, symName: '-[FXPageControl setDotColor:]', symObjAddr: 0x970, symBinAddr: 0x2828, symSize: 0x60 }
+  - { offset: 0xB4020, size: 0x8, addend: 0x0, symName: '-[FXPageControl setDotShadowColor:]', symObjAddr: 0x9D0, symBinAddr: 0x2888, symSize: 0x60 }
+  - { offset: 0xB4065, size: 0x8, addend: 0x0, symName: '-[FXPageControl setDotShadowBlur:]', symObjAddr: 0xA30, symBinAddr: 0x28E8, symSize: 0x38 }
+  - { offset: 0xB40A6, size: 0x8, addend: 0x0, symName: '-[FXPageControl setDotShadowBlur:]', symObjAddr: 0xA30, symBinAddr: 0x28E8, symSize: 0x38 }
+  - { offset: 0xB40C7, size: 0x8, addend: 0x0, symName: '-[FXPageControl setDotShadowOffset:]', symObjAddr: 0xA68, symBinAddr: 0x2920, symSize: 0x28 }
+  - { offset: 0xB410A, size: 0x8, addend: 0x0, symName: '-[FXPageControl setSelectedDotImage:]', symObjAddr: 0xA90, symBinAddr: 0x2948, symSize: 0x60 }
+  - { offset: 0xB414F, size: 0x8, addend: 0x0, symName: '-[FXPageControl setSelectedDotColor:]', symObjAddr: 0xAF0, symBinAddr: 0x29A8, symSize: 0x60 }
+  - { offset: 0xB4194, size: 0x8, addend: 0x0, symName: '-[FXPageControl setSelectedDotShape:]', symObjAddr: 0xB50, symBinAddr: 0x2A08, symSize: 0x70 }
+  - { offset: 0xB41FD, size: 0x8, addend: 0x0, symName: '-[FXPageControl setSelectedDotSize:]', symObjAddr: 0xBC0, symBinAddr: 0x2A78, symSize: 0x38 }
+  - { offset: 0xB423E, size: 0x8, addend: 0x0, symName: '-[FXPageControl setSelectedDotSize:]', symObjAddr: 0xBC0, symBinAddr: 0x2A78, symSize: 0x38 }
+  - { offset: 0xB425F, size: 0x8, addend: 0x0, symName: '-[FXPageControl setSelectedDotShadowColor:]', symObjAddr: 0xBF8, symBinAddr: 0x2AB0, symSize: 0x60 }
+  - { offset: 0xB42A4, size: 0x8, addend: 0x0, symName: '-[FXPageControl setSelectedDotShadowBlur:]', symObjAddr: 0xC58, symBinAddr: 0x2B10, symSize: 0x38 }
+  - { offset: 0xB42E5, size: 0x8, addend: 0x0, symName: '-[FXPageControl setSelectedDotShadowBlur:]', symObjAddr: 0xC58, symBinAddr: 0x2B10, symSize: 0x38 }
+  - { offset: 0xB4306, size: 0x8, addend: 0x0, symName: '-[FXPageControl setSelectedDotShadowOffset:]', symObjAddr: 0xC90, symBinAddr: 0x2B48, symSize: 0x28 }
+  - { offset: 0xB4349, size: 0x8, addend: 0x0, symName: '-[FXPageControl setDotSpacing:]', symObjAddr: 0xCB8, symBinAddr: 0x2B70, symSize: 0x38 }
+  - { offset: 0xB438A, size: 0x8, addend: 0x0, symName: '-[FXPageControl setDotSpacing:]', symObjAddr: 0xCB8, symBinAddr: 0x2B70, symSize: 0x38 }
+  - { offset: 0xB43AB, size: 0x8, addend: 0x0, symName: '-[FXPageControl setDelegate:]', symObjAddr: 0xCF0, symBinAddr: 0x2BA8, symSize: 0x6C }
+  - { offset: 0xB43F0, size: 0x8, addend: 0x0, symName: '-[FXPageControl setCurrentPage:]', symObjAddr: 0xD5C, symBinAddr: 0x2C14, symSize: 0x30 }
+  - { offset: 0xB4435, size: 0x8, addend: 0x0, symName: '-[FXPageControl setNumberOfPages:]', symObjAddr: 0xD8C, symBinAddr: 0x2C44, symSize: 0x3C }
+  - { offset: 0xB4476, size: 0x8, addend: 0x0, symName: '-[FXPageControl endTrackingWithTouch:withEvent:]', symObjAddr: 0xDC8, symBinAddr: 0x2C80, symSize: 0x104 }
+  - { offset: 0xB44E6, size: 0x8, addend: 0x0, symName: '-[FXPageControl sizeThatFits:]', symObjAddr: 0xECC, symBinAddr: 0x2D84, symSize: 0x1BC }
+  - { offset: 0xB4654, size: 0x8, addend: 0x0, symName: '-[FXPageControl intrinsicContentSize]', symObjAddr: 0x1088, symBinAddr: 0x2F40, symSize: 0x2C }
+  - { offset: 0xB468C, size: 0x8, addend: 0x0, symName: '-[FXPageControl delegate]', symObjAddr: 0x10B4, symBinAddr: 0x2F6C, symSize: 0x20 }
+  - { offset: 0xB46C3, size: 0x8, addend: 0x0, symName: '-[FXPageControl currentPage]', symObjAddr: 0x10D4, symBinAddr: 0x2F8C, symSize: 0x10 }
+  - { offset: 0xB46FA, size: 0x8, addend: 0x0, symName: '-[FXPageControl numberOfPages]', symObjAddr: 0x10E4, symBinAddr: 0x2F9C, symSize: 0x10 }
+  - { offset: 0xB4731, size: 0x8, addend: 0x0, symName: '-[FXPageControl defersCurrentPageDisplay]', symObjAddr: 0x10F4, symBinAddr: 0x2FAC, symSize: 0x10 }
+  - { offset: 0xB4768, size: 0x8, addend: 0x0, symName: '-[FXPageControl setDefersCurrentPageDisplay:]', symObjAddr: 0x1104, symBinAddr: 0x2FBC, symSize: 0x10 }
+  - { offset: 0xB47A3, size: 0x8, addend: 0x0, symName: '-[FXPageControl hidesForSinglePage]', symObjAddr: 0x1114, symBinAddr: 0x2FCC, symSize: 0x10 }
+  - { offset: 0xB47DA, size: 0x8, addend: 0x0, symName: '-[FXPageControl setHidesForSinglePage:]', symObjAddr: 0x1124, symBinAddr: 0x2FDC, symSize: 0x10 }
+  - { offset: 0xB4815, size: 0x8, addend: 0x0, symName: '-[FXPageControl isWrapEnabled]', symObjAddr: 0x1134, symBinAddr: 0x2FEC, symSize: 0x10 }
+  - { offset: 0xB484C, size: 0x8, addend: 0x0, symName: '-[FXPageControl setWrapEnabled:]', symObjAddr: 0x1144, symBinAddr: 0x2FFC, symSize: 0x10 }
+  - { offset: 0xB4887, size: 0x8, addend: 0x0, symName: '-[FXPageControl isVertical]', symObjAddr: 0x1154, symBinAddr: 0x300C, symSize: 0x10 }
+  - { offset: 0xB48BE, size: 0x8, addend: 0x0, symName: '-[FXPageControl setVertical:]', symObjAddr: 0x1164, symBinAddr: 0x301C, symSize: 0x10 }
+  - { offset: 0xB48F9, size: 0x8, addend: 0x0, symName: '-[FXPageControl dotImage]', symObjAddr: 0x1174, symBinAddr: 0x302C, symSize: 0x10 }
+  - { offset: 0xB4930, size: 0x8, addend: 0x0, symName: '-[FXPageControl dotShape]', symObjAddr: 0x1184, symBinAddr: 0x303C, symSize: 0x10 }
+  - { offset: 0xB4967, size: 0x8, addend: 0x0, symName: '-[FXPageControl dotSize]', symObjAddr: 0x1194, symBinAddr: 0x304C, symSize: 0x10 }
+  - { offset: 0xB499C, size: 0x8, addend: 0x0, symName: '-[FXPageControl dotColor]', symObjAddr: 0x11A4, symBinAddr: 0x305C, symSize: 0x10 }
+  - { offset: 0xB49D3, size: 0x8, addend: 0x0, symName: '-[FXPageControl dotShadowColor]', symObjAddr: 0x11B4, symBinAddr: 0x306C, symSize: 0x10 }
+  - { offset: 0xB4A0A, size: 0x8, addend: 0x0, symName: '-[FXPageControl dotShadowBlur]', symObjAddr: 0x11C4, symBinAddr: 0x307C, symSize: 0x10 }
+  - { offset: 0xB4A3F, size: 0x8, addend: 0x0, symName: '-[FXPageControl dotShadowOffset]', symObjAddr: 0x11D4, symBinAddr: 0x308C, symSize: 0x14 }
+  - { offset: 0xB4A74, size: 0x8, addend: 0x0, symName: '-[FXPageControl selectedDotImage]', symObjAddr: 0x11E8, symBinAddr: 0x30A0, symSize: 0x10 }
+  - { offset: 0xB4AAB, size: 0x8, addend: 0x0, symName: '-[FXPageControl selectedDotShape]', symObjAddr: 0x11F8, symBinAddr: 0x30B0, symSize: 0x10 }
+  - { offset: 0xB4AE2, size: 0x8, addend: 0x0, symName: '-[FXPageControl selectedDotSize]', symObjAddr: 0x1208, symBinAddr: 0x30C0, symSize: 0x10 }
+  - { offset: 0xB4B17, size: 0x8, addend: 0x0, symName: '-[FXPageControl selectedDotColor]', symObjAddr: 0x1218, symBinAddr: 0x30D0, symSize: 0x10 }
+  - { offset: 0xB4B4E, size: 0x8, addend: 0x0, symName: '-[FXPageControl selectedDotShadowColor]', symObjAddr: 0x1228, symBinAddr: 0x30E0, symSize: 0x10 }
+  - { offset: 0xB4B85, size: 0x8, addend: 0x0, symName: '-[FXPageControl selectedDotShadowBlur]', symObjAddr: 0x1238, symBinAddr: 0x30F0, symSize: 0x10 }
+  - { offset: 0xB4BBA, size: 0x8, addend: 0x0, symName: '-[FXPageControl selectedDotShadowOffset]', symObjAddr: 0x1248, symBinAddr: 0x3100, symSize: 0x14 }
+  - { offset: 0xB4BEF, size: 0x8, addend: 0x0, symName: '-[FXPageControl dotSpacing]', symObjAddr: 0x125C, symBinAddr: 0x3114, symSize: 0x10 }
+  - { offset: 0xB4C24, size: 0x8, addend: 0x0, symName: '-[FXPageControl .cxx_destruct]', symObjAddr: 0x126C, symBinAddr: 0x3124, symSize: 0xA0 }
+  - { offset: 0xB516A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC8settingsAA0debC8SettingsVvpACTK', symObjAddr: 0x17C, symBinAddr: 0x3324, symSize: 0x68 }
+  - { offset: 0xB51A2, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC8settingsAA0debC8SettingsVvpACTk', symObjAddr: 0x1E4, symBinAddr: 0x338C, symSize: 0x90 }
+  - { offset: 0xB5273, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC03barF0AA0dF0CSgvpACTK', symObjAddr: 0x4C8, symBinAddr: 0x3670, symSize: 0x54 }
+  - { offset: 0xB52AB, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC03barF0AA0dF0CSgvpACTk', symObjAddr: 0x51C, symBinAddr: 0x36C4, symSize: 0x54 }
+  - { offset: 0xB52EB, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerCMa', symObjAddr: 0x7A4, symBinAddr: 0x394C, symSize: 0x20 }
+  - { offset: 0xB5337, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerCfE', symObjAddr: 0x1274, symBinAddr: 0x441C, symSize: 0x40 }
+  - { offset: 0xB5366, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerCfETo', symObjAddr: 0x12E4, symBinAddr: 0x448C, symSize: 0x44 }
+  - { offset: 0xB5395, size: 0x8, addend: 0x0, symName: ___swift_memcpy24_8, symObjAddr: 0x1364, symBinAddr: 0x450C, symSize: 0x14 }
+  - { offset: 0xB53A9, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC8SettingsVMa', symObjAddr: 0x1380, symBinAddr: 0x4528, symSize: 0x10 }
+  - { offset: 0xB53BD, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC8SettingsV5StyleVwCP', symObjAddr: 0x1390, symBinAddr: 0x4538, symSize: 0x3C }
+  - { offset: 0xB53D1, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC8SettingsV5StyleVwxx', symObjAddr: 0x13CC, symBinAddr: 0x4574, symSize: 0x28 }
+  - { offset: 0xB53E5, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC8SettingsV5StyleVwta', symObjAddr: 0x145C, symBinAddr: 0x4600, symSize: 0x44 }
+  - { offset: 0xB53F9, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC8SettingsV5StyleVMa', symObjAddr: 0x1558, symBinAddr: 0x46F4, symSize: 0x10 }
+  - { offset: 0xB540D, size: 0x8, addend: 0x0, symName: ___swift_memcpy16_8, symObjAddr: 0x1654, symBinAddr: 0x47B8, symSize: 0xC }
+  - { offset: 0xB5421, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x1660, symBinAddr: 0x47C4, symSize: 0x4 }
+  - { offset: 0xB5435, size: 0x8, addend: 0x0, symName: '_$sSo6CGSizeVwet', symObjAddr: 0x1664, symBinAddr: 0x47C8, symSize: 0x20 }
+  - { offset: 0xB5449, size: 0x8, addend: 0x0, symName: '_$sSo6CGSizeVwst', symObjAddr: 0x1684, symBinAddr: 0x47E8, symSize: 0x28 }
+  - { offset: 0xB545D, size: 0x8, addend: 0x0, symName: '_$sSo6CGRectVwCP', symObjAddr: 0x16C0, symBinAddr: 0x4824, symSize: 0x30 }
+  - { offset: 0xB5471, size: 0x8, addend: 0x0, symName: ___swift_memcpy32_8, symObjAddr: 0x16F0, symBinAddr: 0x4854, symSize: 0xC }
+  - { offset: 0xB5485, size: 0x8, addend: 0x0, symName: '_$sSo6CGRectVwet', symObjAddr: 0x16FC, symBinAddr: 0x4860, symSize: 0x20 }
+  - { offset: 0xB5499, size: 0x8, addend: 0x0, symName: '_$sSo6CGRectVwst', symObjAddr: 0x171C, symBinAddr: 0x4880, symSize: 0x2C }
+  - { offset: 0xB555F, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyas20_SwiftNewtypeWrapperSCSYWb', symObjAddr: 0x1C20, symBinAddr: 0x4CE8, symSize: 0x24 }
+  - { offset: 0xB5573, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentationPWb', symObjAddr: 0x1C44, symBinAddr: 0x4D0C, symSize: 0x24 }
+  - { offset: 0xB5587, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyaSHSCSQWb', symObjAddr: 0x1CA8, symBinAddr: 0x4D70, symSize: 0x24 }
+  - { offset: 0xB5666, size: 0x8, addend: 0x0, symName: '_$ss20_SwiftNewtypeWrapperPss21_ObjectiveCBridgeable8RawValueRpzrlE016_forceBridgeFromD1C_6resultyAD_01_D5CTypeQZ_xSgztFZSo05NSKeyG9ChangeKeya_Tgmq5', symObjAddr: 0x1764, symBinAddr: 0x48C0, symSize: 0x84 }
+  - { offset: 0xB56F7, size: 0x8, addend: 0x0, symName: '_$ss20_SwiftNewtypeWrapperPss21_ObjectiveCBridgeable8RawValueRpzrlE024_conditionallyBridgeFromD1C_6resultSbAD_01_D5CTypeQZ_xSgztFZSo05NSKeyG9ChangeKeya_Tgmq5', symObjAddr: 0x17E8, symBinAddr: 0x4944, symSize: 0x8C }
+  - { offset: 0xB5797, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyaSHSCSH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x18F4, symBinAddr: 0x49DC, symSize: 0x40 }
+  - { offset: 0xB5815, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyaSHSCSH08_rawHashB04seedS2i_tFTW', symObjAddr: 0x1934, symBinAddr: 0x4A1C, symSize: 0x70 }
+  - { offset: 0xB5884, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromE1C_6resulty01_E5CTypeQz_xSgztFZTW', symObjAddr: 0x19EC, symBinAddr: 0x4AD4, symSize: 0x4 }
+  - { offset: 0xB58A0, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyas21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromE1C_6resultSb01_E5CTypeQz_xSgztFZTW', symObjAddr: 0x19F0, symBinAddr: 0x4AD8, symSize: 0x4 }
+  - { offset: 0xB58CB, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyas21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromE1Cyx01_E5CTypeQzSgFZTW', symObjAddr: 0x19F4, symBinAddr: 0x4ADC, symSize: 0x40 }
+  - { offset: 0xB5949, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyaSQSCSQ2eeoiySbx_xtFZTW', symObjAddr: 0x1A40, symBinAddr: 0x4B1C, symSize: 0x88 }
+  - { offset: 0xB59F3, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyas35_HasCustomAnyHashableRepresentationSCsACP03_tofgH0s0gH0VSgyFTW', symObjAddr: 0x1B34, symBinAddr: 0x4C10, symSize: 0x6C }
+  - { offset: 0xB5A30, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC8SettingsV5StyleV18barBackgroundColorSo7UIColorCSgvg', symObjAddr: 0x0, symBinAddr: 0x31C4, symSize: 0x28 }
+  - { offset: 0xB5A4A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC8SettingsV5StyleV18barBackgroundColorSo7UIColorCSgvs', symObjAddr: 0x28, symBinAddr: 0x31EC, symSize: 0x28 }
+  - { offset: 0xB5A7F, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC8SettingsV5StyleV18barBackgroundColorSo7UIColorCSgvM', symObjAddr: 0x50, symBinAddr: 0x3214, symSize: 0x10 }
+  - { offset: 0xB5A93, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC8SettingsV5StyleV18barBackgroundColorSo7UIColorCSgvM.resume.0', symObjAddr: 0x60, symBinAddr: 0x3224, symSize: 0x4 }
+  - { offset: 0xB5AD2, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC8SettingsV5StyleV08selectedD15BackgroundColorSo7UIColorCSgvg', symObjAddr: 0x64, symBinAddr: 0x3228, symSize: 0x28 }
+  - { offset: 0xB5AE6, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC8SettingsV5StyleV08selectedD15BackgroundColorSo7UIColorCSgvs', symObjAddr: 0x8C, symBinAddr: 0x3250, symSize: 0x28 }
+  - { offset: 0xB5B1B, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC8SettingsV5StyleV08selectedD15BackgroundColorSo7UIColorCSgvM', symObjAddr: 0xB4, symBinAddr: 0x3278, symSize: 0x10 }
+  - { offset: 0xB5B59, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC8SettingsV5StyleV9barHeight12CoreGraphics7CGFloatVvg', symObjAddr: 0xC8, symBinAddr: 0x3288, symSize: 0x8 }
+  - { offset: 0xB5B6D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC8SettingsV5StyleV9barHeight12CoreGraphics7CGFloatVvs', symObjAddr: 0xD0, symBinAddr: 0x3290, symSize: 0x8 }
+  - { offset: 0xB5BA0, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC8SettingsV5StyleV9barHeight12CoreGraphics7CGFloatVvM', symObjAddr: 0xD8, symBinAddr: 0x3298, symSize: 0x10 }
+  - { offset: 0xB5BC4, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC8SettingsV5styleAC5StyleVvg', symObjAddr: 0xEC, symBinAddr: 0x32A8, symSize: 0x30 }
+  - { offset: 0xB5BD8, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC8SettingsV5styleAC5StyleVvs', symObjAddr: 0x11C, symBinAddr: 0x32D8, symSize: 0x4C }
+  - { offset: 0xB5C4B, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC8settingsAA0debC8SettingsVvg', symObjAddr: 0x274, symBinAddr: 0x341C, symSize: 0x64 }
+  - { offset: 0xB5C6A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC8settingsAA0debC8SettingsVvs', symObjAddr: 0x2D8, symBinAddr: 0x3480, symSize: 0x70 }
+  - { offset: 0xB5C93, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC8settingsAA0debC8SettingsVvM', symObjAddr: 0x348, symBinAddr: 0x34F0, symSize: 0x44 }
+  - { offset: 0xB5CB8, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC8settingsAA0debC8SettingsVvM.resume.0', symObjAddr: 0x38C, symBinAddr: 0x3534, symSize: 0x4 }
+  - { offset: 0xB5CED, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC03barF0AA0dF0CSgvgTo', symObjAddr: 0x390, symBinAddr: 0x3538, symSize: 0x48 }
+  - { offset: 0xB5D22, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC03barF0AA0dF0CSgvg', symObjAddr: 0x3D8, symBinAddr: 0x3580, symSize: 0x48 }
+  - { offset: 0xB5D66, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC03barF0AA0dF0CSgvsTo', symObjAddr: 0x420, symBinAddr: 0x35C8, symSize: 0x50 }
+  - { offset: 0xB5DA3, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC03barF0AA0dF0CSgvs', symObjAddr: 0x470, symBinAddr: 0x3618, symSize: 0x58 }
+  - { offset: 0xB5DCC, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC03barF0AA0dF0CSgvM', symObjAddr: 0x570, symBinAddr: 0x3718, symSize: 0x70 }
+  - { offset: 0xB5DF1, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC03barF0AA0dF0CSgvM.resume.0', symObjAddr: 0x5E0, symBinAddr: 0x3788, symSize: 0x6C }
+  - { offset: 0xB5EB8, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC5coderACSgSo7NSCoderC_tcfC', symObjAddr: 0x64C, symBinAddr: 0x37F4, symSize: 0x44 }
+  - { offset: 0xB5EE6, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0x690, symBinAddr: 0x3838, symSize: 0x114 }
+  - { offset: 0xB5F46, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x7C4, symBinAddr: 0x396C, symSize: 0x28 }
+  - { offset: 0xB5F5A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfC', symObjAddr: 0x7EC, symBinAddr: 0x3994, symSize: 0x7C }
+  - { offset: 0xB5F6E, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc', symObjAddr: 0x868, symBinAddr: 0x3A10, symSize: 0x13C }
+  - { offset: 0xB5FDE, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo', symObjAddr: 0x9A4, symBinAddr: 0x3B4C, symSize: 0x60 }
+  - { offset: 0xB5FF9, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC11viewDidLoadyyF', symObjAddr: 0xA04, symBinAddr: 0x3BAC, symSize: 0x208 }
+  - { offset: 0xB6127, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC11viewDidLoadyyFAA0dF0CSgyKXEfu_AGyXEfU_', symObjAddr: 0xC0C, symBinAddr: 0x3DB4, symSize: 0x188 }
+  - { offset: 0xB61DF, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC11viewDidLoadyyFTo', symObjAddr: 0xD94, symBinAddr: 0x3F3C, symSize: 0x28 }
+  - { offset: 0xB6278, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC14viewWillAppearyySbF', symObjAddr: 0xDBC, symBinAddr: 0x3F64, symSize: 0x200 }
+  - { offset: 0xB646E, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC14viewWillAppearyySbFTo', symObjAddr: 0xFBC, symBinAddr: 0x4164, symSize: 0x30 }
+  - { offset: 0xB6482, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC06reloadebcF0yyF', symObjAddr: 0xFEC, symBinAddr: 0x4194, symSize: 0x160 }
+  - { offset: 0xB65F7, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC15updateIndicator3for9fromIndex02toL022withProgressPercentage15indexWasChangedyAA0ebcfG0C_S2i12CoreGraphics7CGFloatVSbtF', symObjAddr: 0x114C, symBinAddr: 0x42F4, symSize: 0xA4 }
+  - { offset: 0xB6698, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerC15updateIndicator3for9fromIndex02toL0yAA0ebcfG0C_S2itF', symObjAddr: 0x11F0, symBinAddr: 0x4398, symSize: 0x84 }
+  - { offset: 0xB6719, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerCfD', symObjAddr: 0x12B4, symBinAddr: 0x445C, symSize: 0x30 }
+  - { offset: 0xB673C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerCAA0ebC21IsProgressiveDelegateA2aDP15updateIndicator3for9fromIndex02toO022withProgressPercentage15indexWasChangedyAA0ebcfG0C_S2i12CoreGraphics7CGFloatVSbtFTW', symObjAddr: 0x1328, symBinAddr: 0x44D0, symSize: 0x1C }
+  - { offset: 0xB6750, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip08BarPagerbC14ViewControllerCAA0ebC8DelegateA2aDP15updateIndicator3for9fromIndex02toM0yAA0ebcfG0C_S2itFTW', symObjAddr: 0x1344, symBinAddr: 0x44EC, symSize: 0x1C }
+  - { offset: 0xB678C, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyaSYSCSY03rawB0xSg03RawB0Qz_tcfCTW', symObjAddr: 0x1AC8, symBinAddr: 0x4BA4, symSize: 0x44 }
+  - { offset: 0xB67B5, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyaSYSCSY03rawB003RawB0QzvgTW', symObjAddr: 0x1B0C, symBinAddr: 0x4BE8, symSize: 0x28 }
+  - { offset: 0xB6AA3, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip7BarViewCMa', symObjAddr: 0x27C, symBinAddr: 0x4FE0, symSize: 0x20 }
+  - { offset: 0xB6AB7, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip7BarViewCfETo', symObjAddr: 0x8FC, symBinAddr: 0x5660, symSize: 0x10 }
+  - { offset: 0xB6AE6, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip7BarViewC014updateSelectedD8Position33_41F1AFAC657F278B208EE8A67607DE29LL4withySb_tFyycfU_Tf2ni_nTA', symObjAddr: 0x9EC, symBinAddr: 0x5750, symSize: 0x10 }
+  - { offset: 0xB6AFA, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x9FC, symBinAddr: 0x5760, symSize: 0x10 }
+  - { offset: 0xB6B0E, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0xA0C, symBinAddr: 0x5770, symSize: 0x8 }
+  - { offset: 0xB6B7A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip7BarViewC08selectedD0So6UIViewCvg', symObjAddr: 0x0, symBinAddr: 0x4DA8, symSize: 0xF4 }
+  - { offset: 0xB6C5C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip7BarViewC08selectedD0So6UIViewCvs', symObjAddr: 0xF4, symBinAddr: 0x4E9C, symSize: 0x18 }
+  - { offset: 0xB6C83, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip7BarViewC08selectedD0So6UIViewCvM', symObjAddr: 0x10C, symBinAddr: 0x4EB4, symSize: 0x34 }
+  - { offset: 0xB6CCD, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip7BarViewC08selectedD0So6UIViewCvM.resume.0', symObjAddr: 0x140, symBinAddr: 0x4EE8, symSize: 0x18 }
+  - { offset: 0xB6D5A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip7BarViewC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0x19C, symBinAddr: 0x4F00, symSize: 0xE0 }
+  - { offset: 0xB6D8F, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip7BarViewC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x29C, symBinAddr: 0x5000, symSize: 0x28 }
+  - { offset: 0xB6DC8, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip7BarViewC5frameACSo6CGRectV_tcfcTo', symObjAddr: 0x2C4, symBinAddr: 0x5028, symSize: 0xE4 }
+  - { offset: 0xB6E42, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip7BarViewC014updateSelectedD8Position33_41F1AFAC657F278B208EE8A67607DE29LL4withySb_tF', symObjAddr: 0x3A8, symBinAddr: 0x510C, symSize: 0x1C8 }
+  - { offset: 0xB6EE1, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip7BarViewC014updateSelectedD8Position33_41F1AFAC657F278B208EE8A67607DE29LL4withySb_tFyycfU_Tf2ni_n', symObjAddr: 0x570, symBinAddr: 0x52D4, symSize: 0xB8 }
+  - { offset: 0xB6F42, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip7BarViewC6moveTo5index8animatedySi_SbtF', symObjAddr: 0x628, symBinAddr: 0x538C, symSize: 0x14 }
+  - { offset: 0xB6F86, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip7BarViewC6moveTo5index8animatedySi_SbtF', symObjAddr: 0x628, symBinAddr: 0x538C, symSize: 0x14 }
+  - { offset: 0xB6FA9, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip7BarViewC4move9fromIndex02toH018progressPercentageySi_Si12CoreGraphics7CGFloatVtF', symObjAddr: 0x63C, symBinAddr: 0x53A0, symSize: 0xFC }
+  - { offset: 0xB7140, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip7BarViewC14layoutSubviewsyyF', symObjAddr: 0x738, symBinAddr: 0x549C, symSize: 0xEC }
+  - { offset: 0xB7206, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip7BarViewC14layoutSubviewsyyFTo', symObjAddr: 0x824, symBinAddr: 0x5588, symSize: 0x28 }
+  - { offset: 0xB721A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip7BarViewCfD', symObjAddr: 0x84C, symBinAddr: 0x55B0, symSize: 0x30 }
+  - { offset: 0xB79DA, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsVWOr', symObjAddr: 0xB8, symBinAddr: 0x5830, symSize: 0x64 }
+  - { offset: 0xB79EE, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC06buttonF8ItemSpecAA0efkL0OyxGSgvpSo012UICollectionH4CellCRbzlACyxGTk', symObjAddr: 0x218, symBinAddr: 0x5990, symSize: 0x58 }
+  - { offset: 0xB7A11, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarItemSpecOyxGSgSo20UICollectionViewCellCRbzlWOy', symObjAddr: 0x2D8, symBinAddr: 0x5A50, symSize: 0x18 }
+  - { offset: 0xB7A25, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarItemSpecOyxGSo20UICollectionViewCellCRbzlWOy', symObjAddr: 0x2F0, symBinAddr: 0x5A68, symSize: 0x48 }
+  - { offset: 0xB7A39, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarItemSpecOyxGSo20UICollectionViewCellCRbzlWOe', symObjAddr: 0x3C4, symBinAddr: 0x5B3C, symSize: 0x3C }
+  - { offset: 0xB7A4D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC18changeCurrentIndexyxSg_AESbtcSgvpSo012UICollectionH4CellCRbzlACyxGTK', symObjAddr: 0x448, symBinAddr: 0x5BBC, symSize: 0x80 }
+  - { offset: 0xB7A88, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC18changeCurrentIndexyxSg_AESbtcSgvpSo012UICollectionH4CellCRbzlACyxGTk', symObjAddr: 0x4C8, symBinAddr: 0x5C3C, symSize: 0x8C }
+  - { offset: 0xB7AAF, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC29changeCurrentIndexProgressiveyxSg_AE12CoreGraphics7CGFloatVS2btcSgvpSo012UICollectionH4CellCRbzlACyxGTK', symObjAddr: 0x5E4, symBinAddr: 0x5D58, symSize: 0x80 }
+  - { offset: 0xB7AEA, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC29changeCurrentIndexProgressiveyxSg_AE12CoreGraphics7CGFloatVS2btcSgvpSo012UICollectionH4CellCRbzlACyxGTk', symObjAddr: 0x664, symBinAddr: 0x5DD8, symSize: 0x8C }
+  - { offset: 0xB7DA7, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerCfE', symObjAddr: 0x4408, symBinAddr: 0x9ACC, symSize: 0xC4 }
+  - { offset: 0xB7DD4, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerCfETo', symObjAddr: 0x4518, symBinAddr: 0x9BDC, symSize: 0xD0 }
+  - { offset: 0xB7EF1, size: 0x8, addend: 0x0, symName: '_$sxSgq_Sg12CoreGraphics7CGFloatVS2bRlzCRl_CRi_zRi0_zRi__Ri0__r0_lyxxIsegggyyy_SgSo20UICollectionViewCellCRbzlWOy', symObjAddr: 0x4F64, symBinAddr: 0xA5A8, symSize: 0x10 }
+  - { offset: 0xB7F05, size: 0x8, addend: 0x0, symName: '_$sxSgq_Sg12CoreGraphics7CGFloatVS2bRlzCRl_CRi_zRi0_zRi__Ri0__r0_lyxxIsegggyyy_SgSo20UICollectionViewCellCRbzlWOe', symObjAddr: 0x4F74, symBinAddr: 0xA5B8, symSize: 0x10 }
+  - { offset: 0xB7F19, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerCMa', symObjAddr: 0x4FD4, symBinAddr: 0xA618, symSize: 0xC }
+  - { offset: 0xB7F43, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x5614, symBinAddr: 0xAC58, symSize: 0x40 }
+  - { offset: 0xB7F57, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_1, symObjAddr: 0x5654, symBinAddr: 0xAC98, symSize: 0x24 }
+  - { offset: 0xB7F6B, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoVWOh', symObjAddr: 0x5678, symBinAddr: 0xACBC, symSize: 0x34 }
+  - { offset: 0xB7F7F, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_1, symObjAddr: 0x56AC, symBinAddr: 0xACF0, symSize: 0x20 }
+  - { offset: 0xB7F93, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip025ExampleBaseButtonBarPagerbC14ViewControllerCMa', symObjAddr: 0x5704, symBinAddr: 0xAD48, symSize: 0x3C }
+  - { offset: 0xB7FA7, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip025ExampleBaseButtonBarPagerbC14ViewControllerC10initializeyyF12CoreGraphics7CGFloatVAA13IndicatorInfoVcfU_TA', symObjAddr: 0x5764, symBinAddr: 0xADA8, symSize: 0x8 }
+  - { offset: 0xB7FBB, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarItemSpecOyAA0dE8ViewCellCGSgWOe', symObjAddr: 0x576C, symBinAddr: 0xADB0, symSize: 0x18 }
+  - { offset: 0xB7FCF, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerCMi', symObjAddr: 0x58FC, symBinAddr: 0xAF40, symSize: 0x4 }
+  - { offset: 0xB7FE3, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerCMr', symObjAddr: 0x5900, symBinAddr: 0xAF44, symSize: 0x74 }
+  - { offset: 0xB7FF7, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip025ExampleBaseButtonBarPagerbC14ViewControllerCMr', symObjAddr: 0x5C04, symBinAddr: 0xB210, symSize: 0x34 }
+  - { offset: 0xB800B, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip025ExampleBaseButtonBarPagerbC14ViewControllerCMU', symObjAddr: 0x5C60, symBinAddr: 0xB26C, symSize: 0x8 }
+  - { offset: 0xB801F, size: 0x8, addend: 0x0, symName: '_$sSay12CoreGraphics7CGFloatVGSgSgWOe', symObjAddr: 0x5C68, symBinAddr: 0xB274, symSize: 0x10 }
+  - { offset: 0xB8033, size: 0x8, addend: 0x0, symName: '_$sSay12CoreGraphics7CGFloatVGSgSgWOy', symObjAddr: 0x5C78, symBinAddr: 0xB284, symSize: 0x10 }
+  - { offset: 0xB8052, size: 0x8, addend: 0x0, symName: '_$sxSgAA12CoreGraphics7CGFloatVS2bytIegnnnnnr_A2aDS2bIegggyyy_So20UICollectionViewCellCRbzlTRTA', symObjAddr: 0x5CAC, symBinAddr: 0xB2B8, symSize: 0x4C }
+  - { offset: 0xB8086, size: 0x8, addend: 0x0, symName: '_$sxSgAA12CoreGraphics7CGFloatVS2bIegggyyy_A2aDS2bytIegnnnnnr_So20UICollectionViewCellCRbzlTRTA', symObjAddr: 0x5CF8, symBinAddr: 0xB304, symSize: 0x34 }
+  - { offset: 0xB80BA, size: 0x8, addend: 0x0, symName: '_$sxSgAASbytIegnnnr_A2ASbIegggy_So20UICollectionViewCellCRbzlTRTA', symObjAddr: 0x5D2C, symBinAddr: 0xB338, symSize: 0x3C }
+  - { offset: 0xB80EE, size: 0x8, addend: 0x0, symName: '_$sxSgAASbIegggy_A2ASbytIegnnnr_So20UICollectionViewCellCRbzlTRTA', symObjAddr: 0x5D68, symBinAddr: 0xB374, symSize: 0x2C }
+  - { offset: 0xB8117, size: 0x8, addend: 0x0, symName: ___swift_instantiateGenericMetadata, symObjAddr: 0x5D94, symBinAddr: 0xB3A0, symSize: 0x2C }
+  - { offset: 0xB813E, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC8settingsAA0efgbC8SettingsVvg', symObjAddr: 0x0, symBinAddr: 0x5778, symSize: 0xB8 }
+  - { offset: 0xB8163, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC8settingsAA0efgbC8SettingsVvs', symObjAddr: 0x11C, symBinAddr: 0x5894, symSize: 0xB8 }
+  - { offset: 0xB8198, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC8settingsAA0efgbC8SettingsVvM', symObjAddr: 0x1D4, symBinAddr: 0x594C, symSize: 0x44 }
+  - { offset: 0xB845A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC06buttonF8ItemSpecAA0efkL0OyxGSgvg', symObjAddr: 0x270, symBinAddr: 0x59E8, symSize: 0x68 }
+  - { offset: 0xB847F, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC06buttonF8ItemSpecAA0efkL0OyxGSgvs', symObjAddr: 0x338, symBinAddr: 0x5AB0, symSize: 0x8C }
+  - { offset: 0xB84B4, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC06buttonF8ItemSpecAA0efkL0OyxGSgvM', symObjAddr: 0x400, symBinAddr: 0x5B78, symSize: 0x44 }
+  - { offset: 0xB84E0, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC18changeCurrentIndexyxSg_AESbtcSgvg', symObjAddr: 0x554, symBinAddr: 0x5CC8, symSize: 0x38 }
+  - { offset: 0xB84F4, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC18changeCurrentIndexyxSg_AESbtcSgvM', symObjAddr: 0x5A0, symBinAddr: 0x5D14, symSize: 0x44 }
+  - { offset: 0xB8520, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC29changeCurrentIndexProgressiveyxSg_AE12CoreGraphics7CGFloatVS2btcSgvg', symObjAddr: 0x6F0, symBinAddr: 0x5E64, symSize: 0x38 }
+  - { offset: 0xB8534, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC29changeCurrentIndexProgressiveyxSg_AE12CoreGraphics7CGFloatVS2btcSgvM', symObjAddr: 0x798, symBinAddr: 0x5F0C, symSize: 0x44 }
+  - { offset: 0xB8559, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC06buttonfH0AA0efH0CSgvgTo', symObjAddr: 0x7DC, symBinAddr: 0x5F50, symSize: 0x20 }
+  - { offset: 0xB856D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC06buttonfH0AA0efH0CSgvg', symObjAddr: 0x7FC, symBinAddr: 0x5F70, symSize: 0x48 }
+  - { offset: 0xB8593, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC06buttonfH0AA0efH0CSgvsTo', symObjAddr: 0x844, symBinAddr: 0x5FB8, symSize: 0x24 }
+  - { offset: 0xB85BD, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC06buttonfH0AA0efH0CSgvs', symObjAddr: 0x868, symBinAddr: 0x5FDC, symSize: 0x24 }
+  - { offset: 0xB85D1, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC06buttonfH0AA0efH0CSgvM', symObjAddr: 0x88C, symBinAddr: 0x6000, symSize: 0x70 }
+  - { offset: 0xB85F6, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC16cachedCellWidths33_0C65F4472122B3836C588BED034F4DA5LLSay12CoreGraphics7CGFloatVGSgvg', symObjAddr: 0x968, symBinAddr: 0x6070, symSize: 0xA4 }
+  - { offset: 0xB8690, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC16cachedCellWidths33_0C65F4472122B3836C588BED034F4DA5LLSay12CoreGraphics7CGFloatVGSgvs', symObjAddr: 0xA0C, symBinAddr: 0x6114, symSize: 0x18 }
+  - { offset: 0xB86D1, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC7nibName6bundleACyxGSSSg_So8NSBundleCSgtcfc', symObjAddr: 0xA28, symBinAddr: 0x6130, symSize: 0x270 }
+  - { offset: 0xB87BF, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC7nibName6bundleACyxGSSSg_So8NSBundleCSgtcfcTo', symObjAddr: 0xC98, symBinAddr: 0x63A0, symSize: 0x60 }
+  - { offset: 0xB87D9, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC5coderACyxGSgSo7NSCoderC_tcfc', symObjAddr: 0xD3C, symBinAddr: 0x6400, symSize: 0x240 }
+  - { offset: 0xB8837, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC5coderACyxGSgSo7NSCoderC_tcfcTo', symObjAddr: 0xF7C, symBinAddr: 0x6640, symSize: 0x28 }
+  - { offset: 0xB8A9E, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC11viewDidLoadyyF', symObjAddr: 0xFA4, symBinAddr: 0x6668, symSize: 0x1020 }
+  - { offset: 0xB905E, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC11viewDidLoadyyFAA0efH0CyKXEfu_AFyXEfU_', symObjAddr: 0x1FC4, symBinAddr: 0x7688, symSize: 0x538 }
+  - { offset: 0xB9271, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC11viewDidLoadyyFTo', symObjAddr: 0x24FC, symBinAddr: 0x7BC0, symSize: 0x28 }
+  - { offset: 0xB92AC, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC14viewWillAppearyySbF', symObjAddr: 0x2524, symBinAddr: 0x7BE8, symSize: 0xB8 }
+  - { offset: 0xB9364, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC14viewWillAppearyySbFTo', symObjAddr: 0x25DC, symBinAddr: 0x7CA0, symSize: 0x30 }
+  - { offset: 0xB9378, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC13viewDidAppearyySbF', symObjAddr: 0x260C, symBinAddr: 0x7CD0, symSize: 0x6C }
+  - { offset: 0xB93E0, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC13viewDidAppearyySbFTo', symObjAddr: 0x2678, symBinAddr: 0x7D3C, symSize: 0x30 }
+  - { offset: 0xB9443, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC21viewDidLayoutSubviewsyyF', symObjAddr: 0x26A8, symBinAddr: 0x7D6C, symSize: 0x264 }
+  - { offset: 0xB9573, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC21viewDidLayoutSubviewsyyFTo', symObjAddr: 0x290C, symBinAddr: 0x7FD0, symSize: 0x28 }
+  - { offset: 0xB9587, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC18viewWillTransition2to4withySo6CGSizeV_So06UIViewiL11Coordinator_ptF', symObjAddr: 0x2934, symBinAddr: 0x7FF8, symSize: 0x74 }
+  - { offset: 0xB95DA, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC18viewWillTransition2to4withySo6CGSizeV_So06UIViewiL11Coordinator_ptFTo', symObjAddr: 0x29A8, symBinAddr: 0x806C, symSize: 0x60 }
+  - { offset: 0xB95EE, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC06reloadgbcH0yyF', symObjAddr: 0x2A08, symBinAddr: 0x80CC, symSize: 0x12C }
+  - { offset: 0xB96A8, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC28calculateStretchedCellWidths_09suggestedkL5Width26previousNumberOfLargeCells12CoreGraphics7CGFloatVSayAIG_AISitF', symObjAddr: 0x2B34, symBinAddr: 0x81F8, symSize: 0x20C }
+  - { offset: 0xB9953, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC15updateIndicator3for9fromIndex02toN0yAA0gbchI0C_S2itF', symObjAddr: 0x2D40, symBinAddr: 0x8404, symSize: 0x34C }
+  - { offset: 0xB9AF5, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC15updateIndicator3for9fromIndex02toN022withProgressPercentage15indexWasChangedyAA0gbchI0C_S2i12CoreGraphics7CGFloatVSbtF', symObjAddr: 0x308C, symBinAddr: 0x8750, symSize: 0x368 }
+  - { offset: 0xB9CBF, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC010collectionH0_6layout22sizeForItemAtIndexPathSo6CGSizeVSo012UICollectionH0C_So0sH6LayoutC10Foundation0pQ0VtF', symObjAddr: 0x33F4, symBinAddr: 0x8AB8, symSize: 0x8 }
+  - { offset: 0xB9CDA, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC010collectionH0_6layout22sizeForItemAtIndexPathSo6CGSizeVSo012UICollectionH0C_So0sH6LayoutC10Foundation0pQ0VtFTo', symObjAddr: 0x33FC, symBinAddr: 0x8AC0, symSize: 0xE8 }
+  - { offset: 0xB9D04, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC010collectionH0_15didSelectItemAtySo012UICollectionH0C_10Foundation9IndexPathVtF', symObjAddr: 0x34E4, symBinAddr: 0x8BA8, symSize: 0x8 }
+  - { offset: 0xB9D1F, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC010collectionH0_15didSelectItemAtySo012UICollectionH0C_10Foundation9IndexPathVtFTo', symObjAddr: 0x34EC, symBinAddr: 0x8BB0, symSize: 0xAC }
+  - { offset: 0xB9D49, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC010collectionH0_22numberOfItemsInSectionSiSo012UICollectionH0C_SitF', symObjAddr: 0x3598, symBinAddr: 0x8C5C, symSize: 0x4 }
+  - { offset: 0xB9D64, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC010collectionH0_22numberOfItemsInSectionSiSo012UICollectionH0C_SitFTo', symObjAddr: 0x359C, symBinAddr: 0x8C60, symSize: 0x58 }
+  - { offset: 0xB9D95, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC010collectionH0_13cellForItemAtSo012UICollectionH4CellCSo0oH0C_10Foundation9IndexPathVtF', symObjAddr: 0x35F4, symBinAddr: 0x8CB8, symSize: 0x3EC }
+  - { offset: 0xB9F46, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC010collectionH0_13cellForItemAtSo012UICollectionH4CellCSo0oH0C_10Foundation9IndexPathVtFTo', symObjAddr: 0x39E0, symBinAddr: 0x90A4, symSize: 0xB8 }
+  - { offset: 0xB9FCA, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC06scrollH24DidEndScrollingAnimationyySo08UIScrollH0CF', symObjAddr: 0x3A98, symBinAddr: 0x915C, symSize: 0x1FC }
+  - { offset: 0xBA0C1, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC06scrollH24DidEndScrollingAnimationyySo08UIScrollH0CFTo', symObjAddr: 0x3C94, symBinAddr: 0x9358, symSize: 0x50 }
+  - { offset: 0xBA0DB, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC9configure4cell3foryx_AA13IndicatorInfoVtF', symObjAddr: 0x3CE4, symBinAddr: 0x93A8, symSize: 0x58 }
+  - { offset: 0xBA117, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC15calculateWidths33_0C65F4472122B3836C588BED034F4DA5LLSay12CoreGraphics7CGFloatVGyF', symObjAddr: 0x3D3C, symBinAddr: 0x9400, symSize: 0x6AC }
+  - { offset: 0xBA89A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC012shouldUpdateefH033_0C65F4472122B3836C588BED034F4DA5LLSbvg', symObjAddr: 0x43E8, symBinAddr: 0x9AAC, symSize: 0x10 }
+  - { offset: 0xBA8B7, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC012shouldUpdateefH033_0C65F4472122B3836C588BED034F4DA5LLSbvs', symObjAddr: 0x43F8, symBinAddr: 0x9ABC, symSize: 0x10 }
+  - { offset: 0xBA8DA, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerCfD', symObjAddr: 0x44CC, symBinAddr: 0x9B90, symSize: 0x4C }
+  - { offset: 0xBA90B, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerCyxGAA0gbC21IsProgressiveDelegateA2aEP15updateIndicator3for9fromIndex02toQ022withProgressPercentage15indexWasChangedyAA0gbchI0C_S2i12CoreGraphics7CGFloatVSbtFTW', symObjAddr: 0x45E8, symBinAddr: 0x9CAC, symSize: 0x1C }
+  - { offset: 0xBA91F, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerCyxGAA0gbC8DelegateA2aEP15updateIndicator3for9fromIndex02toO0yAA0gbchI0C_S2itFTW', symObjAddr: 0x4604, symBinAddr: 0x9CC8, symSize: 0x1C }
+  - { offset: 0xBA933, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip025ExampleBaseButtonBarPagerbC14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc', symObjAddr: 0x46A0, symBinAddr: 0x9CE4, symSize: 0xB8 }
+  - { offset: 0xBA9A4, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip025ExampleBaseButtonBarPagerbC14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo', symObjAddr: 0x4758, symBinAddr: 0x9D9C, symSize: 0xE0 }
+  - { offset: 0xBA9DC, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip025ExampleBaseButtonBarPagerbC14ViewControllerC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0x4838, symBinAddr: 0x9E7C, symSize: 0x90 }
+  - { offset: 0xBAA2C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip025ExampleBaseButtonBarPagerbC14ViewControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x48C8, symBinAddr: 0x9F0C, symSize: 0xA4 }
+  - { offset: 0xBAAAF, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip025ExampleBaseButtonBarPagerbC14ViewControllerC10initializeyyF', symObjAddr: 0x496C, symBinAddr: 0x9FB0, symSize: 0x1D0 }
+  - { offset: 0xBAB54, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip025ExampleBaseButtonBarPagerbC14ViewControllerC10initializeyyF12CoreGraphics7CGFloatVAA13IndicatorInfoVcfU_', symObjAddr: 0x4B3C, symBinAddr: 0xA180, symSize: 0x1F4 }
+  - { offset: 0xBAC54, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip025ExampleBaseButtonBarPagerbC14ViewControllerC9configure4cell3foryAA0fgI4CellC_AA13IndicatorInfoVtF', symObjAddr: 0x4D30, symBinAddr: 0xA374, symSize: 0x1C0 }
+  - { offset: 0xBAD0A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip025ExampleBaseButtonBarPagerbC14ViewControllerCfD', symObjAddr: 0x4EF0, symBinAddr: 0xA534, symSize: 0x34 }
+  - { offset: 0xBAD2E, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC06buttonfH0AA0efH0CSgvsTf4gn_n', symObjAddr: 0x4F84, symBinAddr: 0xA5C8, symSize: 0x50 }
+  - { offset: 0xBAD72, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC010collectionH0_6layout22sizeForItemAtIndexPathSo6CGSizeVSo012UICollectionH0C_So0sH6LayoutC10Foundation0pQ0VtFTf4ndnn_n', symObjAddr: 0x5044, symBinAddr: 0xA688, symSize: 0x1AC }
+  - { offset: 0xBAE65, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC010collectionH0_15didSelectItemAtySo012UICollectionH0C_10Foundation9IndexPathVtFTf4dnn_n', symObjAddr: 0x51F0, symBinAddr: 0xA834, symSize: 0x3B8 }
+  - { offset: 0xBB018, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip018BaseButtonBarPagerbC14ViewControllerC010collectionH0_22numberOfItemsInSectionSiSo012UICollectionH0C_SitFTf4ddn_n', symObjAddr: 0x55A8, symBinAddr: 0xABEC, symSize: 0x6C }
+  - { offset: 0xBBDF8, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC8settingsAA0defbC8SettingsVvpACTk', symObjAddr: 0x50C, symBinAddr: 0xB7E0, symSize: 0xF0 }
+  - { offset: 0xBBE32, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC06buttonE8ItemSpecAA0dejK0OyAA0deG4CellCGSgvpACTK', symObjAddr: 0x814, symBinAddr: 0xBA84, symSize: 0x6C }
+  - { offset: 0xBBE70, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC06buttonE8ItemSpecAA0dejK0OyAA0deG4CellCGSgvpACTk', symObjAddr: 0x880, symBinAddr: 0xBAF0, symSize: 0xD0 }
+  - { offset: 0xBBEAA, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC18changeCurrentIndexyAA0deG4CellCSg_AGSbtcSgvpACTK', symObjAddr: 0xB40, symBinAddr: 0xBCF8, symSize: 0x94 }
+  - { offset: 0xBBEE2, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC18changeCurrentIndexyAA0deG4CellCSg_AGSbtcSgvpACTk', symObjAddr: 0xBD4, symBinAddr: 0xBD8C, symSize: 0xB8 }
+  - { offset: 0xBBF24, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC29changeCurrentIndexProgressiveyAA0deG4CellCSg_AG12CoreGraphics7CGFloatVS2btcSgvpACTK', symObjAddr: 0xCF8, symBinAddr: 0xBEB0, symSize: 0x94 }
+  - { offset: 0xBBF5C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC29changeCurrentIndexProgressiveyAA0deG4CellCSg_AG12CoreGraphics7CGFloatVS2btcSgvpACTk', symObjAddr: 0xD8C, symBinAddr: 0xBF44, symSize: 0xB8 }
+  - { offset: 0xBBF9E, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerCMa', symObjAddr: 0x1524, symBinAddr: 0xC578, symSize: 0x20 }
+  - { offset: 0xBBFB2, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC11viewDidLoadyyF12CoreGraphics7CGFloatVAA13IndicatorInfoVcfU_TA', symObjAddr: 0x2218, symBinAddr: 0xD228, symSize: 0x8 }
+  - { offset: 0xBC2BD, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerCfE', symObjAddr: 0x4898, symBinAddr: 0xF7B0, symSize: 0xC4 }
+  - { offset: 0xBC2EA, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerCfETo', symObjAddr: 0x498C, symBinAddr: 0xF8A4, symSize: 0xD0 }
+  - { offset: 0xBC319, size: 0x8, addend: 0x0, symName: '_$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF15XLPagerTabStrip17ButtonBarViewCellCSg_Tg5', symObjAddr: 0x4AE4, symBinAddr: 0xF974, symSize: 0x1C }
+  - { offset: 0xBC37E, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF15XLPagerTabStrip17ButtonBarViewCellCSg_Tg5', symObjAddr: 0x4B00, symBinAddr: 0xF990, symSize: 0x120 }
+  - { offset: 0xBC504, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarItemSpecOMi', symObjAddr: 0x5A10, symBinAddr: 0x107F0, symSize: 0x8 }
+  - { offset: 0xBC518, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarItemSpecOwxx', symObjAddr: 0x5A18, symBinAddr: 0x107F8, symSize: 0x18 }
+  - { offset: 0xBC52C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarItemSpecOwcp', symObjAddr: 0x5A30, symBinAddr: 0x10810, symSize: 0x74 }
+  - { offset: 0xBC540, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarItemSpecOwca', symObjAddr: 0x5AA4, symBinAddr: 0x10884, symSize: 0x88 }
+  - { offset: 0xBC554, size: 0x8, addend: 0x0, symName: ___swift_memcpy41_8, symObjAddr: 0x5B2C, symBinAddr: 0x1090C, symSize: 0x14 }
+  - { offset: 0xBC568, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarItemSpecOwta', symObjAddr: 0x5B40, symBinAddr: 0x10920, symSize: 0x50 }
+  - { offset: 0xBC57C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarItemSpecOwet', symObjAddr: 0x5B90, symBinAddr: 0x10970, symSize: 0x48 }
+  - { offset: 0xBC590, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarItemSpecOwst', symObjAddr: 0x5BD8, symBinAddr: 0x109B8, symSize: 0x50 }
+  - { offset: 0xBC5A4, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarItemSpecOwug', symObjAddr: 0x5C28, symBinAddr: 0x10A08, symSize: 0x8 }
+  - { offset: 0xBC5B8, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarItemSpecOwui', symObjAddr: 0x5C34, symBinAddr: 0x10A10, symSize: 0xC }
+  - { offset: 0xBC5CC, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarItemSpecOMa', symObjAddr: 0x5C40, symBinAddr: 0x10A1C, symSize: 0xC }
+  - { offset: 0xBC5E0, size: 0x8, addend: 0x0, symName: ___swift_memcpy145_8, symObjAddr: 0x5C58, symBinAddr: 0x10A34, symSize: 0x34 }
+  - { offset: 0xBC5F4, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsVMa', symObjAddr: 0x5C98, symBinAddr: 0x10A74, symSize: 0x10 }
+  - { offset: 0xBC608, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleVMa', symObjAddr: 0x609C, symBinAddr: 0x10E30, symSize: 0x10 }
+  - { offset: 0xBC627, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellCSgAD12CoreGraphics7CGFloatVS2bytIegnnnnnr_A2dGS2bIegggyyy_TRTA', symObjAddr: 0x6370, symBinAddr: 0x10EA8, symSize: 0x4C }
+  - { offset: 0xBC65B, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellCSgAD12CoreGraphics7CGFloatVS2bIegggyyy_A2dGS2bytIegnnnnnr_TRTA', symObjAddr: 0x63BC, symBinAddr: 0x10EF4, symSize: 0x34 }
+  - { offset: 0xBC68F, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellCSgADSbytIegnnnr_A2DSbIegggy_TRTA', symObjAddr: 0x63F0, symBinAddr: 0x10F28, symSize: 0x3C }
+  - { offset: 0xBC6C3, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellCSgADSbIegggy_A2DSbytIegnnnr_TRTA', symObjAddr: 0x642C, symBinAddr: 0x10F64, symSize: 0x2C }
+  - { offset: 0xBC6EC, size: 0x8, addend: 0x0, symName: '_$s10Foundation9IndexPathVSgWOh', symObjAddr: 0x6458, symBinAddr: 0x10F90, symSize: 0x40 }
+  - { offset: 0xBC727, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarItemSpecO6weighty12CoreGraphics7CGFloatVAA13IndicatorInfoVcvg', symObjAddr: 0x0, symBinAddr: 0xB3F4, symSize: 0x4C }
+  - { offset: 0xBCADB, size: 0x8, addend: 0x0, symName: '_$sSTsE10compactMapySayqd__Gqd__Sg7ElementQzKXEKlFs18EnumeratedSequenceVySay15XLPagerTabStrip17ButtonBarViewCellCSgGG_10Foundation9IndexPathVTg504$s15fg8Strip014ij9PagerbC14k95ControllerC12cellForItems33_0CF27031E34C35EB5EAF50A7E0F72A93LL2at18reloadIfNotVisibleSayAA0deG4l20CSgGSay10Foundation9nO40VG_SbtFANSgSi6offset_AJ7elementt_tXEfU0_SayAPGTf1cn_nTf4ng_n', symObjAddr: 0x4C20, symBinAddr: 0xFAB0, symSize: 0x25C }
+  - { offset: 0xBCD28, size: 0x8, addend: 0x0, symName: '_$sSTsE10compactMapySayqd__Gqd__Sg7ElementQzKXEKlFSay10Foundation9IndexPathVG_AHTg50163$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC12cellForItems33_0CF27031E34C35EB5EAF50A7E0F72A93LL2at18reloadIfNotVisibleSayAA0deG4CellCSgGSay10Foundation9eF19VG_SbtFANSgANXEfU1_0hI5Strip0kl5Pageri5StripoP0CTf1cn_nTf4ng_n', symObjAddr: 0x4E7C, symBinAddr: 0xFD0C, symSize: 0x3E0 }
+  - { offset: 0xBCFDD, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE23MinimumInteritemSpacing12CoreGraphics7CGFloatVSgvg', symObjAddr: 0xB0, symBinAddr: 0xB440, symSize: 0xC }
+  - { offset: 0xBCFF1, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE23MinimumInteritemSpacing12CoreGraphics7CGFloatVSgvs', symObjAddr: 0xBC, symBinAddr: 0xB44C, symSize: 0x10 }
+  - { offset: 0xBD042, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE18MinimumLineSpacing12CoreGraphics7CGFloatVSgvg', symObjAddr: 0xE0, symBinAddr: 0xB45C, symSize: 0xC }
+  - { offset: 0xBD056, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE18MinimumLineSpacing12CoreGraphics7CGFloatVSgvs', symObjAddr: 0xEC, symBinAddr: 0xB468, symSize: 0x10 }
+  - { offset: 0xBD08A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE18MinimumLineSpacing12CoreGraphics7CGFloatVSgvM', symObjAddr: 0xFC, symBinAddr: 0xB478, symSize: 0x10 }
+  - { offset: 0xBD0AE, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE16LeftContentInset12CoreGraphics7CGFloatVSgvg', symObjAddr: 0x110, symBinAddr: 0xB488, symSize: 0xC }
+  - { offset: 0xBD0C2, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE16LeftContentInset12CoreGraphics7CGFloatVSgvs', symObjAddr: 0x11C, symBinAddr: 0xB494, symSize: 0x10 }
+  - { offset: 0xBD0F6, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE16LeftContentInset12CoreGraphics7CGFloatVSgvM', symObjAddr: 0x12C, symBinAddr: 0xB4A4, symSize: 0x10 }
+  - { offset: 0xBD11A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE17RightContentInset12CoreGraphics7CGFloatVSgvg', symObjAddr: 0x140, symBinAddr: 0xB4B4, symSize: 0xC }
+  - { offset: 0xBD12E, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE17RightContentInset12CoreGraphics7CGFloatVSgvs', symObjAddr: 0x14C, symBinAddr: 0xB4C0, symSize: 0x10 }
+  - { offset: 0xBD162, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE17RightContentInset12CoreGraphics7CGFloatVSgvM', symObjAddr: 0x15C, symBinAddr: 0xB4D0, symSize: 0x10 }
+  - { offset: 0xBD1E0, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV08selectedE15BackgroundColorSo7UIColorCvg', symObjAddr: 0x170, symBinAddr: 0xB4E0, symSize: 0x8 }
+  - { offset: 0xBD1F4, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV08selectedE15BackgroundColorSo7UIColorCvs', symObjAddr: 0x178, symBinAddr: 0xB4E8, symSize: 0x28 }
+  - { offset: 0xBD229, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV08selectedE15BackgroundColorSo7UIColorCvM', symObjAddr: 0x1A0, symBinAddr: 0xB510, symSize: 0x10 }
+  - { offset: 0xBD24D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV08selectedE6Height12CoreGraphics7CGFloatVvg', symObjAddr: 0x1B4, symBinAddr: 0xB520, symSize: 0x8 }
+  - { offset: 0xBD261, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV08selectedE6Height12CoreGraphics7CGFloatVvs', symObjAddr: 0x1BC, symBinAddr: 0xB528, symSize: 0x8 }
+  - { offset: 0xBD294, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV08selectedE6Height12CoreGraphics7CGFloatVvM', symObjAddr: 0x1C4, symBinAddr: 0xB530, symSize: 0x10 }
+  - { offset: 0xBD2B8, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV08selectedE17VerticalAlignmentAA08SelectedejK0Ovg', symObjAddr: 0x1D8, symBinAddr: 0xB540, symSize: 0xC }
+  - { offset: 0xBD2CC, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV08selectedE17VerticalAlignmentAA08SelectedejK0Ovs', symObjAddr: 0x1E4, symBinAddr: 0xB54C, symSize: 0xC }
+  - { offset: 0xBD300, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV08selectedE17VerticalAlignmentAA08SelectedejK0OvM', symObjAddr: 0x1F0, symBinAddr: 0xB558, symSize: 0x10 }
+  - { offset: 0xBD324, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE19ItemBackgroundColorSo7UIColorCSgvg', symObjAddr: 0x204, symBinAddr: 0xB568, symSize: 0x28 }
+  - { offset: 0xBD338, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE19ItemBackgroundColorSo7UIColorCSgvs', symObjAddr: 0x22C, symBinAddr: 0xB590, symSize: 0x28 }
+  - { offset: 0xBD36D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE19ItemBackgroundColorSo7UIColorCSgvM', symObjAddr: 0x254, symBinAddr: 0xB5B8, symSize: 0x10 }
+  - { offset: 0xBD391, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE8ItemFontSo6UIFontCvg', symObjAddr: 0x268, symBinAddr: 0xB5C8, symSize: 0x8 }
+  - { offset: 0xBD3A5, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE8ItemFontSo6UIFontCvs', symObjAddr: 0x270, symBinAddr: 0xB5D0, symSize: 0x28 }
+  - { offset: 0xBD3DA, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE8ItemFontSo6UIFontCvM', symObjAddr: 0x298, symBinAddr: 0xB5F8, symSize: 0x10 }
+  - { offset: 0xBD3FE, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE19ItemLeftRightMargin12CoreGraphics7CGFloatVvg', symObjAddr: 0x2AC, symBinAddr: 0xB608, symSize: 0x8 }
+  - { offset: 0xBD412, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE19ItemLeftRightMargin12CoreGraphics7CGFloatVvs', symObjAddr: 0x2B4, symBinAddr: 0xB610, symSize: 0x8 }
+  - { offset: 0xBD445, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE19ItemLeftRightMargin12CoreGraphics7CGFloatVvM', symObjAddr: 0x2BC, symBinAddr: 0xB618, symSize: 0x10 }
+  - { offset: 0xBD469, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE14ItemTitleColorSo7UIColorCSgvg', symObjAddr: 0x2D0, symBinAddr: 0xB628, symSize: 0x28 }
+  - { offset: 0xBD47D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE14ItemTitleColorSo7UIColorCSgvs', symObjAddr: 0x2F8, symBinAddr: 0xB650, symSize: 0x28 }
+  - { offset: 0xBD4B2, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE14ItemTitleColorSo7UIColorCSgvM', symObjAddr: 0x320, symBinAddr: 0xB678, symSize: 0x10 }
+  - { offset: 0xBD4D6, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE29ItemsShouldFillAvailableWidthSbvg', symObjAddr: 0x334, symBinAddr: 0xB688, symSize: 0x8 }
+  - { offset: 0xBD4EA, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE29ItemsShouldFillAvailableWidthSbvs', symObjAddr: 0x33C, symBinAddr: 0xB690, symSize: 0x8 }
+  - { offset: 0xBD51A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE29ItemsShouldFillAvailableWidthSbvM', symObjAddr: 0x344, symBinAddr: 0xB698, symSize: 0x10 }
+  - { offset: 0xBD53E, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE6Height12CoreGraphics7CGFloatVSgvg', symObjAddr: 0x358, symBinAddr: 0xB6A8, symSize: 0xC }
+  - { offset: 0xBD552, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE6Height12CoreGraphics7CGFloatVSgvs', symObjAddr: 0x364, symBinAddr: 0xB6B4, symSize: 0x10 }
+  - { offset: 0xBD586, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5StyleV06buttonE6Height12CoreGraphics7CGFloatVSgvM', symObjAddr: 0x374, symBinAddr: 0xB6C4, symSize: 0x10 }
+  - { offset: 0xBD5AA, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5styleAC5StyleVvg', symObjAddr: 0x388, symBinAddr: 0xB6D4, symSize: 0x80 }
+  - { offset: 0xBD5BE, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC8SettingsV5styleAC5StyleVvs', symObjAddr: 0x408, symBinAddr: 0xB754, symSize: 0x8C }
+  - { offset: 0xBD61D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC8settingsAA0defbC8SettingsVvg', symObjAddr: 0x5FC, symBinAddr: 0xB8D0, symSize: 0xB8 }
+  - { offset: 0xBD63C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC8settingsAA0defbC8SettingsVvs', symObjAddr: 0x718, symBinAddr: 0xB988, symSize: 0xB8 }
+  - { offset: 0xBD665, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC8settingsAA0defbC8SettingsVvM', symObjAddr: 0x7D0, symBinAddr: 0xBA40, symSize: 0x44 }
+  - { offset: 0xBD6C3, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC06buttonE8ItemSpecAA0dejK0OyAA0deG4CellCGSgvg', symObjAddr: 0x950, symBinAddr: 0xBBC0, symSize: 0x68 }
+  - { offset: 0xBD6E2, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC06buttonE8ItemSpecAA0dejK0OyAA0deG4CellCGSgvs', symObjAddr: 0xA18, symBinAddr: 0xBC28, symSize: 0x8C }
+  - { offset: 0xBD70B, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC06buttonE8ItemSpecAA0dejK0OyAA0deG4CellCGSgvM', symObjAddr: 0xAF8, symBinAddr: 0xBCB4, symSize: 0x44 }
+  - { offset: 0xBD775, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC18changeCurrentIndexyAA0deG4CellCSg_AGSbtcSgvM', symObjAddr: 0xCB4, symBinAddr: 0xBE6C, symSize: 0x44 }
+  - { offset: 0xBD7DF, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC29changeCurrentIndexProgressiveyAA0deG4CellCSg_AG12CoreGraphics7CGFloatVS2btcSgvM', symObjAddr: 0xF48, symBinAddr: 0xC084, symSize: 0x44 }
+  - { offset: 0xBD818, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC06buttoneG0AA0deG0CSgvgTo', symObjAddr: 0xF8C, symBinAddr: 0xC0C8, symSize: 0x48 }
+  - { offset: 0xBD84D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC06buttoneG0AA0deG0CSgvg', symObjAddr: 0xFD4, symBinAddr: 0xC110, symSize: 0x48 }
+  - { offset: 0xBD891, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC06buttoneG0AA0deG0CSgvsTo', symObjAddr: 0x101C, symBinAddr: 0xC158, symSize: 0x50 }
+  - { offset: 0xBD8CE, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC06buttoneG0AA0deG0CSgvs', symObjAddr: 0x106C, symBinAddr: 0xC1A8, symSize: 0x58 }
+  - { offset: 0xBD8F7, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC06buttoneG0AA0deG0CSgvM', symObjAddr: 0x10C4, symBinAddr: 0xC200, symSize: 0x70 }
+  - { offset: 0xBD91C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC16cachedCellWidths33_0CF27031E34C35EB5EAF50A7E0F72A93LLSay12CoreGraphics7CGFloatVGSgvg', symObjAddr: 0x11A0, symBinAddr: 0xC270, symSize: 0xA4 }
+  - { offset: 0xBD9A2, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc', symObjAddr: 0x12C0, symBinAddr: 0xC314, symSize: 0x264 }
+  - { offset: 0xBDA20, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo', symObjAddr: 0x1544, symBinAddr: 0xC598, symSize: 0x60 }
+  - { offset: 0xBDA34, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0x15E8, symBinAddr: 0xC5F8, symSize: 0x230 }
+  - { offset: 0xBDA84, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x1818, symBinAddr: 0xC828, symSize: 0x28 }
+  - { offset: 0xBDB39, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC11viewDidLoadyyF', symObjAddr: 0x1840, symBinAddr: 0xC850, symSize: 0x7DC }
+  - { offset: 0xBE05C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC11viewDidLoadyyF12CoreGraphics7CGFloatVAA13IndicatorInfoVcfU_', symObjAddr: 0x2040, symBinAddr: 0xD050, symSize: 0x1D8 }
+  - { offset: 0xBE12B, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC11viewDidLoadyyFAA0deG0CyKXEfu_AFyXEfU0_', symObjAddr: 0x2220, symBinAddr: 0xD230, symSize: 0x2D8 }
+  - { offset: 0xBE2E0, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC11viewDidLoadyyFTo', symObjAddr: 0x24F8, symBinAddr: 0xD508, symSize: 0x28 }
+  - { offset: 0xBE32D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC14viewWillAppearyySbFTo', symObjAddr: 0x25A8, symBinAddr: 0xD530, symSize: 0xAC }
+  - { offset: 0xBE3D2, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC21viewDidLayoutSubviewsyyF', symObjAddr: 0x2654, symBinAddr: 0xD5DC, symSize: 0x218 }
+  - { offset: 0xBE4BF, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC21viewDidLayoutSubviewsyyFTo', symObjAddr: 0x286C, symBinAddr: 0xD7F4, symSize: 0x28 }
+  - { offset: 0xBE4D3, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC06reloadfbcG0yyF', symObjAddr: 0x2894, symBinAddr: 0xD81C, symSize: 0x110 }
+  - { offset: 0xBE56D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC28calculateStretchedCellWidths_09suggestedjK5Width26previousNumberOfLargeCells12CoreGraphics7CGFloatVSayAIG_AISitF', symObjAddr: 0x29A4, symBinAddr: 0xD92C, symSize: 0x1F0 }
+  - { offset: 0xBE833, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC15updateIndicator3for9fromIndex02toM0yAA0fbcgH0C_S2itF', symObjAddr: 0x2B94, symBinAddr: 0xDB1C, symSize: 0x2B4 }
+  - { offset: 0xBEB4C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC15updateIndicator3for9fromIndex02toM022withProgressPercentage15indexWasChangedyAA0fbcgH0C_S2i12CoreGraphics7CGFloatVSbtF', symObjAddr: 0x2E48, symBinAddr: 0xDDD0, symSize: 0x2C4 }
+  - { offset: 0xBEE9F, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC12cellForItems33_0CF27031E34C35EB5EAF50A7E0F72A93LL2at18reloadIfNotVisibleSayAA0deG4CellCSgGSay10Foundation9IndexPathVG_SbtF', symObjAddr: 0x310C, symBinAddr: 0xE094, symSize: 0x2C0 }
+  - { offset: 0xBF24F, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC010collectionG0_6layout22sizeForItemAtIndexPathSo6CGSizeVSo012UICollectionG0C_So0rG6LayoutC10Foundation0oP0VtF', symObjAddr: 0x33CC, symBinAddr: 0xE354, symSize: 0x8 }
+  - { offset: 0xBF26A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC010collectionG0_6layout22sizeForItemAtIndexPathSo6CGSizeVSo012UICollectionG0C_So0rG6LayoutC10Foundation0oP0VtFTo', symObjAddr: 0x33D4, symBinAddr: 0xE35C, symSize: 0xE8 }
+  - { offset: 0xBF295, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC010collectionG0_15didSelectItemAtySo012UICollectionG0C_10Foundation9IndexPathVtF', symObjAddr: 0x34BC, symBinAddr: 0xE444, symSize: 0x8 }
+  - { offset: 0xBF2B0, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC010collectionG0_15didSelectItemAtySo012UICollectionG0C_10Foundation9IndexPathVtFTo', symObjAddr: 0x34C4, symBinAddr: 0xE44C, symSize: 0xAC }
+  - { offset: 0xBF314, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC010collectionG0_22numberOfItemsInSectionSiSo012UICollectionG0C_SitFTo', symObjAddr: 0x35DC, symBinAddr: 0xE4F8, symSize: 0xA0 }
+  - { offset: 0xBF3CC, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC010collectionG0_13cellForItemAtSo012UICollectionG4CellCSo0nG0C_10Foundation9IndexPathVtF', symObjAddr: 0x367C, symBinAddr: 0xE598, symSize: 0x904 }
+  - { offset: 0xBF745, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC010collectionG0_13cellForItemAtSo012UICollectionG4CellCSo0nG0C_10Foundation9IndexPathVtFTo', symObjAddr: 0x3F80, symBinAddr: 0xEE9C, symSize: 0xB8 }
+  - { offset: 0xBF7C9, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC06scrollG24DidEndScrollingAnimationyySo08UIScrollG0CF', symObjAddr: 0x4038, symBinAddr: 0xEF54, symSize: 0x1FC }
+  - { offset: 0xBF8C2, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC06scrollG24DidEndScrollingAnimationyySo08UIScrollG0CFTo', symObjAddr: 0x4234, symBinAddr: 0xF150, symSize: 0x50 }
+  - { offset: 0xBF8D6, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC15calculateWidths33_0CF27031E34C35EB5EAF50A7E0F72A93LLSay12CoreGraphics7CGFloatVGyF', symObjAddr: 0x4288, symBinAddr: 0xF1A0, symSize: 0x610 }
+  - { offset: 0xC0058, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerCfD', symObjAddr: 0x495C, symBinAddr: 0xF874, symSize: 0x30 }
+  - { offset: 0xC009A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC010collectionG0_6layout22sizeForItemAtIndexPathSo6CGSizeVSo012UICollectionG0C_So0rG6LayoutC10Foundation0oP0VtFTf4ndnn_n', symObjAddr: 0x525C, symBinAddr: 0x100EC, symSize: 0x1AC }
+  - { offset: 0xC0195, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014ButtonBarPagerbC14ViewControllerC010collectionG0_15didSelectItemAtySo012UICollectionG0C_10Foundation9IndexPathVtFTf4dnn_n', symObjAddr: 0x5408, symBinAddr: 0x10298, symSize: 0x3D8 }
+  - { offset: 0xC0793, size: 0x8, addend: 0x0, symName: '_$sIeg_IeyB_TR', symObjAddr: 0x0, symBinAddr: 0x10FE4, symSize: 0x2C }
+  - { offset: 0xC0AD5, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13ButtonBarViewCMa', symObjAddr: 0x4E8, symBinAddr: 0x113EC, symSize: 0x20 }
+  - { offset: 0xC0B01, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13ButtonBarViewC014updateSelectedE8Position_14swipeDirection11pagerScrollySb_AA05SwipeK0OAA05PagerM0OtFyycfU_Tf2ni_nTA', symObjAddr: 0x1208, symBinAddr: 0x1210C, symSize: 0x10 }
+  - { offset: 0xC0B15, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x1218, symBinAddr: 0x1211C, symSize: 0x10 }
+  - { offset: 0xC0B29, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x1228, symBinAddr: 0x1212C, symSize: 0x8 }
+  - { offset: 0xC0B3D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip11PagerScrollOSHAASQWb', symObjAddr: 0x13F8, symBinAddr: 0x122C8, symSize: 0x4 }
+  - { offset: 0xC0B51, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip11PagerScrollOACSQAAWl', symObjAddr: 0x13FC, symBinAddr: 0x122CC, symSize: 0x44 }
+  - { offset: 0xC0B65, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip20SelectedBarAlignmentOSHAASQWb', symObjAddr: 0x1440, symBinAddr: 0x12310, symSize: 0x4 }
+  - { offset: 0xC0B79, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip20SelectedBarAlignmentOACSQAAWl', symObjAddr: 0x1444, symBinAddr: 0x12314, symSize: 0x44 }
+  - { offset: 0xC0B8D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip28SelectedBarVerticalAlignmentOSHAASQWb', symObjAddr: 0x1488, symBinAddr: 0x12358, symSize: 0x4 }
+  - { offset: 0xC0BA1, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip28SelectedBarVerticalAlignmentOACSQAAWl', symObjAddr: 0x148C, symBinAddr: 0x1235C, symSize: 0x44 }
+  - { offset: 0xC0BB5, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x1550, symBinAddr: 0x12420, symSize: 0xC }
+  - { offset: 0xC0BC9, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip11PagerScrollOwug', symObjAddr: 0x1568, symBinAddr: 0x12434, symSize: 0x8 }
+  - { offset: 0xC0BDD, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip11PagerScrollOwui', symObjAddr: 0x1574, symBinAddr: 0x1243C, symSize: 0x8 }
+  - { offset: 0xC0BF1, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip11PagerScrollOMa', symObjAddr: 0x157C, symBinAddr: 0x12444, symSize: 0x10 }
+  - { offset: 0xC0C05, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip20SelectedBarAlignmentOwet', symObjAddr: 0x158C, symBinAddr: 0x12454, symSize: 0x90 }
+  - { offset: 0xC0C19, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip20SelectedBarAlignmentOwst', symObjAddr: 0x161C, symBinAddr: 0x124E4, symSize: 0xBC }
+  - { offset: 0xC0C2D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip20SelectedBarAlignmentOMa', symObjAddr: 0x16DC, symBinAddr: 0x125A0, symSize: 0x10 }
+  - { offset: 0xC0C41, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip28SelectedBarVerticalAlignmentOMa', symObjAddr: 0x1844, symBinAddr: 0x126FC, symSize: 0x10 }
+  - { offset: 0xC0C55, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13ButtonBarViewCfETo', symObjAddr: 0x1854, symBinAddr: 0x1270C, symSize: 0x10 }
+  - { offset: 0xC0CB5, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13ButtonBarViewC5frame010collectionF6LayoutACSo6CGRectV_So012UICollectionfI0CtcfC', symObjAddr: 0x2C, symBinAddr: 0x11010, symSize: 0x74 }
+  - { offset: 0xC0D61, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip11PagerScrollO2eeoiySbAC_ACtFZ', symObjAddr: 0xA0, symBinAddr: 0x11084, symSize: 0x14 }
+  - { offset: 0xC0DA1, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip11PagerScrollO4hash4intoys6HasherVz_tF', symObjAddr: 0xB4, symBinAddr: 0x11098, symSize: 0x28 }
+  - { offset: 0xC0E41, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13ButtonBarViewC08selectedE0So6UIViewCvg', symObjAddr: 0x204, symBinAddr: 0x1114C, symSize: 0x13C }
+  - { offset: 0xC0F7C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13ButtonBarViewC08selectedE0So6UIViewCvs', symObjAddr: 0x340, symBinAddr: 0x11288, symSize: 0x18 }
+  - { offset: 0xC0FA3, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13ButtonBarViewC08selectedE0So6UIViewCvM', symObjAddr: 0x358, symBinAddr: 0x112A0, symSize: 0x34 }
+  - { offset: 0xC0FE8, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13ButtonBarViewC08selectedE0So6UIViewCvM.resume.0', symObjAddr: 0x38C, symBinAddr: 0x112D4, symSize: 0x18 }
+  - { offset: 0xC1041, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13ButtonBarViewC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0x3E8, symBinAddr: 0x112EC, symSize: 0x100 }
+  - { offset: 0xC1076, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13ButtonBarViewC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x508, symBinAddr: 0x1140C, symSize: 0x28 }
+  - { offset: 0xC108A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13ButtonBarViewC5frame010collectionF6LayoutACSo6CGRectV_So012UICollectionfI0Ctcfc', symObjAddr: 0x530, symBinAddr: 0x11434, symSize: 0x124 }
+  - { offset: 0xC10CF, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13ButtonBarViewC5frame010collectionF6LayoutACSo6CGRectV_So012UICollectionfI0CtcfcTo', symObjAddr: 0x654, symBinAddr: 0x11558, symSize: 0x58 }
+  - { offset: 0xC1108, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13ButtonBarViewC6moveTo5index8animated14swipeDirection11pagerScrollySi_SbAA05SwipeL0OAA05PagerN0OtF', symObjAddr: 0x6AC, symBinAddr: 0x115B0, symSize: 0x60 }
+  - { offset: 0xC11BC, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13ButtonBarViewC4move9fromIndex02toI018progressPercentage11pagerScrollySi_Si12CoreGraphics7CGFloatVAA05PagerN0OtF', symObjAddr: 0x70C, symBinAddr: 0x11610, symSize: 0x444 }
+  - { offset: 0xC13BA, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13ButtonBarViewC014updateSelectedE8Position_14swipeDirection11pagerScrollySb_AA05SwipeK0OAA05PagerM0OtF', symObjAddr: 0xB50, symBinAddr: 0x11A54, symSize: 0x2A8 }
+  - { offset: 0xC1489, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13ButtonBarViewC014updateSelectedE8Position_14swipeDirection11pagerScrollySb_AA05SwipeK0OAA05PagerM0OtFyycfU_Tf2ni_n', symObjAddr: 0xDF8, symBinAddr: 0x11CFC, symSize: 0xB8 }
+  - { offset: 0xC14C5, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13ButtonBarViewC19updateContentOffset33_35DD9B02C94CC5088524C767F2146AC7LL8animated11pagerScroll7toFrame0T5IndexySb_AA05PagerS0OSo6CGRectVSitF', symObjAddr: 0xEB0, symBinAddr: 0x11DB4, symSize: 0x114 }
+  - { offset: 0xC1563, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13ButtonBarViewC20contentOffsetForCell33_35DD9B02C94CC5088524C767F2146AC7LL9withFrame8andIndex12CoreGraphics7CGFloatVSo6CGRectV_SitF', symObjAddr: 0xFC4, symBinAddr: 0x11EC8, symSize: 0x1EC }
+  - { offset: 0xC172F, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13ButtonBarViewC014updateSelectedE9YPosition33_35DD9B02C94CC5088524C767F2146AC7LLyyF', symObjAddr: 0x1230, symBinAddr: 0x12134, symSize: 0x108 }
+  - { offset: 0xC17F6, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13ButtonBarViewC14layoutSubviewsyyFTo', symObjAddr: 0x136C, symBinAddr: 0x1223C, symSize: 0x5C }
+  - { offset: 0xC1823, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13ButtonBarViewCfD', symObjAddr: 0x13C8, symBinAddr: 0x12298, symSize: 0x30 }
+  - { offset: 0xC1B28, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellCMa', symObjAddr: 0x478, symBinAddr: 0x12C10, symSize: 0x20 }
+  - { offset: 0xC1B52, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellCfETo', symObjAddr: 0x864, symBinAddr: 0x12FCC, symSize: 0x48 }
+  - { offset: 0xC1C2A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellC05imageF0So07UIImageF0CSgvg', symObjAddr: 0xC, symBinAddr: 0x127EC, symSize: 0x50 }
+  - { offset: 0xC1C55, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellC05imageF0So07UIImageF0CSgvM', symObjAddr: 0x74, symBinAddr: 0x12854, symSize: 0x44 }
+  - { offset: 0xC1C7A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellC05badgeF0So6UIViewCSgvg', symObjAddr: 0xC4, symBinAddr: 0x128A4, symSize: 0x50 }
+  - { offset: 0xC1C9F, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellC05badgeF0So6UIViewCSgvM', symObjAddr: 0x12C, symBinAddr: 0x1290C, symSize: 0x44 }
+  - { offset: 0xC1CC4, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellC5labelSo7UILabelCSgvg', symObjAddr: 0x1C4, symBinAddr: 0x129A0, symSize: 0x50 }
+  - { offset: 0xC1CE9, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellC5labelSo7UILabelCSgvM', symObjAddr: 0x2D8, symBinAddr: 0x12AB4, symSize: 0x44 }
+  - { offset: 0xC1D5C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0x360, symBinAddr: 0x12AF8, symSize: 0x118 }
+  - { offset: 0xC1E0F, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x498, symBinAddr: 0x12C30, symSize: 0x28 }
+  - { offset: 0xC1E50, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellC10isSelectedSbvgTo', symObjAddr: 0x4C0, symBinAddr: 0x12C58, symSize: 0x3C }
+  - { offset: 0xC1E83, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellC10isSelectedSbvsTo', symObjAddr: 0x52C, symBinAddr: 0x12C94, symSize: 0x30 }
+  - { offset: 0xC1E97, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellC10isSelectedSbvs', symObjAddr: 0x55C, symBinAddr: 0x12CC4, symSize: 0x9C }
+  - { offset: 0xC1F1A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellC010setupBadgeF05color8isHidden15accessibilityIdySo7UIColorCSg_SbSSSgtF', symObjAddr: 0x5F8, symBinAddr: 0x12D60, symSize: 0x194 }
+  - { offset: 0xC1FED, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellC5frameACSo6CGRectV_tcfC', symObjAddr: 0x78C, symBinAddr: 0x12EF4, symSize: 0x50 }
+  - { offset: 0xC2001, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellC5frameACSo6CGRectV_tcfc', symObjAddr: 0x7DC, symBinAddr: 0x12F44, symSize: 0x2C }
+  - { offset: 0xC206F, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellC5frameACSo6CGRectV_tcfcTo', symObjAddr: 0x808, symBinAddr: 0x12F70, symSize: 0x2C }
+  - { offset: 0xC20CE, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip17ButtonBarViewCellCfD', symObjAddr: 0x834, symBinAddr: 0x12F9C, symSize: 0x30 }
+  - { offset: 0xC25E9, size: 0x8, addend: 0x0, symName: '_$sypSgWOc', symObjAddr: 0x32C, symBinAddr: 0x13534, symSize: 0x48 }
+  - { offset: 0xC25FD, size: 0x8, addend: 0x0, symName: '_$sypSgWOd', symObjAddr: 0x3BC, symBinAddr: 0x13584, symSize: 0x48 }
+  - { offset: 0xC2611, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoVs26ExpressibleByStringLiteralAAs0fg23ExtendedGraphemeClusterI0PWb', symObjAddr: 0x618, symBinAddr: 0x137C4, symSize: 0x4 }
+  - { offset: 0xC2625, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoVACs43ExpressibleByExtendedGraphemeClusterLiteralAAWl', symObjAddr: 0x61C, symBinAddr: 0x137C8, symSize: 0x44 }
+  - { offset: 0xC2639, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoVs26ExpressibleByStringLiteralAA0hI4TypesADP_s01_fg7BuiltinhI0PWT', symObjAddr: 0x660, symBinAddr: 0x1380C, symSize: 0xC }
+  - { offset: 0xC264D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoVs43ExpressibleByExtendedGraphemeClusterLiteralAAs0fg13UnicodeScalarK0PWb', symObjAddr: 0x670, symBinAddr: 0x1381C, symSize: 0x4 }
+  - { offset: 0xC2661, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoVACs33ExpressibleByUnicodeScalarLiteralAAWl', symObjAddr: 0x674, symBinAddr: 0x13820, symSize: 0x44 }
+  - { offset: 0xC2675, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoVs43ExpressibleByExtendedGraphemeClusterLiteralAA0hijK4TypesADP_s01_fg7BuiltinhijK0PWT', symObjAddr: 0x6B8, symBinAddr: 0x13864, symSize: 0xC }
+  - { offset: 0xC2689, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoVs33ExpressibleByUnicodeScalarLiteralAA0hiJ4TypesADP_s01_fg7BuiltinhiJ0PWT', symObjAddr: 0x6C8, symBinAddr: 0x13870, symSize: 0xC }
+  - { offset: 0xC269D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoVwxx', symObjAddr: 0x730, symBinAddr: 0x138A4, symSize: 0x6C }
+  - { offset: 0xC26B1, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoVwcp', symObjAddr: 0x7BC, symBinAddr: 0x13910, symSize: 0xE4 }
+  - { offset: 0xC26C5, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoVwca', symObjAddr: 0x8A0, symBinAddr: 0x139F4, symSize: 0x154 }
+  - { offset: 0xC26D9, size: 0x8, addend: 0x0, symName: ___swift_assign_boxed_opaque_existential_0, symObjAddr: 0x9F4, symBinAddr: 0x13B48, symSize: 0x160 }
+  - { offset: 0xC26ED, size: 0x8, addend: 0x0, symName: ___swift_memcpy128_8, symObjAddr: 0xB54, symBinAddr: 0x13CA8, symSize: 0x24 }
+  - { offset: 0xC2701, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoVwta', symObjAddr: 0xB78, symBinAddr: 0x13CCC, symSize: 0xC0 }
+  - { offset: 0xC2715, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoVwet', symObjAddr: 0xC38, symBinAddr: 0x13D8C, symSize: 0x5C }
+  - { offset: 0xC2729, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoVwst', symObjAddr: 0xC94, symBinAddr: 0x13DE8, symSize: 0x74 }
+  - { offset: 0xC273D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoVMa', symObjAddr: 0xD08, symBinAddr: 0x13E5C, symSize: 0x10 }
+  - { offset: 0xC27E0, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV5titleSSSgvg', symObjAddr: 0x0, symBinAddr: 0x13278, symSize: 0x2C }
+  - { offset: 0xC280B, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV5titleSSSgvs', symObjAddr: 0x2C, symBinAddr: 0x132A4, symSize: 0x34 }
+  - { offset: 0xC2840, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV5imageSo7UIImageCSgvg', symObjAddr: 0x74, symBinAddr: 0x132D8, symSize: 0x28 }
+  - { offset: 0xC2865, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV5imageSo7UIImageCSgvs', symObjAddr: 0x9C, symBinAddr: 0x13300, symSize: 0x28 }
+  - { offset: 0xC28C8, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV16highlightedImageSo7UIImageCSgvg', symObjAddr: 0xD8, symBinAddr: 0x13328, symSize: 0x28 }
+  - { offset: 0xC28ED, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV16highlightedImageSo7UIImageCSgvs', symObjAddr: 0x100, symBinAddr: 0x13350, symSize: 0x28 }
+  - { offset: 0xC2922, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV10badgeColorSo7UIColorCSgvg', symObjAddr: 0x13C, symBinAddr: 0x13378, symSize: 0x28 }
+  - { offset: 0xC2947, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV10badgeColorSo7UIColorCSgvs', symObjAddr: 0x164, symBinAddr: 0x133A0, symSize: 0x28 }
+  - { offset: 0xC297C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV10badgeColorSo7UIColorCSgvM', symObjAddr: 0x18C, symBinAddr: 0x133C8, symSize: 0x10 }
+  - { offset: 0xC29A0, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV11enableBadgeSbvg', symObjAddr: 0x1A0, symBinAddr: 0x133D8, symSize: 0x8 }
+  - { offset: 0xC29C4, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV11enableBadgeSbvs', symObjAddr: 0x1A8, symBinAddr: 0x133E0, symSize: 0x8 }
+  - { offset: 0xC29F4, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV18accessibilityLabelSSSgvg', symObjAddr: 0x1C4, symBinAddr: 0x133E8, symSize: 0x2C }
+  - { offset: 0xC2A19, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV18accessibilityLabelSSSgvs', symObjAddr: 0x1F0, symBinAddr: 0x13414, symSize: 0x34 }
+  - { offset: 0xC2A4E, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV18accessibilityLabelSSSgvM', symObjAddr: 0x224, symBinAddr: 0x13448, symSize: 0x10 }
+  - { offset: 0xC2A72, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV15accessibilityIdSSSgvg', symObjAddr: 0x238, symBinAddr: 0x13458, symSize: 0x2C }
+  - { offset: 0xC2A97, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV15accessibilityIdSSSgvs', symObjAddr: 0x264, symBinAddr: 0x13484, symSize: 0x34 }
+  - { offset: 0xC2ACC, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV15accessibilityIdSSSgvM', symObjAddr: 0x298, symBinAddr: 0x134B8, symSize: 0x10 }
+  - { offset: 0xC2AF0, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV20accessibilityBadgeIdSSSgvg', symObjAddr: 0x2AC, symBinAddr: 0x134C8, symSize: 0x2C }
+  - { offset: 0xC2B15, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV20accessibilityBadgeIdSSSgvs', symObjAddr: 0x2D8, symBinAddr: 0x134F4, symSize: 0x34 }
+  - { offset: 0xC2B4A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV04userE0ypSgvg', symObjAddr: 0x320, symBinAddr: 0x13528, symSize: 0xC }
+  - { offset: 0xC2B6E, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV04userE0ypSgvs', symObjAddr: 0x3B4, symBinAddr: 0x1357C, symSize: 0x8 }
+  - { offset: 0xC2BA7, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV5title10badgeColor11enableBadge15accessibilityId0kjL0ACSSSg_So7UIColorCSgSbA2ItcfC', symObjAddr: 0x418, symBinAddr: 0x135CC, symSize: 0x2C }
+  - { offset: 0xC2C0C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV5image16highlightedImage10badgeColor11enableBadge04userE015accessibilityId0nlO0ACSo7UIImageCSg_AMSo7UIColorCSgSbypSgSSSgARtcfC', symObjAddr: 0x444, symBinAddr: 0x135F8, symSize: 0x84 }
+  - { offset: 0xC2C8D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV5title5image16highlightedImage10badgeColor11enableBadge04userE015accessibilityId0omP0ACSSSg_So7UIImageCSgAOSo7UIColorCSgSbypSgA2LtcfC', symObjAddr: 0x4C8, symBinAddr: 0x1367C, symSize: 0x98 }
+  - { offset: 0xC2D1E, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip13IndicatorInfoV5title18accessibilityLabel5image16highlightedImage10badgeColor11enableBadge04userE00G2Id0goQ0ACSSSg_AMSo7UIImageCSgAPSo7UIColorCSgSbypSgA2MtcfC', symObjAddr: 0x560, symBinAddr: 0x13714, symSize: 0x84 }
+  - { offset: 0xC2E7A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC9BehaviourO22isProgressiveIndicatorSbvg', symObjAddr: 0x0, symBinAddr: 0x13E6C, symSize: 0xC }
+  - { offset: 0xC2EE1, size: 0x8, addend: 0x0, symName: ___swift_memcpy2_1, symObjAddr: 0x2C, symBinAddr: 0x13E98, symSize: 0xC }
+  - { offset: 0xC2EF5, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC9BehaviourOwet', symObjAddr: 0x3C, symBinAddr: 0x13EA4, symSize: 0xB4 }
+  - { offset: 0xC2F09, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC9BehaviourOwst', symObjAddr: 0xF0, symBinAddr: 0x13F58, symSize: 0xDC }
+  - { offset: 0xC2F1D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC9BehaviourOwug', symObjAddr: 0x1CC, symBinAddr: 0x14034, symSize: 0xC }
+  - { offset: 0xC2F31, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC9BehaviourOwup', symObjAddr: 0x1D8, symBinAddr: 0x14040, symSize: 0x10 }
+  - { offset: 0xC2F45, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC9BehaviourOwui', symObjAddr: 0x1E8, symBinAddr: 0x14050, symSize: 0x14 }
+  - { offset: 0xC2F59, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC9BehaviourOMa', symObjAddr: 0x1FC, symBinAddr: 0x14064, symSize: 0x10 }
+  - { offset: 0xC2F6E, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC9BehaviourO22isProgressiveIndicatorSbvg', symObjAddr: 0x0, symBinAddr: 0x13E6C, symSize: 0xC }
+  - { offset: 0xC2F93, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC9BehaviourO31skipIntermediateViewControllersSbvg', symObjAddr: 0xC, symBinAddr: 0x13E78, symSize: 0xC }
+  - { offset: 0xC2FCF, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC9BehaviourO23isElasticIndicatorLimitSbvg', symObjAddr: 0x18, symBinAddr: 0x13E84, symSize: 0x14 }
+  - { offset: 0xC30C0, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC5ErrorO2eeoiySbAC_ACtFZ', symObjAddr: 0x0, symBinAddr: 0x14074, symSize: 0x8 }
+  - { offset: 0xC3182, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC5ErrorOSHAASQWb', symObjAddr: 0x114, symBinAddr: 0x1411C, symSize: 0x4 }
+  - { offset: 0xC3196, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC5ErrorOACSQAAWl', symObjAddr: 0x118, symBinAddr: 0x14120, symSize: 0x44 }
+  - { offset: 0xC31AA, size: 0x8, addend: 0x0, symName: ___swift_memcpy0_1, symObjAddr: 0x16C, symBinAddr: 0x14174, symSize: 0x4 }
+  - { offset: 0xC31BE, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC5ErrorOwet', symObjAddr: 0x174, symBinAddr: 0x14178, symSize: 0x50 }
+  - { offset: 0xC31D2, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC5ErrorOwst', symObjAddr: 0x1C4, symBinAddr: 0x141C8, symSize: 0x8C }
+  - { offset: 0xC31E6, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC5ErrorOwug', symObjAddr: 0x250, symBinAddr: 0x14254, symSize: 0x8 }
+  - { offset: 0xC31FA, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC5ErrorOMa', symObjAddr: 0x260, symBinAddr: 0x1425C, symSize: 0x10 }
+  - { offset: 0xC3249, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC5ErrorOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0xD8, symBinAddr: 0x140E0, symSize: 0x3C }
+  - { offset: 0xC32D0, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC5ErrorOs0E0AAsADP7_domainSSvgTW', symObjAddr: 0x15C, symBinAddr: 0x14164, symSize: 0x4 }
+  - { offset: 0xC32EC, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC5ErrorOs0E0AAsADP5_codeSivgTW', symObjAddr: 0x160, symBinAddr: 0x14168, symSize: 0x4 }
+  - { offset: 0xC3308, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC5ErrorOs0E0AAsADP9_userInfoyXlSgvgTW', symObjAddr: 0x164, symBinAddr: 0x1416C, symSize: 0x4 }
+  - { offset: 0xC3324, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC5ErrorOs0E0AAsADP19_getEmbeddedNSErroryXlSgyFTW', symObjAddr: 0x168, symBinAddr: 0x14170, symSize: 0x4 }
+  - { offset: 0xC3353, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC5ErrorO2eeoiySbAC_ACtFZ', symObjAddr: 0x0, symBinAddr: 0x14074, symSize: 0x8 }
+  - { offset: 0xC3380, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC5ErrorO4hash4intoys6HasherVz_tF', symObjAddr: 0x8, symBinAddr: 0x1407C, symSize: 0x24 }
+  - { offset: 0xC33E1, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC5ErrorO9hashValueSivg', symObjAddr: 0x2C, symBinAddr: 0x140A0, symSize: 0x40 }
+  - { offset: 0xC3E41, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC15viewControllersSaySo06UIViewF0CGvpACTk', symObjAddr: 0x2C20, symBinAddr: 0x16E18, symSize: 0x68 }
+  - { offset: 0xC3E97, size: 0x8, addend: 0x0, symName: '_$sSo44UIViewControllerTransitionCoordinatorContext_pIegg_SoAA_pIeyBy_TR', symObjAddr: 0x3E94, symBinAddr: 0x18038, symSize: 0x48 }
+  - { offset: 0xC3EAF, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerCfETo', symObjAddr: 0x4344, symBinAddr: 0x18428, symSize: 0x68 }
+  - { offset: 0xC3EEF, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyFSo16UIViewControllerC_Tg5', symObjAddr: 0x43C8, symBinAddr: 0x184AC, symSize: 0x68 }
+  - { offset: 0xC3F44, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC5ErrorOACs0E0AAWl', symObjAddr: 0x4444, symBinAddr: 0x18528, symSize: 0x44 }
+  - { offset: 0xC3F58, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerCMa', symObjAddr: 0x4488, symBinAddr: 0x1856C, symSize: 0x20 }
+  - { offset: 0xC3F6C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC18viewWillTransition2to4withySo6CGSizeV_So06UIViewfI11Coordinator_ptFySo0mfiN7Context_pcfU_TA', symObjAddr: 0x44CC, symBinAddr: 0x185B0, symSize: 0x8 }
+  - { offset: 0xC3F80, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x44D4, symBinAddr: 0x185B8, symSize: 0x10 }
+  - { offset: 0xC3F94, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x44E4, symBinAddr: 0x185C8, symSize: 0x8 }
+  - { offset: 0xC3FB4, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC10DataSource_pSgXwWOh', symObjAddr: 0x4C68, symBinAddr: 0x18D28, symSize: 0x24 }
+  - { offset: 0xC4118, size: 0x8, addend: 0x0, symName: '_$sSlsSQ7ElementRpzrlE10firstIndex2of0C0QzSgAB_tFSaySo16UIViewControllerCG_Tg5', symObjAddr: 0x39D0, symBinAddr: 0x17B74, symSize: 0x1C0 }
+  - { offset: 0xC4484, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC06reloaddbcE0yyF', symObjAddr: 0x0, symBinAddr: 0x1426C, symSize: 0x43C }
+  - { offset: 0xC481E, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC09containerE0So08UIScrollE0CSgvg', symObjAddr: 0x43C, symBinAddr: 0x146A8, symSize: 0x48 }
+  - { offset: 0xC483D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC09containerE0So08UIScrollE0CSgvs', symObjAddr: 0x484, symBinAddr: 0x146F0, symSize: 0x58 }
+  - { offset: 0xC4866, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC09containerE0So08UIScrollE0CSgvM', symObjAddr: 0x4DC, symBinAddr: 0x14748, symSize: 0x70 }
+  - { offset: 0xC488B, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC8delegateAA0dbC8Delegate_pSgvM', symObjAddr: 0x5D0, symBinAddr: 0x147D0, symSize: 0x74 }
+  - { offset: 0xC48B0, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC10datasourceAA0dbC10DataSource_pSgvM', symObjAddr: 0x70C, symBinAddr: 0x1490C, symSize: 0x74 }
+  - { offset: 0xC48D5, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC14pagerBehaviourAA0dbcH0Ovg', symObjAddr: 0x7F8, symBinAddr: 0x149F4, symSize: 0x4C }
+  - { offset: 0xC48FA, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC14pagerBehaviourAA0dbcH0Ovs', symObjAddr: 0x844, symBinAddr: 0x14A40, symSize: 0x50 }
+  - { offset: 0xC492F, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC14pagerBehaviourAA0dbcH0OvM', symObjAddr: 0x894, symBinAddr: 0x14A90, symSize: 0x44 }
+  - { offset: 0xC4954, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC15viewControllersSaySo06UIViewF0CGvg', symObjAddr: 0x8DC, symBinAddr: 0x14AD4, symSize: 0x48 }
+  - { offset: 0xC4979, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC12currentIndexSivg', symObjAddr: 0x924, symBinAddr: 0x14B1C, symSize: 0x44 }
+  - { offset: 0xC499E, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC15preCurrentIndexSivg', symObjAddr: 0x968, symBinAddr: 0x14B60, symSize: 0x44 }
+  - { offset: 0xC49C3, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC9pageWidth12CoreGraphics7CGFloatVvg', symObjAddr: 0x9AC, symBinAddr: 0x14BA4, symSize: 0x9C }
+  - { offset: 0xC4A2F, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC16scrollPercentage12CoreGraphics7CGFloatVvg', symObjAddr: 0xA48, symBinAddr: 0x14C40, symSize: 0x1D0 }
+  - { offset: 0xC4B55, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC14swipeDirectionAA05SwipeH0Ovg', symObjAddr: 0xC18, symBinAddr: 0x14E10, symSize: 0xE0 }
+  - { offset: 0xC4C48, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC06moveToeF02at8animatedySi_SbtF', symObjAddr: 0xCF8, symBinAddr: 0x14EF0, symSize: 0x544 }
+  - { offset: 0xC505D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC6moveTo04viewF08animatedySo06UIViewF0C_SbtF', symObjAddr: 0x123C, symBinAddr: 0x15434, symSize: 0x8C }
+  - { offset: 0xC50B7, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC15viewControllers3forSaySo06UIViewF0CGAC_tF', symObjAddr: 0x12C8, symBinAddr: 0x154C0, symSize: 0xC }
+  - { offset: 0xC50F9, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC14updateIfNeededyyF', symObjAddr: 0x12D4, symBinAddr: 0x154CC, symSize: 0xD8 }
+  - { offset: 0xC5184, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC9canMoveTo5indexSbSi_tF', symObjAddr: 0x13AC, symBinAddr: 0x155A4, symSize: 0xA0 }
+  - { offset: 0xC5209, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC18pageOffsetForChild2at12CoreGraphics7CGFloatVSi_tF', symObjAddr: 0x144C, symBinAddr: 0x15644, symSize: 0xB0 }
+  - { offset: 0xC529C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC14offsetForChild2at12CoreGraphics7CGFloatVSi_tF', symObjAddr: 0x14FC, symBinAddr: 0x156F4, symSize: 0x178 }
+  - { offset: 0xC5382, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC14offsetForChild04viewF012CoreGraphics7CGFloatVSo06UIViewF0C_tKF', symObjAddr: 0x1674, symBinAddr: 0x1586C, symSize: 0xB8 }
+  - { offset: 0xC53CC, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC7pageFor13contentOffsetSi12CoreGraphics7CGFloatV_tF', symObjAddr: 0x172C, symBinAddr: 0x15924, symSize: 0x44 }
+  - { offset: 0xC5433, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC14virtualPageFor13contentOffsetSi12CoreGraphics7CGFloatV_tF', symObjAddr: 0x1770, symBinAddr: 0x15968, symSize: 0xA4 }
+  - { offset: 0xC54BC, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC7pageFor11virtualPageS2i_tF', symObjAddr: 0x1814, symBinAddr: 0x15A0C, symSize: 0xE0 }
+  - { offset: 0xC55F7, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC13updateContentyyF', symObjAddr: 0x18F4, symBinAddr: 0x15AEC, symSize: 0xA50 }
+  - { offset: 0xC5D75, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC06scrollE9DidScrollyySo08UIScrollE0CF', symObjAddr: 0x2344, symBinAddr: 0x1653C, symSize: 0x104 }
+  - { offset: 0xC5E15, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC06scrollE17WillBeginDraggingyySo08UIScrollE0CF', symObjAddr: 0x2448, symBinAddr: 0x16640, symSize: 0x104 }
+  - { offset: 0xC5E92, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC06scrollE24DidEndScrollingAnimationyySo08UIScrollE0CF', symObjAddr: 0x254C, symBinAddr: 0x16744, symSize: 0x17C }
+  - { offset: 0xC5F2A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC24progressiveIndicatorData33_003637BCF98C7C0D0B48098362580A1BLLySi_Si12CoreGraphics7CGFloatVtSiF', symObjAddr: 0x26C8, symBinAddr: 0x168C0, symSize: 0x1DC }
+  - { offset: 0xC6102, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC06reloadE11Controllers33_003637BCF98C7C0D0B48098362580A1BLLyyF', symObjAddr: 0x28A4, symBinAddr: 0x16A9C, symSize: 0x2E4 }
+  - { offset: 0xC6347, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC09containerE0So08UIScrollE0CSgvgTo', symObjAddr: 0x2B88, symBinAddr: 0x16D80, symSize: 0x48 }
+  - { offset: 0xC63A1, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC09containerE0So08UIScrollE0CSgvsTo', symObjAddr: 0x2BD0, symBinAddr: 0x16DC8, symSize: 0x50 }
+  - { offset: 0xC63DE, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC11viewDidLoadyyF', symObjAddr: 0x2C88, symBinAddr: 0x16E80, symSize: 0x4E0 }
+  - { offset: 0xC67BA, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC11viewDidLoadyyFTo', symObjAddr: 0x3168, symBinAddr: 0x17360, symSize: 0x28 }
+  - { offset: 0xC67F5, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC14viewWillAppearyySbF', symObjAddr: 0x3190, symBinAddr: 0x17388, symSize: 0x18C }
+  - { offset: 0xC69D2, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC14viewWillAppearyySbFTo', symObjAddr: 0x331C, symBinAddr: 0x17514, symSize: 0x30 }
+  - { offset: 0xC69E6, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC13viewDidAppearyySbF', symObjAddr: 0x334C, symBinAddr: 0x17544, symSize: 0x244 }
+  - { offset: 0xC6BED, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC13viewDidAppearyySbFTo', symObjAddr: 0x3590, symBinAddr: 0x17788, symSize: 0x30 }
+  - { offset: 0xC6C01, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC17viewWillDisappearyySbF', symObjAddr: 0x35C0, symBinAddr: 0x177B8, symSize: 0x17C }
+  - { offset: 0xC6D95, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC17viewWillDisappearyySbFTo', symObjAddr: 0x373C, symBinAddr: 0x17934, symSize: 0x30 }
+  - { offset: 0xC6DA9, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC16viewDidDisappearyySbF', symObjAddr: 0x376C, symBinAddr: 0x17964, symSize: 0x164 }
+  - { offset: 0xC6F31, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC16viewDidDisappearyySbFTo', symObjAddr: 0x38D0, symBinAddr: 0x17AC8, symSize: 0x30 }
+  - { offset: 0xC6F59, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC21viewDidLayoutSubviewsyyFTo', symObjAddr: 0x394C, symBinAddr: 0x17AF8, symSize: 0x74 }
+  - { offset: 0xC6F86, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC43shouldAutomaticallyForwardAppearanceMethodsSbvgTo', symObjAddr: 0x39C0, symBinAddr: 0x17B6C, symSize: 0x8 }
+  - { offset: 0xC6F9A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC06scrollE9DidScrollyySo08UIScrollE0CFTo', symObjAddr: 0x3B90, symBinAddr: 0x17D34, symSize: 0x50 }
+  - { offset: 0xC6FAE, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC06scrollE17WillBeginDraggingyySo08UIScrollE0CFTo', symObjAddr: 0x3BE0, symBinAddr: 0x17D84, symSize: 0x50 }
+  - { offset: 0xC6FC2, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC06scrollE24DidEndScrollingAnimationyySo08UIScrollE0CFTo', symObjAddr: 0x3C30, symBinAddr: 0x17DD4, symSize: 0x50 }
+  - { offset: 0xC701A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC18viewWillTransition2to4withySo6CGSizeV_So06UIViewfI11Coordinator_ptF', symObjAddr: 0x3C80, symBinAddr: 0x17E24, symSize: 0x128 }
+  - { offset: 0xC70B7, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC18viewWillTransition2to4withySo6CGSizeV_So06UIViewfI11Coordinator_ptFySo0mfiN7Context_pcfU_', symObjAddr: 0x3DA8, symBinAddr: 0x17F4C, symSize: 0xEC }
+  - { offset: 0xC71B6, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC18viewWillTransition2to4withySo6CGSizeV_So06UIViewfI11Coordinator_ptFTo', symObjAddr: 0x3EDC, symBinAddr: 0x18080, symSize: 0x60 }
+  - { offset: 0xC71D0, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc', symObjAddr: 0x3FB8, symBinAddr: 0x180E0, symSize: 0x168 }
+  - { offset: 0xC7245, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo', symObjAddr: 0x4120, symBinAddr: 0x18248, symSize: 0x60 }
+  - { offset: 0xC7259, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0x41C4, symBinAddr: 0x182A8, symSize: 0x128 }
+  - { offset: 0xC728C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x42EC, symBinAddr: 0x183D0, symSize: 0x28 }
+  - { offset: 0xC72A0, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip05PagerbC14ViewControllerCfD', symObjAddr: 0x4314, symBinAddr: 0x183F8, symSize: 0x30 }
+  - { offset: 0xC72C3, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerCAA0ebC10DataSourceA2aDP15viewControllers3forSaySo06UIViewG0CGAA0ebcfG0C_tFTW', symObjAddr: 0x43AC, symBinAddr: 0x18490, symSize: 0x1C }
+  - { offset: 0xC77A7, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerCMa', symObjAddr: 0x590, symBinAddr: 0x19384, symSize: 0x20 }
+  - { offset: 0xC7860, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerCfE', symObjAddr: 0x105C, symBinAddr: 0x19E0C, symSize: 0x2C }
+  - { offset: 0xC788D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerCfETo', symObjAddr: 0x10B8, symBinAddr: 0x19E68, symSize: 0x38 }
+  - { offset: 0xC78BC, size: 0x8, addend: 0x0, symName: ___swift_memcpy8_8, symObjAddr: 0x1254, symBinAddr: 0x1A004, symSize: 0xC }
+  - { offset: 0xC78D0, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC8SettingsVMa', symObjAddr: 0x1268, symBinAddr: 0x1A018, symSize: 0x10 }
+  - { offset: 0xC78E4, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC8SettingsV5StyleVwCP', symObjAddr: 0x1278, symBinAddr: 0x1A028, symSize: 0x2C }
+  - { offset: 0xC78F8, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC8SettingsV5StyleVwxx', symObjAddr: 0x12A4, symBinAddr: 0x1A054, symSize: 0x8 }
+  - { offset: 0xC790C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC8SettingsV5StyleVwca', symObjAddr: 0x12AC, symBinAddr: 0x1A05C, symSize: 0x38 }
+  - { offset: 0xC7920, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC8SettingsV5StyleVwta', symObjAddr: 0x12E4, symBinAddr: 0x1A094, symSize: 0x30 }
+  - { offset: 0xC7934, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC8SettingsV5StyleVMa', symObjAddr: 0x13C8, symBinAddr: 0x1A170, symSize: 0x10 }
+  - { offset: 0xC7A25, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC8SettingsV5styleAC5StyleVvg', symObjAddr: 0x64, symBinAddr: 0x18F58, symSize: 0xC }
+  - { offset: 0xC7A39, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC8SettingsV5styleAC5StyleVvs', symObjAddr: 0x70, symBinAddr: 0x18F64, symSize: 0x28 }
+  - { offset: 0xC7AD4, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerC16segmentedControlSo011UISegmentedI0CSgvgTo', symObjAddr: 0xAC, symBinAddr: 0x18F8C, symSize: 0x48 }
+  - { offset: 0xC7B09, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerC16segmentedControlSo011UISegmentedI0CSgvg', symObjAddr: 0xF4, symBinAddr: 0x18FD4, symSize: 0x48 }
+  - { offset: 0xC7B4D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerC16segmentedControlSo011UISegmentedI0CSgvsTo', symObjAddr: 0x13C, symBinAddr: 0x1901C, symSize: 0x50 }
+  - { offset: 0xC7B8A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerC16segmentedControlSo011UISegmentedI0CSgvs', symObjAddr: 0x18C, symBinAddr: 0x1906C, symSize: 0x58 }
+  - { offset: 0xC7BB3, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerC16segmentedControlSo011UISegmentedI0CSgvM', symObjAddr: 0x1E4, symBinAddr: 0x190C4, symSize: 0x70 }
+  - { offset: 0xC7BD8, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerC8settingsAA0debC8SettingsVvg', symObjAddr: 0x2C0, symBinAddr: 0x19134, symSize: 0x4C }
+  - { offset: 0xC7BFD, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerC8settingsAA0debC8SettingsVvs', symObjAddr: 0x30C, symBinAddr: 0x19180, symSize: 0x58 }
+  - { offset: 0xC7C32, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerC8settingsAA0debC8SettingsVvM', symObjAddr: 0x364, symBinAddr: 0x191D8, symSize: 0x44 }
+  - { offset: 0xC7C84, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc', symObjAddr: 0x428, symBinAddr: 0x1921C, symSize: 0x168 }
+  - { offset: 0xC7D30, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo', symObjAddr: 0x5B0, symBinAddr: 0x193A4, symSize: 0x60 }
+  - { offset: 0xC7D44, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0x654, symBinAddr: 0x19404, symSize: 0x13C }
+  - { offset: 0xC7DAC, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x790, symBinAddr: 0x19540, symSize: 0x28 }
+  - { offset: 0xC7DDB, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerC11viewDidLoadyyF', symObjAddr: 0x7B8, symBinAddr: 0x19568, symSize: 0x1FC }
+  - { offset: 0xC7F50, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerC11viewDidLoadyyFTo', symObjAddr: 0x9B4, symBinAddr: 0x19764, symSize: 0x28 }
+  - { offset: 0xC7F64, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerC06reloadebcF0yyF', symObjAddr: 0x9DC, symBinAddr: 0x1978C, symSize: 0x30 }
+  - { offset: 0xC7F8E, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerC06reloadD7ControlyyF', symObjAddr: 0xA0C, symBinAddr: 0x197BC, symSize: 0x32C }
+  - { offset: 0xC8217, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerC23segmentedControlChangedyySo011UISegmentedI0CFTo', symObjAddr: 0xD38, symBinAddr: 0x19AE8, symSize: 0xC0 }
+  - { offset: 0xC828A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerC15updateIndicator3for9fromIndex02toL0yAA0ebcfG0C_S2itF', symObjAddr: 0xDF8, symBinAddr: 0x19BA8, symSize: 0x84 }
+  - { offset: 0xC8390, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerC06scrollF24DidEndScrollingAnimationyySo08UIScrollF0CF', symObjAddr: 0xE7C, symBinAddr: 0x19C2C, symSize: 0x190 }
+  - { offset: 0xC8466, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerC06scrollF24DidEndScrollingAnimationyySo08UIScrollF0CFTo', symObjAddr: 0x100C, symBinAddr: 0x19DBC, symSize: 0x50 }
+  - { offset: 0xC847A, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerCfD', symObjAddr: 0x1088, symBinAddr: 0x19E38, symSize: 0x30 }
+  - { offset: 0xC849D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip014SegmentedPagerbC14ViewControllerCAA0ebC8DelegateA2aDP15updateIndicator3for9fromIndex02toM0yAA0ebcfG0C_S2itFTW', symObjAddr: 0x10F0, symBinAddr: 0x19EA0, symSize: 0x1C }
+  - { offset: 0xC8580, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip14SwipeDirectionOSHAASQWb', symObjAddr: 0x140, symBinAddr: 0x1A20C, symSize: 0x4 }
+  - { offset: 0xC8594, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip14SwipeDirectionOACSQAAWl', symObjAddr: 0x144, symBinAddr: 0x1A210, symSize: 0x44 }
+  - { offset: 0xC85A8, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip14SwipeDirectionOwst', symObjAddr: 0x228, symBinAddr: 0x1A254, symSize: 0xBC }
+  - { offset: 0xC85BC, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip14SwipeDirectionOMa', symObjAddr: 0x2F8, symBinAddr: 0x1A310, symSize: 0x10 }
+  - { offset: 0xC890C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC8settingsAA0debC8SettingsVvpACTk', symObjAddr: 0x234, symBinAddr: 0x1A414, symSize: 0x94 }
+  - { offset: 0xC8CDA, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerCMa', symObjAddr: 0x718, symBinAddr: 0x1A878, symSize: 0x20 }
+  - { offset: 0xC8CEE, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerCfE', symObjAddr: 0x1084, symBinAddr: 0x1B19C, symSize: 0xA0 }
+  - { offset: 0xC8D1D, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerCfETo', symObjAddr: 0x1260, symBinAddr: 0x1B378, symSize: 0xA4 }
+  - { offset: 0xC8F51, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation9IndexPathV_Tg5', symObjAddr: 0x25A8, symBinAddr: 0x1C650, symSize: 0x174 }
+  - { offset: 0xC90CE, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12CoreGraphics7CGFloatV_Tg5', symObjAddr: 0x2738, symBinAddr: 0x1C7E0, symSize: 0xF8 }
+  - { offset: 0xC91DB, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFSo16UIViewControllerC_Tgm5', symObjAddr: 0x2B44, symBinAddr: 0x1CBEC, symSize: 0x64 }
+  - { offset: 0xC9208, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFSo7UILabelC_Tgm5', symObjAddr: 0x2BA8, symBinAddr: 0x1CC50, symSize: 0x64 }
+  - { offset: 0xC9240, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSo19NSKeyValueChangeKeya_Tg5', symObjAddr: 0x2C0C, symBinAddr: 0x1CCB4, symSize: 0x80 }
+  - { offset: 0xC92EA, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo05NSKeyF9ChangeKeya_Tg5', symObjAddr: 0x2C8C, symBinAddr: 0x1CD34, symSize: 0x174 }
+  - { offset: 0xC93AF, size: 0x8, addend: 0x0, symName: ___swift_memcpy40_8, symObjAddr: 0x339C, symBinAddr: 0x1D444, symSize: 0x14 }
+  - { offset: 0xC93C3, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC8SettingsVMa', symObjAddr: 0x33BC, symBinAddr: 0x1D464, symSize: 0x10 }
+  - { offset: 0xC93D7, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC8SettingsV5StyleVMa', symObjAddr: 0x3658, symBinAddr: 0x1D6B8, symSize: 0x10 }
+  - { offset: 0xC93EB, size: 0x8, addend: 0x0, symName: '_$sypSgWOh', symObjAddr: 0x3700, symBinAddr: 0x1D6F0, symSize: 0x40 }
+  - { offset: 0xC93FF, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyaABSHSCWl', symObjAddr: 0x3780, symBinAddr: 0x1D730, symSize: 0x48 }
+  - { offset: 0xC9413, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x37C8, symBinAddr: 0x1D778, symSize: 0x3C }
+  - { offset: 0xC94DE, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC8SettingsV5StyleV8dotColorSo7UIColorCvg', symObjAddr: 0x0, symBinAddr: 0x1A320, symSize: 0x8 }
+  - { offset: 0xC94F8, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC8SettingsV5StyleV16selectedDotColorSo7UIColorCvg', symObjAddr: 0x44, symBinAddr: 0x1A328, symSize: 0x8 }
+  - { offset: 0xC950C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC8SettingsV5StyleV17portraitTitleFontSo6UIFontCvg', symObjAddr: 0x88, symBinAddr: 0x1A330, symSize: 0x8 }
+  - { offset: 0xC9520, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC8SettingsV5StyleV18landscapeTitleFontSo6UIFontCvg', symObjAddr: 0xCC, symBinAddr: 0x1A338, symSize: 0x8 }
+  - { offset: 0xC9534, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC8SettingsV5StyleV10titleColorSo7UIColorCvg', symObjAddr: 0x110, symBinAddr: 0x1A340, symSize: 0x8 }
+  - { offset: 0xC9548, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC8SettingsV5styleAC5StyleVvg', symObjAddr: 0x154, symBinAddr: 0x1A348, symSize: 0x58 }
+  - { offset: 0xC955C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC8SettingsV5styleAC5StyleVvs', symObjAddr: 0x1AC, symBinAddr: 0x1A3A0, symSize: 0x74 }
+  - { offset: 0xC9591, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC8settingsAA0debC8SettingsVvg', symObjAddr: 0x2C8, symBinAddr: 0x1A4A8, symSize: 0x8C }
+  - { offset: 0xC95B6, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC8settingsAA0debC8SettingsVvs', symObjAddr: 0x354, symBinAddr: 0x1A534, symSize: 0x9C }
+  - { offset: 0xC95EB, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC8settingsAA0debC8SettingsVvM', symObjAddr: 0x3F0, symBinAddr: 0x1A5D0, symSize: 0x44 }
+  - { offset: 0xC9885, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc', symObjAddr: 0x4B4, symBinAddr: 0x1A614, symSize: 0x264 }
+  - { offset: 0xC9955, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo', symObjAddr: 0x738, symBinAddr: 0x1A898, symSize: 0x60 }
+  - { offset: 0xC9969, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0x7DC, symBinAddr: 0x1A8F8, symSize: 0x234 }
+  - { offset: 0xC99DC, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0xA10, symBinAddr: 0x1AB2C, symSize: 0x28 }
+  - { offset: 0xC9A2B, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC11viewDidLoadyyF', symObjAddr: 0xA38, symBinAddr: 0x1AB54, symSize: 0x2D8 }
+  - { offset: 0xC9A91, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC11viewDidLoadyyFTo', symObjAddr: 0xD10, symBinAddr: 0x1AE2C, symSize: 0x28 }
+  - { offset: 0xC9AA5, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC06reloadebcF0yyF', symObjAddr: 0xD38, symBinAddr: 0x1AE54, symSize: 0x38 }
+  - { offset: 0xC9B24, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC15updateIndicator3for9fromIndex02toL022withProgressPercentage15indexWasChangedyAA0ebcfG0C_S2i12CoreGraphics7CGFloatVSbtF', symObjAddr: 0xD70, symBinAddr: 0x1AE8C, symSize: 0x1A8 }
+  - { offset: 0xC9C08, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC15updateIndicator3for9fromIndex02toL0yAA0ebcfG0C_S2itF', symObjAddr: 0xF18, symBinAddr: 0x1B034, symSize: 0x48 }
+  - { offset: 0xC9C54, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC12observeValue10forKeyPath2of6change7contextySSSg_ypSgSDySo05NSKeyi6ChangeK0aypGSgSvSgtFTo', symObjAddr: 0xF64, symBinAddr: 0x1B07C, symSize: 0x120 }
+  - { offset: 0xC9C7E, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerCfD', symObjAddr: 0x1124, symBinAddr: 0x1B23C, symSize: 0x9C }
+  - { offset: 0xC9CB1, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerCfDTo', symObjAddr: 0x11C0, symBinAddr: 0x1B2D8, symSize: 0xA0 }
+  - { offset: 0xC9CEF, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC21viewDidLayoutSubviewsyyFTo', symObjAddr: 0x133C, symBinAddr: 0x1B41C, symSize: 0x60 }
+  - { offset: 0xC9D29, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC05titleF033_FF976F232F06CAE9718B908B97FB41BDLLSo6UIViewCvg', symObjAddr: 0x139C, symBinAddr: 0x1B47C, symSize: 0x8C }
+  - { offset: 0xC9DCE, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC011titleScrollF033_FF976F232F06CAE9718B908B97FB41BDLLSo08UIScrollF0Cvg', symObjAddr: 0x1428, symBinAddr: 0x1B508, symSize: 0x208 }
+  - { offset: 0xC9F0C, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC11pageControl33_FF976F232F06CAE9718B908B97FB41BDLLSo06FXPageI0Cvg', symObjAddr: 0x1630, symBinAddr: 0x1B710, symSize: 0x88 }
+  - { offset: 0xC9F30, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC11pageControl33_FF976F232F06CAE9718B908B97FB41BDLLSo06FXPageI0CvgAGyXEfU_Tf0s_n', symObjAddr: 0x16B8, symBinAddr: 0x1B798, symSize: 0x1E4 }
+  - { offset: 0xC9FC5, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC016reloadNavigationF5Items33_FF976F232F06CAE9718B908B97FB41BDLLyyF', symObjAddr: 0x189C, symBinAddr: 0x1B97C, symSize: 0x458 }
+  - { offset: 0xCA459, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC016reloadNavigationF5Items33_FF976F232F06CAE9718B908B97FB41BDLLyyFSo7UILabelCyXEfU0_', symObjAddr: 0x1CF4, symBinAddr: 0x1BDD4, symSize: 0x1D8 }
+  - { offset: 0xCA529, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC013setNavigationF13ItemsPosition33_FF976F232F06CAE9718B908B97FB41BDLL11updateAlphaySb_tF', symObjAddr: 0x1ECC, symBinAddr: 0x1BFAC, symSize: 0x554 }
+  - { offset: 0xCA90B, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC12setAlphaWith33_FF976F232F06CAE9718B908B97FB41BDLL6offset11andDistancey12CoreGraphics7CGFloatV_AJtF', symObjAddr: 0x2420, symBinAddr: 0x1C500, symSize: 0x150 }
+  - { offset: 0xCABA2, size: 0x8, addend: 0x0, symName: '_$s15XLPagerTabStrip012TwitterPagerbC14ViewControllerC12observeValue10forKeyPath2of6change7contextySSSg_ypSgSDySo05NSKeyi6ChangeK0aypGSgSvSgtFTf4nnndn_n', symObjAddr: 0x2E00, symBinAddr: 0x1CEA8, symSize: 0x534 }
+...

@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/MDFInternationalization.framework/MDFInternationalization</key>
 		<data>
-		U8I5r6cqTmwDWzwk6YYNwrjY7XU=
+		pnV0vhFB7IghPtCaTQzwm1Umd9A=
 		</data>
 		<key>Frameworks/MDFInternationalization.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Frameworks/MDFTextAccessibility.framework/MDFTextAccessibility</key>
 		<data>
-		Ps5mLBdk/23ooijeOuUGbEU6jiI=
+		o0fJFlhJG1U+RpjwRv2hWL4qsfc=
 		</data>
 		<key>Frameworks/MDFTextAccessibility.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Frameworks/MaterialComponents.framework/MaterialComponents</key>
 		<data>
-		hOWBKDW4S1Xb+v0U16eWrwFtr7U=
+		BMTdqde8+vY4ydKgq0uZXWJj6Mg=
 		</data>
 		<key>Frameworks/MaterialComponents.framework/MaterialProgressView.bundle/Resources/en.lproj/MaterialProgressView.strings</key>
 		<dict>
@@ -48,6 +48,26 @@
 		<key>Frameworks/MaterialComponents.framework/_CodeSignature/CodeResources</key>
 		<data>
 		V0sdBg/xeks/2IaL4//6IvlKigY=
+		</data>
+		<key>Frameworks/XLPagerTabStrip.framework/Info.plist</key>
+		<data>
+		pNTppGA3xLl2PdAvYvfFI3oZdUQ=
+		</data>
+		<key>Frameworks/XLPagerTabStrip.framework/XLPagerTabStrip</key>
+		<data>
+		wQ+dFBQ/r0Ji4LpG0RY2XdTpUqw=
+		</data>
+		<key>Frameworks/XLPagerTabStrip.framework/XLPagerTabStrip.bundle/ButtonCell.nib</key>
+		<data>
+		ytg5yffqB5H/x3ZmyzKGeuqWj/Q=
+		</data>
+		<key>Frameworks/XLPagerTabStrip.framework/XLPagerTabStrip.bundle/Info.plist</key>
+		<data>
+		GRPHLzdJcYHQIZvWzCulLbXORwQ=
+		</data>
+		<key>Frameworks/XLPagerTabStrip.framework/_CodeSignature/CodeResources</key>
+		<data>
+		S9BA6VOhuN2JMR2GXj6VOHmC0cE=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -75,7 +95,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZVyGXGhqj3XtvlPnVthxh/2KYopElvauyf/pMZN7Tv8=
+			et79knSqY31MnoI7IA0bEUV5/F9b+Bi9wsmrP+HR6iY=
 			</data>
 		</dict>
 		<key>Frameworks/MDFInternationalization.framework/_CodeSignature/CodeResources</key>
@@ -96,7 +116,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2wVzuljpAkYU1HyIQzhjLq3DmXKi6phPq/orzWuStAg=
+			gVC3A85KXu0aHFxNRJD5D1RGgWgKMUyqeavizcyCVkE=
 			</data>
 		</dict>
 		<key>Frameworks/MDFTextAccessibility.framework/_CodeSignature/CodeResources</key>
@@ -117,7 +137,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zZ6g1fbEXyCYODXeKRwvNkHzXLlGLEHZwYsGQW4egv4=
+			8X2ojd1krNw8oZXGlxN3JRnDiNwaBpkU0RL/U6yvDZg=
 			</data>
 		</dict>
 		<key>Frameworks/MaterialComponents.framework/MaterialProgressView.bundle/Resources/en.lproj/MaterialProgressView.strings</key>
@@ -134,6 +154,41 @@
 			<key>hash2</key>
 			<data>
 			NOveur9SNfDA9xJfrueOvRLCbNDbmXKjjAo5UcukdO4=
+			</data>
+		</dict>
+		<key>Frameworks/XLPagerTabStrip.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WjhBX5eGqDNyi2f4I3N7gCYxlRlcT4J8jfeM4+qc+W4=
+			</data>
+		</dict>
+		<key>Frameworks/XLPagerTabStrip.framework/XLPagerTabStrip</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cuVaAiZR685dbi789/iuhlg5geMZQZAGHxGDeifVsvM=
+			</data>
+		</dict>
+		<key>Frameworks/XLPagerTabStrip.framework/XLPagerTabStrip.bundle/ButtonCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SqMarWZIj6hH8Ku871oA3FLqbIU3BZUzsIHyRvhlg64=
+			</data>
+		</dict>
+		<key>Frameworks/XLPagerTabStrip.framework/XLPagerTabStrip.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0ateqKLUG0JRjg5Kv9hwDLlaKJvIPsgPgpLDxFLS/6c=
+			</data>
+		</dict>
+		<key>Frameworks/XLPagerTabStrip.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oehavT8w8KuYyv7Xszt9cKySe+DpSGBCvrByTHvtN0I=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>

@@ -49,6 +49,26 @@
 		<data>
 		lq9XAeMznDF8EIb3gNMZ7Pn9Mvs=
 		</data>
+		<key>Frameworks/XLPagerTabStrip.framework/Info.plist</key>
+		<data>
+		9yMPUwGPsPR3P4BACGi3FvFUBBg=
+		</data>
+		<key>Frameworks/XLPagerTabStrip.framework/XLPagerTabStrip</key>
+		<data>
+		8R/rmryn1oeHWlb7XdDCq7GY9sM=
+		</data>
+		<key>Frameworks/XLPagerTabStrip.framework/XLPagerTabStrip.bundle/ButtonCell.nib</key>
+		<data>
+		ytg5yffqB5H/x3ZmyzKGeuqWj/Q=
+		</data>
+		<key>Frameworks/XLPagerTabStrip.framework/XLPagerTabStrip.bundle/Info.plist</key>
+		<data>
+		xomiMlf3wOFDZGO8czqQlTjgDX8=
+		</data>
+		<key>Frameworks/XLPagerTabStrip.framework/_CodeSignature/CodeResources</key>
+		<data>
+		863Sld4LyAzJTNva9bB0jqFQ9IA=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		YM8AtLGJueDJVOhMCrJ3uc40iNE=
@@ -130,6 +150,41 @@
 			<key>hash2</key>
 			<data>
 			VYbCsFQkAPs51xoku8cZD0TBt96kx5eJGit5760Z3xM=
+			</data>
+		</dict>
+		<key>Frameworks/XLPagerTabStrip.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cybVCECCxxrZz2Ucfy6Tf9mZnJm4Skr8+we9G+R8Pbw=
+			</data>
+		</dict>
+		<key>Frameworks/XLPagerTabStrip.framework/XLPagerTabStrip</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VrDpppfK0SJA1YN8SV0Dlfty9xWiRviH8j0FBX4YwTc=
+			</data>
+		</dict>
+		<key>Frameworks/XLPagerTabStrip.framework/XLPagerTabStrip.bundle/ButtonCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SqMarWZIj6hH8Ku871oA3FLqbIU3BZUzsIHyRvhlg64=
+			</data>
+		</dict>
+		<key>Frameworks/XLPagerTabStrip.framework/XLPagerTabStrip.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			q4z3WrQmt+IeZcjcWLjKJG4Ps+wtDrEumR8mycVgzT8=
+			</data>
+		</dict>
+		<key>Frameworks/XLPagerTabStrip.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MEqVWLMSo4xyjcf+HzuHxM27EU9MYcF55b43CTt20S4=
 			</data>
 		</dict>
 	</dict>
