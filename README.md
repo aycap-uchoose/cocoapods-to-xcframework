@@ -64,7 +64,7 @@ MDFInternationalization Checksum:
 XLPagerTabStrip Checksum:
 01393950b07da5a840e23b31c22bed7644c0393532fb750b23f1b2b7d8586990
 Zipper Checksum:
-ea364256a0298732a11489262684a9eeba6abaa54242addbe4eb0a6af79c3883
+62839200bd85fa5bf173c7c94b8111c1c47b1e79902f0a27ae2ac65c264ec1fd
 ```
 
 ## Swift Package

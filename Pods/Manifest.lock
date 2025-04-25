@@ -96,7 +96,7 @@ DEPENDENCIES:
   - MaterialComponents/TextFields (= 124.2.0)
   - "MaterialComponents/TextFields+Theming (= 124.2.0)"
   - XLPagerTabStrip (from `https://github.com/aycap-uchoose/XLPagerTabStrip.git`, branch `release_uchoose`)
-  - Zipper (= 1.2.0)
+  - Zipper
 
 SPEC REPOS:
   trunk:
@@ -122,6 +122,6 @@ SPEC CHECKSUMS:
   XLPagerTabStrip: 6af5fe7b41c21f371860df6bac2ddf12818c5103
   Zipper: ea78d563671cd8659b5db58c313756d5a763027a
 
-PODFILE CHECKSUM: e5e8badebe6a71ae1f98018bb395feac3f6c08d6
+PODFILE CHECKSUM: 19da94944a69d2a76d58a884a1122252d26559d5
 
 COCOAPODS: 1.16.2
