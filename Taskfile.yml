@@ -22,7 +22,16 @@ tasks:
       - sh zip.sh MDFInternationalization
       - sh zip.sh MDFTextAccessibility
       - sh zip.sh XLPagerTabStrip
+      - checksum
   
+  checksum:
+    desc: Checksum all.xcframeworks
+    cmds:
+      - sh checksum.sh MaterialComponents
+      - sh checksum.sh MDFInternationalization
+      - sh checksum.sh MDFTextAccessibility
+      - sh checksum.sh XLPagerTabStrip
+
   build:
     desc: Build all.xcframeworks
     cmds:
