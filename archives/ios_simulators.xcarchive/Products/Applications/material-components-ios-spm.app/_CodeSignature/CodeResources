@@ -69,6 +69,18 @@
 		<data>
 		863Sld4LyAzJTNva9bB0jqFQ9IA=
 		</data>
+		<key>Frameworks/Zipper.framework/Info.plist</key>
+		<data>
+		rwKYOcR9Teh77EWJOM9SkKPW6Vk=
+		</data>
+		<key>Frameworks/Zipper.framework/Zipper</key>
+		<data>
+		AynlPQunRBRjlp7zfSQzAw5pgTE=
+		</data>
+		<key>Frameworks/Zipper.framework/_CodeSignature/CodeResources</key>
+		<data>
+		bZy6nRyqXCIszNVGqMMVqHPqfqo=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		YM8AtLGJueDJVOhMCrJ3uc40iNE=
@@ -185,6 +197,27 @@
 			<key>hash2</key>
 			<data>
 			MEqVWLMSo4xyjcf+HzuHxM27EU9MYcF55b43CTt20S4=
+			</data>
+		</dict>
+		<key>Frameworks/Zipper.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rGhOtis17vUa10f692dQfpesCrKTFUSy3b/pq0A+vco=
+			</data>
+		</dict>
+		<key>Frameworks/Zipper.framework/Zipper</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BuZ+pIRAdyleg18uU6P8/gDDq3l/WqM7BPIZ09PXzkE=
+			</data>
+		</dict>
+		<key>Frameworks/Zipper.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OEmNtXkNmvlUJgLOlO7g4zrj2CMqOvzyA9LUgsYeteM=
 			</data>
 		</dict>
 	</dict>

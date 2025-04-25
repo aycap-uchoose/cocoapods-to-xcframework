@@ -10,4 +10,6 @@ target 'material-components-ios-spm' do
   pod 'MaterialComponents/TextFields', '124.2.0'
   pod 'MaterialComponents/TextFields+Theming', '124.2.0'
   pod 'XLPagerTabStrip', :git => 'https://github.com/aycap-uchoose/XLPagerTabStrip.git', :branch => 'release_uchoose'
+  pod 'Zipper', '1.2.0'
+  
 end

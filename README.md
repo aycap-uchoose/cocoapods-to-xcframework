@@ -55,14 +55,16 @@ sh zip.sh
 Output:
 
 ```sh
-MaterialComponents checksum:
+MaterialComponents Checksum:
 d7b83a1bc307dbddb44ecdd0c031752fa26a872e51232fa59ecfc02068b3bc2a
-MDFTextAccessibility checksum:
+MDFTextAccessibility Checksum:
 84f16230ec642eb3fca8f2f9cf0dd60decfb47a454b808fa76a998291e143ec8
-MDFInternationalization checksum:
+MDFInternationalization Checksum:
 7f290fecda96e554d630dea855109ce66ed63951ecb1c3391d228e9c75f233a1
-XLPagerTabStrip checksum:
+XLPagerTabStrip Checksum:
 01393950b07da5a840e23b31c22bed7644c0393532fb750b23f1b2b7d8586990
+Zipper Checksum:
+ea364256a0298732a11489262684a9eeba6abaa54242addbe4eb0a6af79c3883
 ```
 
 ## Swift Package

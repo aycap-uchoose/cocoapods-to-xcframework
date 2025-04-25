@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/MDFInternationalization.framework/MDFInternationalization</key>
 		<data>
-		pnV0vhFB7IghPtCaTQzwm1Umd9A=
+		KWhvu1FkVSmD+XEswhSHXlaz/JI=
 		</data>
 		<key>Frameworks/MDFInternationalization.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Frameworks/MDFTextAccessibility.framework/MDFTextAccessibility</key>
 		<data>
-		o0fJFlhJG1U+RpjwRv2hWL4qsfc=
+		cY7fS+f58ch4eCck3wldbo8YCvk=
 		</data>
 		<key>Frameworks/MDFTextAccessibility.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Frameworks/MaterialComponents.framework/MaterialComponents</key>
 		<data>
-		BMTdqde8+vY4ydKgq0uZXWJj6Mg=
+		Dfn1Don9Pqoa/UUPWd8GuXXFcCo=
 		</data>
 		<key>Frameworks/MaterialComponents.framework/MaterialProgressView.bundle/Resources/en.lproj/MaterialProgressView.strings</key>
 		<dict>
@@ -55,7 +55,7 @@
 		</data>
 		<key>Frameworks/XLPagerTabStrip.framework/XLPagerTabStrip</key>
 		<data>
-		wQ+dFBQ/r0Ji4LpG0RY2XdTpUqw=
+		kb+aq8b/1hmhVT+mituTGTG1Y0k=
 		</data>
 		<key>Frameworks/XLPagerTabStrip.framework/XLPagerTabStrip.bundle/ButtonCell.nib</key>
 		<data>
@@ -68,6 +68,18 @@
 		<key>Frameworks/XLPagerTabStrip.framework/_CodeSignature/CodeResources</key>
 		<data>
 		S9BA6VOhuN2JMR2GXj6VOHmC0cE=
+		</data>
+		<key>Frameworks/Zipper.framework/Info.plist</key>
+		<data>
+		JHNNo3S4h2b6E/wMwKwxv1tosgw=
+		</data>
+		<key>Frameworks/Zipper.framework/Zipper</key>
+		<data>
+		SHrhry/jObB+9w/+jnuFcpkfUVw=
+		</data>
+		<key>Frameworks/Zipper.framework/_CodeSignature/CodeResources</key>
+		<data>
+		SGd/SXQww7mZsShb9Q7XItPGQI4=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -95,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			et79knSqY31MnoI7IA0bEUV5/F9b+Bi9wsmrP+HR6iY=
+			MUBICAaR9CO0kR/t44MgH17zG1SMJhi8qotVMwVl2pY=
 			</data>
 		</dict>
 		<key>Frameworks/MDFInternationalization.framework/_CodeSignature/CodeResources</key>
@@ -116,7 +128,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gVC3A85KXu0aHFxNRJD5D1RGgWgKMUyqeavizcyCVkE=
+			G8plH8OJNsaqKNQHd7zhUmigSfb0vJ7soLn6xtEOMXY=
 			</data>
 		</dict>
 		<key>Frameworks/MDFTextAccessibility.framework/_CodeSignature/CodeResources</key>
@@ -137,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8X2ojd1krNw8oZXGlxN3JRnDiNwaBpkU0RL/U6yvDZg=
+			d4xe93JvhZAPS6Zoc3KbdQhhv/bzSmIrcRhAYY3+Z0Q=
 			</data>
 		</dict>
 		<key>Frameworks/MaterialComponents.framework/MaterialProgressView.bundle/Resources/en.lproj/MaterialProgressView.strings</key>
@@ -167,7 +179,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cuVaAiZR685dbi789/iuhlg5geMZQZAGHxGDeifVsvM=
+			K33S28UJ37CRObWOpG/8r2vfQ1V/is++nwTIUQLdp2s=
 			</data>
 		</dict>
 		<key>Frameworks/XLPagerTabStrip.framework/XLPagerTabStrip.bundle/ButtonCell.nib</key>
@@ -189,6 +201,27 @@
 			<key>hash2</key>
 			<data>
 			oehavT8w8KuYyv7Xszt9cKySe+DpSGBCvrByTHvtN0I=
+			</data>
+		</dict>
+		<key>Frameworks/Zipper.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			m3HTCzbwQWvxBM31+L0OfAqXG+trgjVIpjqBWWrAJAI=
+			</data>
+		</dict>
+		<key>Frameworks/Zipper.framework/Zipper</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rJhEnXX2RAoblQwffsyE/eHitzE4uUxEduYwWj4xRIw=
+			</data>
+		</dict>
+		<key>Frameworks/Zipper.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XtVuuHpn5vJhe7jNcAqDXasV50ez1RiHDUxMg2snHE8=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>

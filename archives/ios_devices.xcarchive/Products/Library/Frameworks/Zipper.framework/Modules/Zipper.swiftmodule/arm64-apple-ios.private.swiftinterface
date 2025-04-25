@@ -1,0 +1,221 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Zipper
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Compression
+import CoreFoundation
+import Foundation
+import Swift
+@_exported import Zipper
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public typealias ZipperCRC32 = Swift.UInt32
+public typealias ZipperConsumerClosure = (_ data: Foundation.Data) throws -> Swift.Void
+public typealias ZipperProviderClosure = (_ position: Swift.Int, _ size: Swift.Int) throws -> Foundation.Data
+public let ZipperCRCTable: [Swift.UInt32]
+extension Foundation.Data {
+  @inline(__always) public func crc32(checksum: Zipper.ZipperCRC32) -> Zipper.ZipperCRC32
+}
+public protocol ZipperDataSerializable {
+  static var size: Swift.Int { get }
+  init?(data: Foundation.Data, additionalDataProvider: (Swift.Int) throws -> Foundation.Data)
+  var data: Foundation.Data { get }
+}
+extension Foundation.Data {
+  public enum DataError : Swift.Error {
+    case unreadableFile
+    case unwritableFile
+    public static func == (a: Foundation.Data.DataError, b: Foundation.Data.DataError) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public func scanValue<T>(start: Swift.Int) -> T
+  public static func readStructure<T>(from file: Swift.UnsafeMutablePointer<_stdio.FILE>, at offset: Swift.Int) -> T? where T : Zipper.ZipperDataSerializable
+  public static func readChunk(from file: Swift.UnsafeMutablePointer<_stdio.FILE>, size: Swift.Int) throws -> Foundation.Data
+  public static func consumePart(of file: Swift.UnsafeMutablePointer<_stdio.FILE>, size: Swift.Int, chunkSize: Swift.Int, skipCRC32: Swift.Bool = false, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> Zipper.ZipperCRC32
+  public static func write(chunk: Foundation.Data, to file: Swift.UnsafeMutablePointer<_stdio.FILE>) throws -> Swift.Int
+}
+extension Foundation.Date {
+  public init(dateTime: (Swift.UInt16, Swift.UInt16))
+  public var fileModificationDateTime: (Swift.UInt16, Swift.UInt16) {
+    get
+  }
+  public var fileModificationDate: Swift.UInt16 {
+    get
+  }
+  public var fileModificationTime: Swift.UInt16 {
+    get
+  }
+}
+extension Foundation.FileManager {
+  public typealias CentralDirectoryStructure = Zipper.Zipper.Entry.CentralDirectoryStructure
+  public func zip(item sourceURL: Foundation.URL, to destinationURL: Foundation.URL, shouldKeepParent: Swift.Bool = true) throws
+  public func unzip(item sourceURL: Foundation.URL, to destinationURL: Foundation.URL) throws
+  public func createParentDirectoryStructure(for url: Foundation.URL) throws
+  public class func attributes(from centralDirectoryStructure: Foundation.FileManager.CentralDirectoryStructure) -> [Foundation.FileAttributeKey : Any]
+  public class func permissions(for externalFileAttributes: Swift.UInt32, osType: Zipper.Zipper.Entry.OSType) -> Swift.UInt16
+  public class func externalFileAttributesForEntry(of type: Zipper.Zipper.Entry.EntryType, permissions: Swift.UInt16) -> Swift.UInt32
+  public class func permissionsForItem(at URL: Foundation.URL) throws -> Swift.UInt16
+  public class func fileModificationDateTimeForItem(at url: Foundation.URL) throws -> Foundation.Date
+  public class func fileSizeForItem(at url: Foundation.URL) throws -> Swift.UInt32
+  public class func typeForItem(at url: Foundation.URL) throws -> Zipper.Zipper.Entry.EntryType
+}
+public let defaultReadChunkSize: Swift.UInt32
+public let defaultWriteChunkSize: Swift.UInt32
+public let defaultPermissions: Swift.UInt16
+public enum CompressionMethod : Swift.UInt16 {
+  case none
+  case deflate
+  public init?(rawValue: Swift.UInt16)
+  public typealias RawValue = Swift.UInt16
+  public var rawValue: Swift.UInt16 {
+    get
+  }
+}
+final public class Zipper : Swift.Sequence {
+  public enum ArchiveError : Swift.Error {
+    case unreadableArchive
+    case unwritableArchive
+    case invalidEntryPath
+    case invalidCompressionMethod
+    case invalidStartOfCentralDirectoryOffset
+    case missingEndOfCentralDirectoryRecord
+    public static func == (a: Zipper.Zipper.ArchiveError, b: Zipper.Zipper.ArchiveError) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum AccessMode : Swift.UInt {
+    case create
+    case read
+    case update
+    public init?(rawValue: Swift.UInt)
+    public typealias RawValue = Swift.UInt
+    public var rawValue: Swift.UInt {
+      get
+    }
+  }
+  final public let url: Foundation.URL
+  final public let accessMode: Zipper.Zipper.AccessMode
+  public init?(url: Foundation.URL, accessMode mode: Zipper.Zipper.AccessMode)
+  final public class func create(at u: Foundation.URL) -> Zipper.Zipper?
+  final public class func read(at u: Foundation.URL) -> Zipper.Zipper?
+  final public class func update(at u: Foundation.URL) -> Zipper.Zipper?
+  @objc deinit
+  final public func makeIterator() -> Swift.AnyIterator<Zipper.Zipper.Entry>
+  final public subscript(path: Swift.String) -> Zipper.Zipper.Entry? {
+    get
+  }
+  public typealias Element = Zipper.Zipper.Entry
+  public typealias Iterator = Swift.AnyIterator<Zipper.Zipper.Entry>
+}
+extension Zipper.Zipper {
+  public struct Entry : Swift.Equatable {
+    public enum EntryType : Swift.Int {
+      case file
+      case directory
+      case symlink
+      public init?(rawValue: Swift.Int)
+      public typealias RawValue = Swift.Int
+      public var rawValue: Swift.Int {
+        get
+      }
+    }
+    public enum OSType : Swift.UInt {
+      case msdos
+      case unix
+      case osx
+      case unused
+      public init?(rawValue: Swift.UInt)
+      public typealias RawValue = Swift.UInt
+      public var rawValue: Swift.UInt {
+        get
+      }
+    }
+    public struct LocalFileHeader : Zipper.ZipperDataSerializable {
+      public static let size: Swift.Int
+    }
+    public struct DataDescriptor : Zipper.ZipperDataSerializable {
+      public let data: Foundation.Data
+      public static let size: Swift.Int
+    }
+    public struct CentralDirectoryStructure : Zipper.ZipperDataSerializable {
+      public static let size: Swift.Int
+    }
+    public var path: Swift.String {
+      get
+    }
+    public var fileAttributes: [Foundation.FileAttributeKey : Any] {
+      get
+    }
+    public var checksum: Zipper.ZipperCRC32 {
+      get
+    }
+    public var type: Zipper.Zipper.Entry.EntryType {
+      get
+    }
+    public var dataOffset: Swift.Int {
+      get
+    }
+    public let centralDirectoryStructure: Zipper.Zipper.Entry.CentralDirectoryStructure
+    public let localFileHeader: Zipper.Zipper.Entry.LocalFileHeader
+    public let dataDescriptor: Zipper.Zipper.Entry.DataDescriptor?
+    public static func == (lhs: Zipper.Zipper.Entry, rhs: Zipper.Zipper.Entry) -> Swift.Bool
+    public init?(centralDirectoryStructure: Zipper.Zipper.Entry.CentralDirectoryStructure, localFileHeader: Zipper.Zipper.Entry.LocalFileHeader, dataDescriptor: Zipper.Zipper.Entry.DataDescriptor?)
+  }
+}
+extension Zipper.Zipper.Entry.LocalFileHeader {
+  public var data: Foundation.Data {
+    get
+  }
+  public init?(data: Foundation.Data, additionalDataProvider provider: (Swift.Int) throws -> Foundation.Data)
+}
+extension Zipper.Zipper.Entry.CentralDirectoryStructure {
+  public var data: Foundation.Data {
+    get
+  }
+  public init?(data: Foundation.Data, additionalDataProvider provider: (Swift.Int) throws -> Foundation.Data)
+  public init(localFileHeader: Zipper.Zipper.Entry.LocalFileHeader, fileAttributes: Swift.UInt32, relativeOffset: Swift.UInt32)
+  public init(centralDirectoryStructure: Zipper.Zipper.Entry.CentralDirectoryStructure, offset: Swift.UInt32)
+}
+extension Zipper.Zipper.Entry.DataDescriptor {
+  public init?(data: Foundation.Data, additionalDataProvider provider: (Swift.Int) throws -> Foundation.Data)
+}
+extension Zipper.Zipper {
+  final public func extract(_ entry: Zipper.Zipper.Entry, to url: Foundation.URL, bufferSize: Swift.UInt32 = defaultReadChunkSize) throws -> Zipper.ZipperCRC32
+  final public func extract(_ entry: Zipper.Zipper.Entry, bufferSize: Swift.UInt32 = defaultReadChunkSize, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> Zipper.ZipperCRC32
+}
+extension Zipper.Zipper {
+  final public func extract(to destinationURL: Foundation.URL) throws
+  final public func unzip(to destinationURL: Foundation.URL) throws
+  final public func unarchive(to destinationURL: Foundation.URL) throws
+}
+extension Zipper.Zipper {
+  final public func addEntry(with path: Swift.String, relativeTo baseURL: Foundation.URL, compressionMethod: Zipper.CompressionMethod = .none, bufferSize: Swift.UInt32 = defaultWriteChunkSize) throws
+  final public func addEntry(with path: Swift.String, type: Zipper.Zipper.Entry.EntryType, uncompressedSize: Swift.UInt32, modificationDate: Foundation.Date = Date(), permissions: Swift.UInt16 = defaultPermissions, compressionMethod: Zipper.CompressionMethod = .none, bufferSize: Swift.UInt32 = defaultWriteChunkSize, provider: (_ position: Swift.Int, _ size: Swift.Int) throws -> Foundation.Data) throws
+  final public func remove(_ entry: Zipper.Zipper.Entry, bufferSize: Swift.UInt32 = defaultReadChunkSize) throws
+}
+extension Zipper.Zipper {
+  final public func archive(item sourceURL: Foundation.URL, shouldKeepParent: Swift.Bool = true) throws
+  final public func zip(item sourceURL: Foundation.URL, shouldKeepParent: Swift.Bool = true) throws
+}
+extension Foundation.Data.DataError : Swift.Equatable {}
+extension Foundation.Data.DataError : Swift.Hashable {}
+extension Zipper.CompressionMethod : Swift.Equatable {}
+extension Zipper.CompressionMethod : Swift.Hashable {}
+extension Zipper.CompressionMethod : Swift.RawRepresentable {}
+extension Zipper.Zipper.ArchiveError : Swift.Equatable {}
+extension Zipper.Zipper.ArchiveError : Swift.Hashable {}
+extension Zipper.Zipper.AccessMode : Swift.Equatable {}
+extension Zipper.Zipper.AccessMode : Swift.Hashable {}
+extension Zipper.Zipper.AccessMode : Swift.RawRepresentable {}
+extension Zipper.Zipper.Entry.EntryType : Swift.Equatable {}
+extension Zipper.Zipper.Entry.EntryType : Swift.Hashable {}
+extension Zipper.Zipper.Entry.EntryType : Swift.RawRepresentable {}
+extension Zipper.Zipper.Entry.OSType : Swift.Equatable {}
+extension Zipper.Zipper.Entry.OSType : Swift.Hashable {}
+extension Zipper.Zipper.Entry.OSType : Swift.RawRepresentable {}

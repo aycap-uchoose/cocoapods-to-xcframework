@@ -1,0 +1,11 @@
+framework module Zipper {
+  umbrella header "Zipper-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Zipper.Swift {
+  header "Zipper-Swift.h"
+  requires objc
+}
