@@ -1,0 +1,32 @@
+version: '3'
+
+tasks:
+  archive:
+    dir: '{{.USER_WORKING_DIR}}'
+    cmds:
+      - sh archive.sh
+
+  xcframework:
+    desc: Create all .xcframeworks from archives
+    cmds:
+      - mkdir -p ./Framework
+      - sh xcframework.sh MaterialComponents
+      - sh xcframework.sh MDFInternationalization
+      - sh xcframework.sh MDFTextAccessibility
+      - sh xcframework.sh XLPagerTabStrip
+
+  zip:
+    desc: Zip all.xcframeworks
+    cmds:
+      - sh zip.sh MaterialComponents
+      - sh zip.sh MDFInternationalization
+      - sh zip.sh MDFTextAccessibility
+      - sh zip.sh XLPagerTabStrip
+  
+  build:
+    desc: Build all.xcframeworks
+    cmds:
+      - archive
+      - xcframework
+      - zip
+    

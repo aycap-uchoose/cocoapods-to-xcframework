@@ -1,6 +1,25 @@
-# material-components-ios-spm
+# cocoapods-to-xcframework
+
+Build xcframework from CocoaPods.
+
+## Prerequisite
+
+- Install Xcode 14.3.1
+- Install CocoaPods 1.12.1
+- Install task
 
 ## Initialization
+
+- Add pod 'libs name' in Podfile
+
+```sh
+pod 'MaterialComponents', '~> 112.0.0'
+pod 'MDFTextAccessibility', '~> 112.0.0'
+pod 'MDFInternationalization', '~> 112.0.0'
+pod 'XLPagerTabStrip', '~> 112.0.0'
+```
+
+- Install pod
 
 ```sh
 pod install
@@ -9,13 +28,13 @@ pod install
 ## Build archive (for Simulator + Device)
 
 ```sh
-sh build.sh
+task archive
 ```
 
 ## Convert to .xcframework (for Simulator + Device)
 
 ```sh
-sh xcframework.sh
+task xcframework
 ```
 
 Output:
@@ -24,6 +43,7 @@ Output:
 xcframework successfully written out to: ./Framework/MaterialComponents.xcframework
 xcframework successfully written out to: ./Framework/MDFInternationalization.xcframework
 xcframework successfully written out to: ./Framework/MDFTextAccessibility.xcframework
+xcframework successfully written out to: ./Framework/XLPagerTabStrip.xcframework
 ```
 
 ## Zip and Checksum
@@ -41,4 +61,30 @@ MDFTextAccessibility checksum:
 84f16230ec642eb3fca8f2f9cf0dd60decfb47a454b808fa76a998291e143ec8
 MDFInternationalization checksum:
 7f290fecda96e554d630dea855109ce66ed63951ecb1c3391d228e9c75f233a1
+XLPagerTabStrip checksum:
+01393950b07da5a840e23b31c22bed7644c0393532fb750b23f1b2b7d8586990
+```
+
+## Swift Package
+
+```swift
+// swift-tools-version:5.7
+import PackageDescription
+let package = Package(
+    name: "FrameworkName",
+    products: [
+        .library(
+            name: "FrameworkName",
+            targets: ["FrameworkName"]
+        ),
+    ],
+    dependencies: [],
+    targets: [
+        .binaryTarget(
+            name: "FrameworkName",
+            url: "https://github.com/username/repos-name/releases/download/x.y.z/FrameworkName.xcframework.zip",
+            checksum: "Checksum"
+        )
+    ]
+)
 ```
