@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift</key>
+		<data>
+		oAJ2lY6x7BD3gEBd9ZHIcPC+No0=
+		</data>
+		<key>Frameworks/IQKeyboardManagerSwift.framework/Info.plist</key>
+		<data>
+		yAqr5CSYN16BFzK/VfiarQnOtoE=
+		</data>
+		<key>Frameworks/IQKeyboardManagerSwift.framework/_CodeSignature/CodeResources</key>
+		<data>
+		LCxr66EcTL7+MdWSU5sgHAbI5G0=
+		</data>
 		<key>Frameworks/MDFInternationalization.framework/Info.plist</key>
 		<data>
 		nccw+5TTI/dSX7AZQALezqLpFeA=
@@ -92,6 +104,27 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			z4gjWvDelpLU2K8rNvwM3/i3HFfKbjA+wWEUO0Oj1Ts=
+			</data>
+		</dict>
+		<key>Frameworks/IQKeyboardManagerSwift.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CKRgRRFocgduu+gqBe6em3BYnef8lwDz88og9vBUZoU=
+			</data>
+		</dict>
+		<key>Frameworks/IQKeyboardManagerSwift.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rxBlu0F4/nz5EgqzLKqnkYsRcFEoJOYnkNHpP7cJwp4=
+			</data>
+		</dict>
 		<key>Frameworks/MDFInternationalization.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>

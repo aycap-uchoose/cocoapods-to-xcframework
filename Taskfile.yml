@@ -1,5 +1,6 @@
 version: '3'
-
+vars:
+  name: ""
 tasks:
   archive:
     dir: '{{.USER_WORKING_DIR}}'
@@ -14,6 +15,7 @@ tasks:
       - sh xcframework.sh MDFInternationalization
       - sh xcframework.sh MDFTextAccessibility
       - sh xcframework.sh XLPagerTabStrip
+      - sh xcframework.sh IQKeyboardManagerSwift
 
   zip:
     desc: Zip all.xcframeworks
@@ -22,6 +24,7 @@ tasks:
       - sh zip.sh MDFInternationalization
       - sh zip.sh MDFTextAccessibility
       - sh zip.sh XLPagerTabStrip
+      - sh zip.sh IQKeyboardManagerSwift
       - checksum
   
   checksum:
@@ -31,11 +34,20 @@ tasks:
       - sh checksum.sh MDFInternationalization
       - sh checksum.sh MDFTextAccessibility
       - sh checksum.sh XLPagerTabStrip
+      - sh checksum.sh IQKeyboardManagerSwift
 
-  build:
+  build:all:
     desc: Build all.xcframeworks
     cmds:
       - archive
       - xcframework
       - zip
-    
+  
+  # task build:man name=MyFramework
+  build:man:
+    desc: Build {{.name}}.xcframeworks
+    cmds:
+      - sh archive.sh
+      - sh xcframework.sh {{.name}}
+      - sh zip.sh {{.name}}
+      - sh checksum.sh {{.name}}

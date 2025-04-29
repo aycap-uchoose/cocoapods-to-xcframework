@@ -4,13 +4,25 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift</key>
+		<data>
+		IZDGirPJ0QZj8Eo46yeMJgIZJ7I=
+		</data>
+		<key>Frameworks/IQKeyboardManagerSwift.framework/Info.plist</key>
+		<data>
+		RBrvqjVgMXEzs2v2jL6VvN3Z66U=
+		</data>
+		<key>Frameworks/IQKeyboardManagerSwift.framework/_CodeSignature/CodeResources</key>
+		<data>
+		QeT5xghHdpENV8ryf2VaDnyEh7I=
+		</data>
 		<key>Frameworks/MDFInternationalization.framework/Info.plist</key>
 		<data>
 		pMuZWCkPhLMEFwkAkyibjT2yjqE=
 		</data>
 		<key>Frameworks/MDFInternationalization.framework/MDFInternationalization</key>
 		<data>
-		F6umV8Xg6XUew/xPsS4Y8uZrNCo=
+		kGMCl7YE9F7ULMY1ev2wauu473w=
 		</data>
 		<key>Frameworks/MDFInternationalization.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -22,7 +34,7 @@
 		</data>
 		<key>Frameworks/MDFTextAccessibility.framework/MDFTextAccessibility</key>
 		<data>
-		M1VDDWMpCjogiBgRdfvUuHIubsQ=
+		Be0tBBFFe5OpT2pQDPIoDCSjIRs=
 		</data>
 		<key>Frameworks/MDFTextAccessibility.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -34,7 +46,7 @@
 		</data>
 		<key>Frameworks/MaterialComponents.framework/MaterialComponents</key>
 		<data>
-		dVAMRKtND7u7igwJOY8vIS23guY=
+		SEWbQoxCkdHqFjjEVE9WuydM5KU=
 		</data>
 		<key>Frameworks/MaterialComponents.framework/MaterialProgressView.bundle/Resources/en.lproj/MaterialProgressView.strings</key>
 		<dict>
@@ -55,7 +67,7 @@
 		</data>
 		<key>Frameworks/XLPagerTabStrip.framework/XLPagerTabStrip</key>
 		<data>
-		vcQwcpgmn5lx/BfRDOY+eUD82JA=
+		VL/fFMBiUZEN0pqKSq7U30fGk8o=
 		</data>
 		<key>Frameworks/XLPagerTabStrip.framework/XLPagerTabStrip.bundle/ButtonCell.nib</key>
 		<data>
@@ -75,7 +87,7 @@
 		</data>
 		<key>Frameworks/Zipper.framework/Zipper</key>
 		<data>
-		gRpYZLjjltYd09hb7PI/d6xtp9U=
+		FdEOG33xnB/epbOkgV+HZAbXri4=
 		</data>
 		<key>Frameworks/Zipper.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -96,6 +108,27 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BM9lMzwNAfLYPFMfuNtGVkrg1sqTFT6ZKYJX9PyQFMg=
+			</data>
+		</dict>
+		<key>Frameworks/IQKeyboardManagerSwift.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PVBW91bnrfatUth2khYBHBoNarGr6I9UJEJZQ+DDB+0=
+			</data>
+		</dict>
+		<key>Frameworks/IQKeyboardManagerSwift.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rOpUloR1ltt9a6Txm6l2Dc/1FoA44AUYw4TJvWZXxD4=
+			</data>
+		</dict>
 		<key>Frameworks/MDFInternationalization.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -107,7 +140,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PPkenqEtI4YlKfssLEwEd7ebKTuIrTVpw+YRCpmO9xU=
+			ZqGpyFubWnEjKhQwCiHj0kI5XKEzJOhhVAfrpr9c9NM=
 			</data>
 		</dict>
 		<key>Frameworks/MDFInternationalization.framework/_CodeSignature/CodeResources</key>
@@ -128,7 +161,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UbV/ndiszcXyuGfcZAAiqCjuR2xkvCvczK4NPgOda1U=
+			a0mDIrjDPGPh0j+gRNK16OWkRPuH3ABctE8CD0bGUfY=
 			</data>
 		</dict>
 		<key>Frameworks/MDFTextAccessibility.framework/_CodeSignature/CodeResources</key>
@@ -149,7 +182,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0fRrzyWPtSRSXKynlzi1Du923TcKZxuT48s4lLohOz8=
+			oj4V5Z6/sSZZpMEEOFLcDCXnfGuHBgNI8+/lVM33x58=
 			</data>
 		</dict>
 		<key>Frameworks/MaterialComponents.framework/MaterialProgressView.bundle/Resources/en.lproj/MaterialProgressView.strings</key>
@@ -179,7 +212,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kq/z/4HQw6In/Cqf3Y4re4O1aJceB9NoedjK+hoEZbQ=
+			h+Q17GxqLobZLKqMAV3D2XqMOcoev+6awnCfLXTDxw8=
 			</data>
 		</dict>
 		<key>Frameworks/XLPagerTabStrip.framework/XLPagerTabStrip.bundle/ButtonCell.nib</key>
@@ -214,7 +247,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FKK0oZ+vxmw2yQspuGWi0l6u6LYK3pcgVRfb0wFLDSM=
+			ChzhykN0qQVb3CNkm8rXYYcJOwbDMcS/alLxbVeGMoQ=
 			</data>
 		</dict>
 		<key>Frameworks/Zipper.framework/_CodeSignature/CodeResources</key>

@@ -6,6 +6,7 @@ target 'material-components-ios-spm' do
   use_frameworks!
 
   # Pods for material-components-ios-spm
+  pod 'IQKeyboardManagerSwift', '6.5.10'
   pod 'MaterialComponents/ProgressView', '124.2.0'
   pod 'MaterialComponents/TextFields', '124.2.0'
   pod 'MaterialComponents/TextFields+Theming', '124.2.0'

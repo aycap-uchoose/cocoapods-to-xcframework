@@ -1,4 +1,5 @@
 PODS:
+  - IQKeyboardManagerSwift (6.5.10)
   - MaterialComponents/AnimationTiming (124.2.0)
   - MaterialComponents/Availability (124.2.0)
   - MaterialComponents/Buttons (124.2.0):
@@ -92,6 +93,7 @@ PODS:
   - Zipper (1.2.0)
 
 DEPENDENCIES:
+  - IQKeyboardManagerSwift (= 6.5.10)
   - MaterialComponents/ProgressView (= 124.2.0)
   - MaterialComponents/TextFields (= 124.2.0)
   - "MaterialComponents/TextFields+Theming (= 124.2.0)"
@@ -100,6 +102,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - IQKeyboardManagerSwift
     - MaterialComponents
     - MDFInternationalization
     - MDFTextAccessibility
@@ -116,12 +119,13 @@ CHECKOUT OPTIONS:
     :git: https://github.com/aycap-uchoose/XLPagerTabStrip.git
 
 SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
   MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
   MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
   MDFTextAccessibility: f4bb4cc2194286651b59a215fdeaa0e05dc90ba5
   XLPagerTabStrip: 6af5fe7b41c21f371860df6bac2ddf12818c5103
   Zipper: ea78d563671cd8659b5db58c313756d5a763027a
 
-PODFILE CHECKSUM: 19da94944a69d2a76d58a884a1122252d26559d5
+PODFILE CHECKSUM: befa7479df1dc8d6bf64eee36b7aec2615436aa5
 
 COCOAPODS: 1.16.2

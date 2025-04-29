@@ -17,6 +17,7 @@ pod 'MaterialComponents', '~> 112.0.0'
 pod 'MDFTextAccessibility', '~> 112.0.0'
 pod 'MDFInternationalization', '~> 112.0.0'
 pod 'XLPagerTabStrip', '~> 112.0.0'
+pod 'IQKeyboardManagerSwift', '6.5.10'
 ```
 
 - Install pod
@@ -44,6 +45,7 @@ xcframework successfully written out to: ./Framework/MaterialComponents.xcframew
 xcframework successfully written out to: ./Framework/MDFInternationalization.xcframework
 xcframework successfully written out to: ./Framework/MDFTextAccessibility.xcframework
 xcframework successfully written out to: ./Framework/XLPagerTabStrip.xcframework
+xcframework successfully written out to: ./Framework/IQKeyboardManagerSwift.xcframework
 ```
 
 ## Zip and Checksum
@@ -65,6 +67,8 @@ XLPagerTabStrip Checksum:
 01393950b07da5a840e23b31c22bed7644c0393532fb750b23f1b2b7d8586990
 Zipper Checksum:
 62839200bd85fa5bf173c7c94b8111c1c47b1e79902f0a27ae2ac65c264ec1fd
+IQKeyboardManagerSwift Checksum:
+0afbf081a622a94dd79e75a7673f59f0fe2518c6fc155ef1e5fe26da39bbc449
 ```
 
 ## Swift Package
