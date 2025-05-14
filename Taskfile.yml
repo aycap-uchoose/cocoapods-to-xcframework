@@ -16,6 +16,7 @@ tasks:
       - sh xcframework.sh MDFTextAccessibility
       - sh xcframework.sh XLPagerTabStrip
       - sh xcframework.sh IQKeyboardManagerSwift
+      - sh xcframework.sh Cluster
 
   zip:
     desc: Zip all.xcframeworks
@@ -25,6 +26,7 @@ tasks:
       - sh zip.sh MDFTextAccessibility
       - sh zip.sh XLPagerTabStrip
       - sh zip.sh IQKeyboardManagerSwift
+      - sh zip.sh Cluster
       - checksum
   
   checksum:
@@ -35,6 +37,8 @@ tasks:
       - sh checksum.sh MDFTextAccessibility
       - sh checksum.sh XLPagerTabStrip
       - sh checksum.sh IQKeyboardManagerSwift
+      - sh checksum.sh XLPagerTabStrip
+      - sh checksum.sh Cluster
 
   build:all:
     desc: Build all.xcframeworks

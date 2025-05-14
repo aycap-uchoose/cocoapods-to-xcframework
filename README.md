@@ -69,6 +69,8 @@ Zipper Checksum:
 62839200bd85fa5bf173c7c94b8111c1c47b1e79902f0a27ae2ac65c264ec1fd
 IQKeyboardManagerSwift Checksum:
 0afbf081a622a94dd79e75a7673f59f0fe2518c6fc155ef1e5fe26da39bbc449
+Cluster Checksum:
+f9469bb84e0726d12ca8121c5d264da1e96b255e9142006f66643e38c8347bb2
 ```
 
 ## Swift Package

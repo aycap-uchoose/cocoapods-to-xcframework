@@ -1,4 +1,5 @@
 PODS:
+  - Cluster (3.0.3)
   - IQKeyboardManagerSwift (6.5.10)
   - MaterialComponents/AnimationTiming (124.2.0)
   - MaterialComponents/Availability (124.2.0)
@@ -89,23 +90,28 @@ PODS:
     - MDFTextAccessibility
   - MDFInternationalization (3.0.0)
   - MDFTextAccessibility (2.0.1)
+  - Sodium (0.9.1)
   - XLPagerTabStrip (9.0.0)
   - Zipper (1.2.0)
 
 DEPENDENCIES:
+  - Cluster
   - IQKeyboardManagerSwift (= 6.5.10)
   - MaterialComponents/ProgressView (= 124.2.0)
   - MaterialComponents/TextFields (= 124.2.0)
   - "MaterialComponents/TextFields+Theming (= 124.2.0)"
+  - Sodium (= 0.9.1)
   - XLPagerTabStrip (from `https://github.com/aycap-uchoose/XLPagerTabStrip.git`, branch `release_uchoose`)
   - Zipper
 
 SPEC REPOS:
   trunk:
+    - Cluster
     - IQKeyboardManagerSwift
     - MaterialComponents
     - MDFInternationalization
     - MDFTextAccessibility
+    - Sodium
     - Zipper
 
 EXTERNAL SOURCES:
@@ -119,13 +125,15 @@ CHECKOUT OPTIONS:
     :git: https://github.com/aycap-uchoose/XLPagerTabStrip.git
 
 SPEC CHECKSUMS:
+  Cluster: d72510594f60d901905953aafdc811d1888177ae
   IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
   MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
   MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
   MDFTextAccessibility: f4bb4cc2194286651b59a215fdeaa0e05dc90ba5
+  Sodium: 23d11554ecd556196d313cf6130d406dfe7ac6da
   XLPagerTabStrip: 6af5fe7b41c21f371860df6bac2ddf12818c5103
   Zipper: ea78d563671cd8659b5db58c313756d5a763027a
 
-PODFILE CHECKSUM: befa7479df1dc8d6bf64eee36b7aec2615436aa5
+PODFILE CHECKSUM: 450cb8500aab774ffc902572c84933c11b30ef96
 
 COCOAPODS: 1.16.2

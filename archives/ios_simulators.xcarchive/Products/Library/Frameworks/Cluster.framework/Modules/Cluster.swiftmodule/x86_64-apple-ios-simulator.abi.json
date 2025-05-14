@@ -1,0 +1,3811 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Cluster",
+    "printedName": "Cluster",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "MapKit",
+        "printedName": "MapKit",
+        "declKind": "Import",
+        "moduleName": "Cluster",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Annotation",
+        "printedName": "Annotation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "style",
+            "printedName": "style",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Cluster.ClusterAnnotationStyle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClusterAnnotationStyle",
+                    "printedName": "Cluster.ClusterAnnotationStyle",
+                    "usr": "s:7Cluster0A15AnnotationStyleO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Cluster10AnnotationC5styleAA0aB5StyleOSgvp",
+            "mangledName": "$s7Cluster10AnnotationC5styleAA0aB5StyleOSgvp",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Cluster.ClusterAnnotationStyle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClusterAnnotationStyle",
+                        "printedName": "Cluster.ClusterAnnotationStyle",
+                        "usr": "s:7Cluster0A15AnnotationStyleO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster10AnnotationC5styleAA0aB5StyleOSgvg",
+                "mangledName": "$s7Cluster10AnnotationC5styleAA0aB5StyleOSgvg",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Cluster.ClusterAnnotationStyle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClusterAnnotationStyle",
+                        "printedName": "Cluster.ClusterAnnotationStyle",
+                        "usr": "s:7Cluster0A15AnnotationStyleO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster10AnnotationC5styleAA0aB5StyleOSgvs",
+                "mangledName": "$s7Cluster10AnnotationC5styleAA0aB5StyleOSgvs",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster10AnnotationC5styleAA0aB5StyleOSgvM",
+                "mangledName": "$s7Cluster10AnnotationC5styleAA0aB5StyleOSgvM",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coordinate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Annotation",
+                "printedName": "Cluster.Annotation",
+                "usr": "c:@M@Cluster@objc(cs)Annotation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationCoordinate2D",
+                "printedName": "CoreLocation.CLLocationCoordinate2D",
+                "usr": "c:@S@CLLocationCoordinate2D"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Cluster10AnnotationC10coordinateACSo22CLLocationCoordinate2DV_tcfc",
+            "mangledName": "$s7Cluster10AnnotationC10coordinateACSo22CLLocationCoordinate2DV_tcfc",
+            "moduleName": "Cluster",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Annotation",
+                "printedName": "Cluster.Annotation",
+                "usr": "c:@M@Cluster@objc(cs)Annotation"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Cluster@objc(cs)Annotation(im)init",
+            "mangledName": "$s7Cluster10AnnotationCACycfc",
+            "moduleName": "Cluster",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Cluster@objc(cs)Annotation",
+        "mangledName": "$s7Cluster10AnnotationC",
+        "moduleName": "Cluster",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)MKPointAnnotation",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "MapKit.MKPointAnnotation",
+          "MapKit.MKShape",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ClusterAnnotation",
+        "printedName": "ClusterAnnotation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "annotations",
+            "printedName": "annotations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any MapKit.MKAnnotation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MKAnnotation",
+                    "printedName": "any MapKit.MKAnnotation",
+                    "usr": "c:objc(pl)MKAnnotation"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Cluster0A10AnnotationC11annotationsSaySo12MKAnnotation_pGvp",
+            "mangledName": "$s7Cluster0A10AnnotationC11annotationsSaySo12MKAnnotation_pGvp",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any MapKit.MKAnnotation]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MKAnnotation",
+                        "printedName": "any MapKit.MKAnnotation",
+                        "usr": "c:objc(pl)MKAnnotation"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A10AnnotationC11annotationsSaySo12MKAnnotation_pGvg",
+                "mangledName": "$s7Cluster0A10AnnotationC11annotationsSaySo12MKAnnotation_pGvg",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any MapKit.MKAnnotation]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MKAnnotation",
+                        "printedName": "any MapKit.MKAnnotation",
+                        "usr": "c:objc(pl)MKAnnotation"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A10AnnotationC11annotationsSaySo12MKAnnotation_pGvs",
+                "mangledName": "$s7Cluster0A10AnnotationC11annotationsSaySo12MKAnnotation_pGvs",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A10AnnotationC11annotationsSaySo12MKAnnotation_pGvM",
+                "mangledName": "$s7Cluster0A10AnnotationC11annotationsSaySo12MKAnnotation_pGvM",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "isEqual",
+            "printedName": "isEqual(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Cluster@objc(cs)ClusterAnnotation(im)isEqual:",
+            "mangledName": "$s7Cluster0A10AnnotationC7isEqualySbypSgF",
+            "moduleName": "Cluster",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "isEqual:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ClusterAnnotation",
+                "printedName": "Cluster.ClusterAnnotation",
+                "usr": "c:@M@Cluster@objc(cs)ClusterAnnotation"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Cluster@objc(cs)ClusterAnnotation(im)init",
+            "mangledName": "$s7Cluster0A10AnnotationCACycfc",
+            "moduleName": "Cluster",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Cluster@objc(cs)ClusterAnnotation",
+        "mangledName": "$s7Cluster0A10AnnotationC",
+        "moduleName": "Cluster",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@Cluster@objc(cs)Annotation",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Cluster.Annotation",
+          "MapKit.MKPointAnnotation",
+          "MapKit.MKShape",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ClusterAnnotationView",
+        "printedName": "ClusterAnnotationView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "countLabel",
+            "printedName": "countLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UILabel",
+                "printedName": "UIKit.UILabel",
+                "usr": "c:objc(cs)UILabel"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Cluster0A14AnnotationViewC10countLabelSo7UILabelCvp",
+            "mangledName": "$s7Cluster0A14AnnotationViewC10countLabelSo7UILabelCvp",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A14AnnotationViewC10countLabelSo7UILabelCvg",
+                "mangledName": "$s7Cluster0A14AnnotationViewC10countLabelSo7UILabelCvg",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A14AnnotationViewC10countLabelSo7UILabelCvs",
+                "mangledName": "$s7Cluster0A14AnnotationViewC10countLabelSo7UILabelCvs",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A14AnnotationViewC10countLabelSo7UILabelCvM",
+                "mangledName": "$s7Cluster0A14AnnotationViewC10countLabelSo7UILabelCvM",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "annotation",
+            "printedName": "annotation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any MapKit.MKAnnotation)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MKAnnotation",
+                    "printedName": "any MapKit.MKAnnotation",
+                    "usr": "c:objc(pl)MKAnnotation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Cluster@objc(cs)ClusterAnnotationView(py)annotation",
+            "mangledName": "$s7Cluster0A14AnnotationViewC10annotationSo12MKAnnotation_pSgvp",
+            "moduleName": "Cluster",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "annotation",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MapKit.MKAnnotation)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MKAnnotation",
+                        "printedName": "any MapKit.MKAnnotation",
+                        "usr": "c:objc(pl)MKAnnotation"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Cluster@objc(cs)ClusterAnnotationView(im)annotation",
+                "mangledName": "$s7Cluster0A14AnnotationViewC10annotationSo12MKAnnotation_pSgvg",
+                "moduleName": "Cluster",
+                "overriding": true,
+                "implicit": true,
+                "isOpen": true,
+                "objc_name": "annotation",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MapKit.MKAnnotation)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MKAnnotation",
+                        "printedName": "any MapKit.MKAnnotation",
+                        "usr": "c:objc(pl)MKAnnotation"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Cluster@objc(cs)ClusterAnnotationView(im)setAnnotation:",
+                "mangledName": "$s7Cluster0A14AnnotationViewC10annotationSo12MKAnnotation_pSgvs",
+                "moduleName": "Cluster",
+                "overriding": true,
+                "implicit": true,
+                "isOpen": true,
+                "objc_name": "setAnnotation:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Cluster0A14AnnotationViewC9configureyyF",
+            "mangledName": "$s7Cluster0A14AnnotationViewC9configureyyF",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(annotation:reuseIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ClusterAnnotationView",
+                "printedName": "Cluster.ClusterAnnotationView",
+                "usr": "c:@M@Cluster@objc(cs)ClusterAnnotationView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any MapKit.MKAnnotation)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MKAnnotation",
+                    "printedName": "any MapKit.MKAnnotation",
+                    "usr": "c:objc(pl)MKAnnotation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Cluster@objc(cs)ClusterAnnotationView(im)initWithAnnotation:reuseIdentifier:",
+            "mangledName": "$s7Cluster0A14AnnotationViewC10annotation15reuseIdentifierACSo12MKAnnotation_pSg_SSSgtcfc",
+            "moduleName": "Cluster",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithAnnotation:reuseIdentifier:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Cluster.ClusterAnnotationView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClusterAnnotationView",
+                    "printedName": "Cluster.ClusterAnnotationView",
+                    "usr": "c:@M@Cluster@objc(cs)ClusterAnnotationView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Cluster@objc(cs)ClusterAnnotationView(im)initWithCoder:",
+            "mangledName": "$s7Cluster0A14AnnotationViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "Cluster",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Cluster@objc(cs)ClusterAnnotationView",
+        "mangledName": "$s7Cluster0A14AnnotationViewC",
+        "moduleName": "Cluster",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)MKAnnotationView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "MapKit.MKAnnotationView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ClusterAnnotationStyle",
+        "printedName": "ClusterAnnotationStyle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "color",
+            "printedName": "color",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Cluster.ClusterAnnotationStyle.Type) -> (UIKit.UIColor, CoreGraphics.CGFloat) -> Cluster.ClusterAnnotationStyle",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIColor, CoreGraphics.CGFloat) -> Cluster.ClusterAnnotationStyle",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClusterAnnotationStyle",
+                        "printedName": "Cluster.ClusterAnnotationStyle",
+                        "usr": "s:7Cluster0A15AnnotationStyleO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(UIKit.UIColor, radius: CoreGraphics.CGFloat)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIColor",
+                            "printedName": "UIKit.UIColor",
+                            "usr": "c:objc(cs)UIColor"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGFloat",
+                            "printedName": "CoreGraphics.CGFloat",
+                            "usr": "s:14CoreFoundation7CGFloatV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Cluster.ClusterAnnotationStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClusterAnnotationStyle",
+                        "printedName": "Cluster.ClusterAnnotationStyle",
+                        "usr": "s:7Cluster0A15AnnotationStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Cluster0A15AnnotationStyleO5coloryACSo7UIColorC_14CoreFoundation7CGFloatVtcACmF",
+            "mangledName": "$s7Cluster0A15AnnotationStyleO5coloryACSo7UIColorC_12CoreGraphics7CGFloatVtcACmF",
+            "moduleName": "Cluster",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Cluster.ClusterAnnotationStyle.Type) -> (UIKit.UIImage?) -> Cluster.ClusterAnnotationStyle",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIImage?) -> Cluster.ClusterAnnotationStyle",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClusterAnnotationStyle",
+                        "printedName": "Cluster.ClusterAnnotationStyle",
+                        "usr": "s:7Cluster0A15AnnotationStyleO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIImage?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIImage",
+                            "printedName": "UIKit.UIImage",
+                            "usr": "c:objc(cs)UIImage"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Cluster.ClusterAnnotationStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClusterAnnotationStyle",
+                        "printedName": "Cluster.ClusterAnnotationStyle",
+                        "usr": "s:7Cluster0A15AnnotationStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Cluster0A15AnnotationStyleO5imageyACSo7UIImageCSgcACmF",
+            "mangledName": "$s7Cluster0A15AnnotationStyleO5imageyACSo7UIImageCSgcACmF",
+            "moduleName": "Cluster",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7Cluster0A15AnnotationStyleO",
+        "mangledName": "$s7Cluster0A15AnnotationStyleO",
+        "moduleName": "Cluster",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StyledClusterAnnotationView",
+        "printedName": "StyledClusterAnnotationView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "style",
+            "printedName": "style",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ClusterAnnotationStyle",
+                "printedName": "Cluster.ClusterAnnotationStyle",
+                "usr": "s:7Cluster0A15AnnotationStyleO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Cluster06StyledA14AnnotationViewC5styleAA0aC5StyleOvp",
+            "mangledName": "$s7Cluster06StyledA14AnnotationViewC5styleAA0aC5StyleOvp",
+            "moduleName": "Cluster",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClusterAnnotationStyle",
+                    "printedName": "Cluster.ClusterAnnotationStyle",
+                    "usr": "s:7Cluster0A15AnnotationStyleO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster06StyledA14AnnotationViewC5styleAA0aC5StyleOvg",
+                "mangledName": "$s7Cluster06StyledA14AnnotationViewC5styleAA0aC5StyleOvg",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClusterAnnotationStyle",
+                    "printedName": "Cluster.ClusterAnnotationStyle",
+                    "usr": "s:7Cluster0A15AnnotationStyleO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster06StyledA14AnnotationViewC5styleAA0aC5StyleOvs",
+                "mangledName": "$s7Cluster06StyledA14AnnotationViewC5styleAA0aC5StyleOvs",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster06StyledA14AnnotationViewC5styleAA0aC5StyleOvM",
+                "mangledName": "$s7Cluster06StyledA14AnnotationViewC5styleAA0aC5StyleOvM",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(annotation:reuseIdentifier:style:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StyledClusterAnnotationView",
+                "printedName": "Cluster.StyledClusterAnnotationView",
+                "usr": "c:@M@Cluster@objc(cs)StyledClusterAnnotationView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any MapKit.MKAnnotation)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MKAnnotation",
+                    "printedName": "any MapKit.MKAnnotation",
+                    "usr": "c:objc(pl)MKAnnotation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ClusterAnnotationStyle",
+                "printedName": "Cluster.ClusterAnnotationStyle",
+                "usr": "s:7Cluster0A15AnnotationStyleO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Cluster06StyledA14AnnotationViewC10annotation15reuseIdentifier5styleACSo12MKAnnotation_pSg_SSSgAA0aC5StyleOtcfc",
+            "mangledName": "$s7Cluster06StyledA14AnnotationViewC10annotation15reuseIdentifier5styleACSo12MKAnnotation_pSg_SSSgAA0aC5StyleOtcfc",
+            "moduleName": "Cluster",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Cluster.StyledClusterAnnotationView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StyledClusterAnnotationView",
+                    "printedName": "Cluster.StyledClusterAnnotationView",
+                    "usr": "c:@M@Cluster@objc(cs)StyledClusterAnnotationView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Cluster@objc(cs)StyledClusterAnnotationView(im)initWithCoder:",
+            "mangledName": "$s7Cluster06StyledA14AnnotationViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "Cluster",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Cluster06StyledA14AnnotationViewC9configureyyF",
+            "mangledName": "$s7Cluster06StyledA14AnnotationViewC9configureyyF",
+            "moduleName": "Cluster",
+            "overriding": true,
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Cluster@objc(cs)StyledClusterAnnotationView(im)layoutSubviews",
+            "mangledName": "$s7Cluster06StyledA14AnnotationViewC14layoutSubviewsyyF",
+            "moduleName": "Cluster",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(annotation:reuseIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StyledClusterAnnotationView",
+                "printedName": "Cluster.StyledClusterAnnotationView",
+                "usr": "c:@M@Cluster@objc(cs)StyledClusterAnnotationView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any MapKit.MKAnnotation)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MKAnnotation",
+                    "printedName": "any MapKit.MKAnnotation",
+                    "usr": "c:objc(pl)MKAnnotation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Cluster@objc(cs)StyledClusterAnnotationView(im)initWithAnnotation:reuseIdentifier:",
+            "mangledName": "$s7Cluster06StyledA14AnnotationViewC10annotation15reuseIdentifierACSo12MKAnnotation_pSg_SSSgtcfc",
+            "moduleName": "Cluster",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithAnnotation:reuseIdentifier:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Cluster@objc(cs)StyledClusterAnnotationView",
+        "mangledName": "$s7Cluster06StyledA14AnnotationViewC",
+        "moduleName": "Cluster",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@Cluster@objc(cs)ClusterAnnotationView",
+        "superclassNames": [
+          "Cluster.ClusterAnnotationView",
+          "MapKit.MKAnnotationView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Cluster",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "Cluster",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MapKit",
+        "printedName": "MapKit",
+        "declKind": "Import",
+        "moduleName": "Cluster"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ClusterManagerDelegate",
+        "printedName": "ClusterManagerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cellSize",
+            "printedName": "cellSize(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Cluster0A15ManagerDelegateP8cellSize3forSdSgSd_tF",
+            "mangledName": "$s7Cluster0A15ManagerDelegateP8cellSize3forSdSgSd_tF",
+            "moduleName": "Cluster",
+            "genericSig": "<τ_0_0 where τ_0_0 : Cluster.ClusterManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : Cluster.ClusterManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldClusterAnnotation",
+            "printedName": "shouldClusterAnnotation(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MKAnnotation",
+                "printedName": "any MapKit.MKAnnotation",
+                "usr": "c:objc(pl)MKAnnotation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Cluster0A15ManagerDelegateP06shouldA10AnnotationySbSo12MKAnnotation_pF",
+            "mangledName": "$s7Cluster0A15ManagerDelegateP06shouldA10AnnotationySbSo12MKAnnotation_pF",
+            "moduleName": "Cluster",
+            "genericSig": "<τ_0_0 where τ_0_0 : Cluster.ClusterManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : Cluster.ClusterManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cellSize",
+            "printedName": "cellSize(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Cluster0A15ManagerDelegatePAAE8cellSize3forSdSgSd_tF",
+            "mangledName": "$s7Cluster0A15ManagerDelegatePAAE8cellSize3forSdSgSd_tF",
+            "moduleName": "Cluster",
+            "genericSig": "<τ_0_0 where τ_0_0 : Cluster.ClusterManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : Cluster.ClusterManagerDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldClusterAnnotation",
+            "printedName": "shouldClusterAnnotation(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MKAnnotation",
+                "printedName": "any MapKit.MKAnnotation",
+                "usr": "c:objc(pl)MKAnnotation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Cluster0A15ManagerDelegatePAAE06shouldA10AnnotationySbSo12MKAnnotation_pF",
+            "mangledName": "$s7Cluster0A15ManagerDelegatePAAE06shouldA10AnnotationySbSo12MKAnnotation_pF",
+            "moduleName": "Cluster",
+            "genericSig": "<τ_0_0 where τ_0_0 : Cluster.ClusterManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : Cluster.ClusterManagerDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Cluster0A15ManagerDelegateP",
+        "mangledName": "$s7Cluster0A15ManagerDelegateP",
+        "moduleName": "Cluster",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ClusterManager",
+        "printedName": "ClusterManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "zoomLevel",
+            "printedName": "zoomLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Cluster0A7ManagerC9zoomLevelSdvp",
+            "mangledName": "$s7Cluster0A7ManagerC9zoomLevelSdvp",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC9zoomLevelSdvg",
+                "mangledName": "$s7Cluster0A7ManagerC9zoomLevelSdvg",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxZoomLevel",
+            "printedName": "maxZoomLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Cluster0A7ManagerC12maxZoomLevelSdvp",
+            "mangledName": "$s7Cluster0A7ManagerC12maxZoomLevelSdvp",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC12maxZoomLevelSdvg",
+                "mangledName": "$s7Cluster0A7ManagerC12maxZoomLevelSdvg",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC12maxZoomLevelSdvs",
+                "mangledName": "$s7Cluster0A7ManagerC12maxZoomLevelSdvs",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC12maxZoomLevelSdvM",
+                "mangledName": "$s7Cluster0A7ManagerC12maxZoomLevelSdvM",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minCountForClustering",
+            "printedName": "minCountForClustering",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Cluster0A7ManagerC21minCountForClusteringSivp",
+            "mangledName": "$s7Cluster0A7ManagerC21minCountForClusteringSivp",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC21minCountForClusteringSivg",
+                "mangledName": "$s7Cluster0A7ManagerC21minCountForClusteringSivg",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC21minCountForClusteringSivs",
+                "mangledName": "$s7Cluster0A7ManagerC21minCountForClusteringSivs",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC21minCountForClusteringSivM",
+                "mangledName": "$s7Cluster0A7ManagerC21minCountForClusteringSivM",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldRemoveInvisibleAnnotations",
+            "printedName": "shouldRemoveInvisibleAnnotations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Cluster0A7ManagerC32shouldRemoveInvisibleAnnotationsSbvp",
+            "mangledName": "$s7Cluster0A7ManagerC32shouldRemoveInvisibleAnnotationsSbvp",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC32shouldRemoveInvisibleAnnotationsSbvg",
+                "mangledName": "$s7Cluster0A7ManagerC32shouldRemoveInvisibleAnnotationsSbvg",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC32shouldRemoveInvisibleAnnotationsSbvs",
+                "mangledName": "$s7Cluster0A7ManagerC32shouldRemoveInvisibleAnnotationsSbvs",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC32shouldRemoveInvisibleAnnotationsSbvM",
+                "mangledName": "$s7Cluster0A7ManagerC32shouldRemoveInvisibleAnnotationsSbvM",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldDistributeAnnotationsOnSameCoordinate",
+            "printedName": "shouldDistributeAnnotationsOnSameCoordinate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Cluster0A7ManagerC43shouldDistributeAnnotationsOnSameCoordinateSbvp",
+            "mangledName": "$s7Cluster0A7ManagerC43shouldDistributeAnnotationsOnSameCoordinateSbvp",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC43shouldDistributeAnnotationsOnSameCoordinateSbvg",
+                "mangledName": "$s7Cluster0A7ManagerC43shouldDistributeAnnotationsOnSameCoordinateSbvg",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC43shouldDistributeAnnotationsOnSameCoordinateSbvs",
+                "mangledName": "$s7Cluster0A7ManagerC43shouldDistributeAnnotationsOnSameCoordinateSbvs",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC43shouldDistributeAnnotationsOnSameCoordinateSbvM",
+                "mangledName": "$s7Cluster0A7ManagerC43shouldDistributeAnnotationsOnSameCoordinateSbvM",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "distanceFromContestedLocation",
+            "printedName": "distanceFromContestedLocation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Cluster0A7ManagerC29distanceFromContestedLocationSdvp",
+            "mangledName": "$s7Cluster0A7ManagerC29distanceFromContestedLocationSdvp",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC29distanceFromContestedLocationSdvg",
+                "mangledName": "$s7Cluster0A7ManagerC29distanceFromContestedLocationSdvg",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC29distanceFromContestedLocationSdvs",
+                "mangledName": "$s7Cluster0A7ManagerC29distanceFromContestedLocationSdvs",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC29distanceFromContestedLocationSdvM",
+                "mangledName": "$s7Cluster0A7ManagerC29distanceFromContestedLocationSdvM",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ClusterPosition",
+            "printedName": "ClusterPosition",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "center",
+                "printedName": "center",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Cluster.ClusterManager.ClusterPosition.Type) -> Cluster.ClusterManager.ClusterPosition",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClusterPosition",
+                        "printedName": "Cluster.ClusterManager.ClusterPosition",
+                        "usr": "s:7Cluster0A7ManagerC0A8PositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Cluster.ClusterManager.ClusterPosition.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ClusterPosition",
+                            "printedName": "Cluster.ClusterManager.ClusterPosition",
+                            "usr": "s:7Cluster0A7ManagerC0A8PositionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7Cluster0A7ManagerC0A8PositionO6centeryA2EmF",
+                "mangledName": "$s7Cluster0A7ManagerC0A8PositionO6centeryA2EmF",
+                "moduleName": "Cluster",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "nearCenter",
+                "printedName": "nearCenter",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Cluster.ClusterManager.ClusterPosition.Type) -> Cluster.ClusterManager.ClusterPosition",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClusterPosition",
+                        "printedName": "Cluster.ClusterManager.ClusterPosition",
+                        "usr": "s:7Cluster0A7ManagerC0A8PositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Cluster.ClusterManager.ClusterPosition.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ClusterPosition",
+                            "printedName": "Cluster.ClusterManager.ClusterPosition",
+                            "usr": "s:7Cluster0A7ManagerC0A8PositionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7Cluster0A7ManagerC0A8PositionO10nearCenteryA2EmF",
+                "mangledName": "$s7Cluster0A7ManagerC0A8PositionO10nearCenteryA2EmF",
+                "moduleName": "Cluster",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "average",
+                "printedName": "average",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Cluster.ClusterManager.ClusterPosition.Type) -> Cluster.ClusterManager.ClusterPosition",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClusterPosition",
+                        "printedName": "Cluster.ClusterManager.ClusterPosition",
+                        "usr": "s:7Cluster0A7ManagerC0A8PositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Cluster.ClusterManager.ClusterPosition.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ClusterPosition",
+                            "printedName": "Cluster.ClusterManager.ClusterPosition",
+                            "usr": "s:7Cluster0A7ManagerC0A8PositionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7Cluster0A7ManagerC0A8PositionO7averageyA2EmF",
+                "mangledName": "$s7Cluster0A7ManagerC0A8PositionO7averageyA2EmF",
+                "moduleName": "Cluster",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "first",
+                "printedName": "first",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Cluster.ClusterManager.ClusterPosition.Type) -> Cluster.ClusterManager.ClusterPosition",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClusterPosition",
+                        "printedName": "Cluster.ClusterManager.ClusterPosition",
+                        "usr": "s:7Cluster0A7ManagerC0A8PositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Cluster.ClusterManager.ClusterPosition.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ClusterPosition",
+                            "printedName": "Cluster.ClusterManager.ClusterPosition",
+                            "usr": "s:7Cluster0A7ManagerC0A8PositionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7Cluster0A7ManagerC0A8PositionO5firstyA2EmF",
+                "mangledName": "$s7Cluster0A7ManagerC0A8PositionO5firstyA2EmF",
+                "moduleName": "Cluster",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClusterPosition",
+                    "printedName": "Cluster.ClusterManager.ClusterPosition",
+                    "usr": "s:7Cluster0A7ManagerC0A8PositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClusterPosition",
+                    "printedName": "Cluster.ClusterManager.ClusterPosition",
+                    "usr": "s:7Cluster0A7ManagerC0A8PositionO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7Cluster0A7ManagerC0A8PositionO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s7Cluster0A7ManagerC0A8PositionO2eeoiySbAE_AEtFZ",
+                "moduleName": "Cluster",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7Cluster0A7ManagerC0A8PositionO9hashValueSivp",
+                "mangledName": "$s7Cluster0A7ManagerC0A8PositionO9hashValueSivp",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7Cluster0A7ManagerC0A8PositionO9hashValueSivg",
+                    "mangledName": "$s7Cluster0A7ManagerC0A8PositionO9hashValueSivg",
+                    "moduleName": "Cluster",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7Cluster0A7ManagerC0A8PositionO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s7Cluster0A7ManagerC0A8PositionO4hash4intoys6HasherVz_tF",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:7Cluster0A7ManagerC0A8PositionO",
+            "mangledName": "$s7Cluster0A7ManagerC0A8PositionO",
+            "moduleName": "Cluster",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clusterPosition",
+            "printedName": "clusterPosition",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ClusterPosition",
+                "printedName": "Cluster.ClusterManager.ClusterPosition",
+                "usr": "s:7Cluster0A7ManagerC0A8PositionO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Cluster0A7ManagerC15clusterPositionAC0aD0Ovp",
+            "mangledName": "$s7Cluster0A7ManagerC15clusterPositionAC0aD0Ovp",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClusterPosition",
+                    "printedName": "Cluster.ClusterManager.ClusterPosition",
+                    "usr": "s:7Cluster0A7ManagerC0A8PositionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC15clusterPositionAC0aD0Ovg",
+                "mangledName": "$s7Cluster0A7ManagerC15clusterPositionAC0aD0Ovg",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClusterPosition",
+                    "printedName": "Cluster.ClusterManager.ClusterPosition",
+                    "usr": "s:7Cluster0A7ManagerC0A8PositionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC15clusterPositionAC0aD0Ovs",
+                "mangledName": "$s7Cluster0A7ManagerC15clusterPositionAC0aD0Ovs",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC15clusterPositionAC0aD0OvM",
+                "mangledName": "$s7Cluster0A7ManagerC15clusterPositionAC0aD0OvM",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "annotations",
+            "printedName": "annotations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any MapKit.MKAnnotation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MKAnnotation",
+                    "printedName": "any MapKit.MKAnnotation",
+                    "usr": "c:objc(pl)MKAnnotation"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Cluster0A7ManagerC11annotationsSaySo12MKAnnotation_pGvp",
+            "mangledName": "$s7Cluster0A7ManagerC11annotationsSaySo12MKAnnotation_pGvp",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any MapKit.MKAnnotation]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MKAnnotation",
+                        "printedName": "any MapKit.MKAnnotation",
+                        "usr": "c:objc(pl)MKAnnotation"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC11annotationsSaySo12MKAnnotation_pGvg",
+                "mangledName": "$s7Cluster0A7ManagerC11annotationsSaySo12MKAnnotation_pGvg",
+                "moduleName": "Cluster",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "visibleAnnotations",
+            "printedName": "visibleAnnotations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any MapKit.MKAnnotation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MKAnnotation",
+                    "printedName": "any MapKit.MKAnnotation",
+                    "usr": "c:objc(pl)MKAnnotation"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Cluster0A7ManagerC18visibleAnnotationsSaySo12MKAnnotation_pGvp",
+            "mangledName": "$s7Cluster0A7ManagerC18visibleAnnotationsSaySo12MKAnnotation_pGvp",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any MapKit.MKAnnotation]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MKAnnotation",
+                        "printedName": "any MapKit.MKAnnotation",
+                        "usr": "c:objc(pl)MKAnnotation"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC18visibleAnnotationsSaySo12MKAnnotation_pGvg",
+                "mangledName": "$s7Cluster0A7ManagerC18visibleAnnotationsSaySo12MKAnnotation_pGvg",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any MapKit.MKAnnotation]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MKAnnotation",
+                        "printedName": "any MapKit.MKAnnotation",
+                        "usr": "c:objc(pl)MKAnnotation"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC18visibleAnnotationsSaySo12MKAnnotation_pGvs",
+                "mangledName": "$s7Cluster0A7ManagerC18visibleAnnotationsSaySo12MKAnnotation_pGvs",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC18visibleAnnotationsSaySo12MKAnnotation_pGvM",
+                "mangledName": "$s7Cluster0A7ManagerC18visibleAnnotationsSaySo12MKAnnotation_pGvM",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "visibleNestedAnnotations",
+            "printedName": "visibleNestedAnnotations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any MapKit.MKAnnotation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MKAnnotation",
+                    "printedName": "any MapKit.MKAnnotation",
+                    "usr": "c:objc(pl)MKAnnotation"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Cluster0A7ManagerC24visibleNestedAnnotationsSaySo12MKAnnotation_pGvp",
+            "mangledName": "$s7Cluster0A7ManagerC24visibleNestedAnnotationsSaySo12MKAnnotation_pGvp",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any MapKit.MKAnnotation]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MKAnnotation",
+                        "printedName": "any MapKit.MKAnnotation",
+                        "usr": "c:objc(pl)MKAnnotation"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC24visibleNestedAnnotationsSaySo12MKAnnotation_pGvg",
+                "mangledName": "$s7Cluster0A7ManagerC24visibleNestedAnnotationsSaySo12MKAnnotation_pGvg",
+                "moduleName": "Cluster",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any Cluster.ClusterManagerDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Cluster0A7ManagerC8delegateAA0aB8Delegate_pSgvp",
+            "mangledName": "$s7Cluster0A7ManagerC8delegateAA0aB8Delegate_pSgvp",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Cluster.ClusterManagerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClusterManagerDelegate",
+                        "printedName": "any Cluster.ClusterManagerDelegate",
+                        "usr": "s:7Cluster0A15ManagerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC8delegateAA0aB8Delegate_pSgvg",
+                "mangledName": "$s7Cluster0A7ManagerC8delegateAA0aB8Delegate_pSgvg",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Cluster.ClusterManagerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClusterManagerDelegate",
+                        "printedName": "any Cluster.ClusterManagerDelegate",
+                        "usr": "s:7Cluster0A15ManagerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC8delegateAA0aB8Delegate_pSgvs",
+                "mangledName": "$s7Cluster0A7ManagerC8delegateAA0aB8Delegate_pSgvs",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Cluster0A7ManagerC8delegateAA0aB8Delegate_pSgvM",
+                "mangledName": "$s7Cluster0A7ManagerC8delegateAA0aB8Delegate_pSgvM",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ClusterManager",
+                "printedName": "Cluster.ClusterManager",
+                "usr": "s:7Cluster0A7ManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Cluster0A7ManagerCACycfc",
+            "mangledName": "$s7Cluster0A7ManagerCACycfc",
+            "moduleName": "Cluster",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MKAnnotation",
+                "printedName": "any MapKit.MKAnnotation",
+                "usr": "c:objc(pl)MKAnnotation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Cluster0A7ManagerC3addyySo12MKAnnotation_pF",
+            "mangledName": "$s7Cluster0A7ManagerC3addyySo12MKAnnotation_pF",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any MapKit.MKAnnotation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MKAnnotation",
+                    "printedName": "any MapKit.MKAnnotation",
+                    "usr": "c:objc(pl)MKAnnotation"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Cluster0A7ManagerC3addyySaySo12MKAnnotation_pGF",
+            "mangledName": "$s7Cluster0A7ManagerC3addyySaySo12MKAnnotation_pGF",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MKAnnotation",
+                "printedName": "any MapKit.MKAnnotation",
+                "usr": "c:objc(pl)MKAnnotation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Cluster0A7ManagerC6removeyySo12MKAnnotation_pF",
+            "mangledName": "$s7Cluster0A7ManagerC6removeyySo12MKAnnotation_pF",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any MapKit.MKAnnotation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MKAnnotation",
+                    "printedName": "any MapKit.MKAnnotation",
+                    "usr": "c:objc(pl)MKAnnotation"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Cluster0A7ManagerC6removeyySaySo12MKAnnotation_pGF",
+            "mangledName": "$s7Cluster0A7ManagerC6removeyySaySo12MKAnnotation_pGF",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAll",
+            "printedName": "removeAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Cluster0A7ManagerC9removeAllyyF",
+            "mangledName": "$s7Cluster0A7ManagerC9removeAllyyF",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reload",
+            "printedName": "reload(mapView:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MKMapView",
+                "printedName": "MapKit.MKMapView",
+                "usr": "c:objc(cs)MKMapView"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Cluster0A7ManagerC6reload7mapView10completionySo05MKMapE0C_ySbctF",
+            "mangledName": "$s7Cluster0A7ManagerC6reload7mapView10completionySo05MKMapE0C_ySbctF",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clusteredAnnotations",
+            "printedName": "clusteredAnnotations(zoomScale:visibleMapRect:operation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(toAdd: [any MapKit.MKAnnotation], toRemove: [any MapKit.MKAnnotation])",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any MapKit.MKAnnotation]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MKAnnotation",
+                        "printedName": "any MapKit.MKAnnotation",
+                        "usr": "c:objc(pl)MKAnnotation"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any MapKit.MKAnnotation]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MKAnnotation",
+                        "printedName": "any MapKit.MKAnnotation",
+                        "usr": "c:objc(pl)MKAnnotation"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MKMapRect",
+                "printedName": "MapKit.MKMapRect",
+                "usr": "c:@SA@MKMapRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Operation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Operation",
+                    "printedName": "Foundation.Operation",
+                    "usr": "c:objc(cs)NSOperation"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Cluster0A7ManagerC20clusteredAnnotations9zoomScale14visibleMapRect9operationSaySo12MKAnnotation_pG5toAdd_AI0L6RemovetSd_So05MKMapI0aSo11NSOperationCSgtF",
+            "mangledName": "$s7Cluster0A7ManagerC20clusteredAnnotations9zoomScale14visibleMapRect9operationSaySo12MKAnnotation_pG5toAdd_AI0L6RemovetSd_So05MKMapI0aSo11NSOperationCSgtF",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "display",
+            "printedName": "display(mapView:toAdd:toRemove:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MKMapView",
+                "printedName": "MapKit.MKMapView",
+                "usr": "c:objc(cs)MKMapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any MapKit.MKAnnotation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MKAnnotation",
+                    "printedName": "any MapKit.MKAnnotation",
+                    "usr": "c:objc(pl)MKAnnotation"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any MapKit.MKAnnotation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MKAnnotation",
+                    "printedName": "any MapKit.MKAnnotation",
+                    "usr": "c:objc(pl)MKAnnotation"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Cluster0A7ManagerC7display7mapView5toAdd0F6RemoveySo05MKMapE0C_SaySo12MKAnnotation_pGAKtF",
+            "mangledName": "$s7Cluster0A7ManagerC7display7mapView5toAdd0F6RemoveySo05MKMapE0C_SaySo12MKAnnotation_pGAKtF",
+            "moduleName": "Cluster",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Cluster0A7ManagerC",
+        "mangledName": "$s7Cluster0A7ManagerC",
+        "moduleName": "Cluster",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Cluster",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MapKit",
+        "printedName": "MapKit",
+        "declKind": "Import",
+        "moduleName": "Cluster"
+      },
+      {
+        "kind": "Function",
+        "name": "==",
+        "printedName": "==(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "CLLocationCoordinate2D",
+            "printedName": "CoreLocation.CLLocationCoordinate2D",
+            "usr": "c:@S@CLLocationCoordinate2D"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "CLLocationCoordinate2D",
+            "printedName": "CoreLocation.CLLocationCoordinate2D",
+            "usr": "c:@S@CLLocationCoordinate2D"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7Cluster2eeoiySbSo22CLLocationCoordinate2DV_ADtF",
+        "mangledName": "$s7Cluster2eeoiySbSo22CLLocationCoordinate2DV_ADtF",
+        "moduleName": "Cluster",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "MapKit",
+        "printedName": "MapKit",
+        "declKind": "Import",
+        "moduleName": "Cluster",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QuadTree",
+        "printedName": "QuadTree",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rect:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QuadTree",
+                "printedName": "Cluster.QuadTree",
+                "usr": "s:7Cluster8QuadTreeC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MKMapRect",
+                "printedName": "MapKit.MKMapRect",
+                "usr": "c:@SA@MKMapRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Cluster8QuadTreeC4rectACSo9MKMapRecta_tcfc",
+            "mangledName": "$s7Cluster8QuadTreeC4rectACSo9MKMapRecta_tcfc",
+            "moduleName": "Cluster",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MKAnnotation",
+                "printedName": "any MapKit.MKAnnotation",
+                "usr": "c:objc(pl)MKAnnotation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Cluster8QuadTreeC3addySbSo12MKAnnotation_pF",
+            "mangledName": "$s7Cluster8QuadTreeC3addySbSo12MKAnnotation_pF",
+            "moduleName": "Cluster",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MKAnnotation",
+                "printedName": "any MapKit.MKAnnotation",
+                "usr": "c:objc(pl)MKAnnotation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Cluster8QuadTreeC6removeySbSo12MKAnnotation_pF",
+            "mangledName": "$s7Cluster8QuadTreeC6removeySbSo12MKAnnotation_pF",
+            "moduleName": "Cluster",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "annotations",
+            "printedName": "annotations(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any MapKit.MKAnnotation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MKAnnotation",
+                    "printedName": "any MapKit.MKAnnotation",
+                    "usr": "c:objc(pl)MKAnnotation"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MKMapRect",
+                "printedName": "MapKit.MKMapRect",
+                "usr": "c:@SA@MKMapRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Cluster8QuadTreeC11annotations2inSaySo12MKAnnotation_pGSo9MKMapRecta_tF",
+            "mangledName": "$s7Cluster8QuadTreeC11annotations2inSaySo12MKAnnotation_pGSo9MKMapRecta_tF",
+            "moduleName": "Cluster",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Cluster8QuadTreeC",
+        "mangledName": "$s7Cluster8QuadTreeC",
+        "moduleName": "Cluster",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CLLocationCoordinate2D",
+        "printedName": "CLLocationCoordinate2D",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So22CLLocationCoordinate2DV7ClusterE4hash4intoys6HasherVz_tF",
+            "mangledName": "$sSo22CLLocationCoordinate2DV7ClusterE4hash4intoys6HasherVz_tF",
+            "moduleName": "Cluster",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So22CLLocationCoordinate2DV7ClusterE9hashValueSivp",
+            "mangledName": "$sSo22CLLocationCoordinate2DV7ClusterE9hashValueSivp",
+            "moduleName": "Cluster",
+            "implicit": true,
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So22CLLocationCoordinate2DV7ClusterE9hashValueSivg",
+                "mangledName": "$sSo22CLLocationCoordinate2DV7ClusterE9hashValueSivg",
+                "moduleName": "Cluster",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@S@CLLocationCoordinate2D",
+        "moduleName": "CoreLocation",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSValue",
+                    "printedName": "Foundation.NSValue",
+                    "usr": "c:objc(cs)NSValue"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/11283991\/Development\/iOS\/Workspaces\/material-components-ios-spm\/Pods\/Cluster\/Sources\/Annotation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1417,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/11283991\/Development\/iOS\/Workspaces\/material-components-ios-spm\/Pods\/Cluster\/Sources\/Annotation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1534,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/11283991\/Development\/iOS\/Workspaces\/material-components-ios-spm\/Pods\/Cluster\/Sources\/Annotation.swift",
+      "kind": "FloatLiteral",
+      "offset": 1574,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/11283991\/Development\/iOS\/Workspaces\/material-components-ios-spm\/Pods\/Cluster\/Sources\/Atomic.swift",
+      "kind": "StringLiteral",
+      "offset": 240,
+      "length": 21,
+      "value": "\"Atomic serial queue\""
+    },
+    {
+      "filePath": "\/Users\/11283991\/Development\/iOS\/Workspaces\/material-components-ios-spm\/Pods\/Cluster\/Sources\/Cluster.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1436,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/11283991\/Development\/iOS\/Workspaces\/material-components-ios-spm\/Pods\/Cluster\/Sources\/Cluster.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1638,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/11283991\/Development\/iOS\/Workspaces\/material-components-ios-spm\/Pods\/Cluster\/Sources\/Cluster.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1787,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/11283991\/Development\/iOS\/Workspaces\/material-components-ios-spm\/Pods\/Cluster\/Sources\/Cluster.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1942,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/11283991\/Development\/iOS\/Workspaces\/material-components-ios-spm\/Pods\/Cluster\/Sources\/Cluster.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2147,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/11283991\/Development\/iOS\/Workspaces\/material-components-ios-spm\/Pods\/Cluster\/Sources\/Cluster.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2348,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/11283991\/Development\/iOS\/Workspaces\/material-components-ios-spm\/Pods\/Cluster\/Sources\/Cluster.swift",
+      "kind": "StringLiteral",
+      "offset": 3998,
+      "length": 29,
+      "value": "\"com.cluster.concurrentQueue\""
+    },
+    {
+      "filePath": "\/Users\/11283991\/Development\/iOS\/Workspaces\/material-components-ios-spm\/Pods\/Cluster\/Sources\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 715,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/11283991\/Development\/iOS\/Workspaces\/material-components-ios-spm\/Pods\/Cluster\/Sources\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 730,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/11283991\/Development\/iOS\/Workspaces\/material-components-ios-spm\/Pods\/Cluster\/Sources\/Extensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 1409,
+      "length": 9,
+      "value": "6372797.6"
+    },
+    {
+      "filePath": "\/Users\/11283991\/Development\/iOS\/Workspaces\/material-components-ios-spm\/Pods\/Cluster\/Sources\/QuadTree.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1373,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/11283991\/Development\/iOS\/Workspaces\/material-components-ios-spm\/Pods\/Cluster\/Sources\/QuadTree.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2208,
+      "length": 1,
+      "value": "8"
+    }
+  ]
+}

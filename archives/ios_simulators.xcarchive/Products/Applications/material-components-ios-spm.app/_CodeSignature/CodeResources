@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/Cluster.framework/Cluster</key>
+		<data>
+		FKVrrEfPwM8d/66mbatiwa+mne8=
+		</data>
+		<key>Frameworks/Cluster.framework/Info.plist</key>
+		<data>
+		hBNUi+aGaz+sL0bPaUdT58Rawr0=
+		</data>
+		<key>Frameworks/Cluster.framework/_CodeSignature/CodeResources</key>
+		<data>
+		rlPV0kHRv5lDgATXGs2bMGB0+nE=
+		</data>
 		<key>Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift</key>
 		<data>
 		oAJ2lY6x7BD3gEBd9ZHIcPC+No0=
@@ -61,6 +73,18 @@
 		<data>
 		lq9XAeMznDF8EIb3gNMZ7Pn9Mvs=
 		</data>
+		<key>Frameworks/Sodium.framework/Info.plist</key>
+		<data>
+		7k3kTjA7kjAmZ2JLnSpRAlWdjYQ=
+		</data>
+		<key>Frameworks/Sodium.framework/Sodium</key>
+		<data>
+		5XDQPfGcwbip7HLoYdSFFFqO4XI=
+		</data>
+		<key>Frameworks/Sodium.framework/_CodeSignature/CodeResources</key>
+		<data>
+		ScjzausGmEPneenyx+5uPpK1c/M=
+		</data>
 		<key>Frameworks/XLPagerTabStrip.framework/Info.plist</key>
 		<data>
 		9yMPUwGPsPR3P4BACGi3FvFUBBg=
@@ -104,6 +128,27 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/Cluster.framework/Cluster</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uLEku3a49zwCAQbwrZCy0xxh5MJ4pBewzG0lJVrGRmc=
+			</data>
+		</dict>
+		<key>Frameworks/Cluster.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dwbiXKTHr4qztjpf72ASwB5ycpJEJN2U0aANJ3VxqqI=
+			</data>
+		</dict>
+		<key>Frameworks/Cluster.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			R10SldNCJySa4YNC62Ju0c7ef0mVADAoAdHHX21yKY0=
+			</data>
+		</dict>
 		<key>Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift</key>
 		<dict>
 			<key>hash2</key>
@@ -195,6 +240,27 @@
 			<key>hash2</key>
 			<data>
 			VYbCsFQkAPs51xoku8cZD0TBt96kx5eJGit5760Z3xM=
+			</data>
+		</dict>
+		<key>Frameworks/Sodium.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ir0F4M1B521uuPxXgcC0/b8zGzF0MmCEbAaphB+P+5k=
+			</data>
+		</dict>
+		<key>Frameworks/Sodium.framework/Sodium</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			f14J09xcUbuxy9e6apP/mh5Buj5HuArZzHLwnKvaULk=
+			</data>
+		</dict>
+		<key>Frameworks/Sodium.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			r4//HCeoJ3EWwKpuKQll1iDD6I+1lRZFSe98UAfptuQ=
 			</data>
 		</dict>
 		<key>Frameworks/XLPagerTabStrip.framework/Info.plist</key>
